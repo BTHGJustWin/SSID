@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "lang": "es",
+    "dir": "ltr",
+    "label": "Español"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "faq": "Preguntas Frecuentes",
+    "portal": "Portal del Cliente",
+    "langLabel": "Idioma"
+  },
+  "hero": {
+    "badge": "Navegación Confiable de Beneficios en California",
+    "title": "Conectándole con los <span>Beneficios que Usted Merece</span>",
+    "subtitle": "Ayudamos a personas y familias en toda California a navegar SSI, SSDI, jubilación, discapacidad y Medicare/Medicaid — en inglés, español, farsi y tagalo.",
+    "cta_primary": "Comenzar",
+    "cta_secondary": "Nuestros Servicios"
+  },
+  "services_section": {
+    "label": "Lo que Hacemos",
+    "title": "Servicios Adaptados a Sus Necesidades",
+    "subtitle": "Desde las solicitudes iniciales hasta las apelaciones, le guiamos en cada paso del proceso de beneficios con apoyo personalizado y multilingüe."
+  },
+  "service_cards": {
+    "ssi": {
+      "title": "Asistencia con SSI",
+      "desc": "Orientación experta durante el proceso de solicitud del Ingreso Suplementario de Seguridad (SSI), incluyendo evaluación de elegibilidad y preparación de documentos."
+    },
+    "ssdi": {
+      "title": "Solicitudes de SSDI",
+      "desc": "Apoyo integral para reclamos del Seguro de Incapacidad del Seguro Social (SSDI), desde la presentación inicial hasta la aprobación, asegurando que su historial laboral esté representado con precisión."
+    },
+    "retirement": {
+      "title": "Beneficios de Jubilación",
+      "desc": "Planificación estratégica para los beneficios de jubilación del Seguro Social, ayudándole a entender cuándo y cómo solicitar para obtener los montos máximos de beneficios."
+    },
+    "disability": {
+      "title": "Navegación de Discapacidad",
+      "desc": "Apoyo completo para navegar el proceso de determinación de discapacidad, incluyendo la recopilación de documentación médica y comunicación con el examinador."
+    },
+    "medicare": {
+      "title": "Medicare y Medicaid",
+      "desc": "Orientación clara sobre los períodos de inscripción de Medicare, elegibilidad para Medicaid y comprensión de las opciones de cobertura que mejor se adaptan a sus necesidades de atención médica."
+    },
+    "appeals": {
+      "title": "Apoyo en Apelaciones",
+      "desc": "Asistencia experimentada con reclamos denegados en cada nivel de apelación — reconsideración, audiencia ante un juez de derecho administrativo (ALJ), Consejo de Apelaciones y revisión en tribunal federal."
+    },
+    "documents": {
+      "title": "Preparación de Documentos",
+      "desc": "Preparación y organización minuciosa de toda la documentación requerida, registros médicos y evidencia de respaldo para su solicitud de beneficios."
+    },
+    "learn_more": "Más Información"
+  },
+  "how_it_works": {
+    "label": "Cómo Funciona",
+    "title": "Tres Pasos Sencillos para Obtener Ayuda",
+    "subtitle": "Hemos simplificado el proceso para que usted pueda concentrarse en lo que más importa — su salud y su familia.",
+    "step1": {
+      "title": "Contáctenos",
+      "desc": "Comuníquese por teléfono, correo electrónico o a través de nuestro formulario de contacto. Cuéntenos sobre su situación en el idioma en el que se sienta más cómodo."
+    },
+    "step2": {
+      "title": "Evaluamos Sus Necesidades",
+      "desc": "Nuestro equipo revisa su caso, identifica los beneficios para los que califica y crea un plan de acción personalizado."
+    },
+    "step3": {
+      "title": "Le Conectamos",
+      "desc": "Le guiamos a través del proceso de solicitud, preparamos sus documentos y le conectamos con los programas y proveedores adecuados."
+    }
+  },
+  "testimonials": {
+    "label": "Lo que Dicen Nuestros Clientes",
+    "title": "De Confianza para Familias en Toda California",
+    "subtitle": "Historias reales de personas reales a quienes hemos ayudado a navegar el sistema de beneficios.",
+    "t1": {
+      "quote": "Me ayudaron a entender todo el proceso de SSDI en español. Me sentí apoyada en cada paso del camino. En 4 meses, mi reclamo fue aprobado.",
+      "name": "Maria G.",
+      "role": "Cliente de SSDI, Los Ángeles"
+    },
+    "t2": {
+      "quote": "Después de que mi reclamo fue denegado dos veces, SSDI Providers intervino y se encargó de mi apelación. Organizaron todos mis registros médicos y me prepararon para la audiencia. Finalmente fui aprobado.",
+      "name": "James T.",
+      "role": "Cliente de Apelaciones, Sacramento"
+    },
+    "t3": {
+      "quote": "Como hablante de farsi, encontrar a alguien que pudiera ayudarme en mi idioma fue una bendición. Guiaron a mi madre a través de la solicitud de SSI y fue aprobada en el primer intento.",
+      "name": "Parisa M.",
+      "role": "Cliente de SSI, San Diego"
+    }
+  },
+  "cta_banner": {
+    "title": "¿Necesita Ayuda con Sus Beneficios?",
+    "text": "Contáctenos hoy para una consulta gratuita. Estamos aquí para ayudarle a navegar el sistema en su idioma.",
+    "button": "Contáctenos Hoy"
+  },
+  "about_page": {
+    "hero_title": "Acerca de SSDI Providers",
+    "hero_subtitle": "Dedicados a ayudar a las diversas comunidades de California a acceder a los beneficios que se han ganado.",
+    "bio_title": "Nuestra Historia",
+    "bio_p1": "SSDI Providers fue fundada con una misión sencilla: nadie debería ser privado de los beneficios que merece debido a barreras idiomáticas o un sistema confuso. Con sede en California, servimos a personas y familias en todo el estado que necesitan ayuda para navegar el Seguro Social, discapacidad, jubilación y beneficios de atención médica.",
+    "bio_p2": "Con años de experiencia en servicios sociales y navegación de beneficios, nuestro equipo comprende los desafíos que enfrentan los solicitantes — reclamos denegados, papeleo abrumador y un sistema que a menudo parece diseñado para desalentar. Estamos aquí para cambiar eso.",
+    "bio_p3": "Brindamos apoyo personalizado e individual en inglés, español, farsi y tagalo porque creemos que el idioma nunca debería ser una barrera para acceder a servicios esenciales.",
+    "mission_label": "Nuestra Misión",
+    "mission_title": "Por Qué Hacemos lo que Hacemos",
+    "mission_text": "Cerramos la brecha entre las personas necesitadas y los beneficios a los que tienen derecho, con apoyo multilingüe y culturalmente sensible que pone a las familias primero."
+  },
+  "values": {
+    "label": "Nuestros Valores",
+    "title": "Lo que Nos Guía Cada Día",
+    "community": {
+      "title": "La Comunidad Primero",
+      "desc": "Somos parte de las comunidades a las que servimos. Cada cliente es un vecino, y cada caso importa personalmente a nuestro equipo."
+    },
+    "accessibility": {
+      "title": "Accesibilidad Total",
+      "desc": "Barreras idiomáticas, formularios complejos, procesos confusos — eliminamos cada obstáculo entre usted y sus beneficios."
+    },
+    "integrity": {
+      "title": "Integridad Completa",
+      "desc": "Orientación honesta, procesos transparentes y prácticas éticas. Siempre le diremos qué esperar, incluso cuando no sea lo que desea escuchar."
+    },
+    "advocacy": {
+      "title": "Defensa Firme",
+      "desc": "Luchamos por cada cliente. Ya sea una solicitud por primera vez o una tercera apelación, aportamos la misma determinación a cada caso."
+    }
+  },
+  "areas": {
+    "label": "Dónde Servimos",
+    "title": "Áreas que Cubrimos en Toda California",
+    "list": [
+      "Condado de Los Ángeles",
+      "Condado de San Diego",
+      "Condado de Orange",
+      "Área de la Bahía de San Francisco",
+      "Región de Sacramento",
+      "Inland Empire",
+      "Valle Central",
+      "Todo el Estado (Remoto)"
+    ]
+  },
+  "credentials": {
+    "label": "Nuestras Credenciales",
+    "title": "Calificados y de Confianza",
+    "c1": {
+      "title": "Consultor de Beneficios Licenciado",
+      "desc": "Completamente licenciado y asegurado para proporcionar servicios de navegación de beneficios en el estado de California."
+    },
+    "c2": {
+      "title": "Miembro de NOSSCR",
+      "desc": "Miembro de la Organización Nacional de Representantes de Reclamantes del Seguro Social (NOSSCR)."
+    },
+    "c3": {
+      "title": "Certificación Multilingüe",
+      "desc": "Traductores e intérpretes profesionalmente certificados para servicios en español, farsi y tagalo."
+    },
+    "c4": {
+      "title": "Servicios Conformes con la ADA",
+      "desc": "Todos los servicios e instalaciones cumplen plenamente con la Ley de Estadounidenses con Discapacidades (ADA)."
+    }
+  },
+  "services_page": {
+    "hero_title": "Nuestros Servicios",
+    "hero_subtitle": "Servicios integrales de navegación de beneficios para personas y familias en toda California.",
+    "cta_title": "¿No Está Seguro de Qué Servicio Necesita?",
+    "cta_text": "Contáctenos para una consulta gratuita. Evaluaremos su situación y le recomendaremos el mejor camino a seguir.",
+    "cta_button": "Consulta Gratuita"
+  },
+  "contact_page": {
+    "hero_title": "Contáctenos",
+    "hero_subtitle": "Comuníquese hoy. Estamos listos para ayudarle en inglés, español, farsi o tagalo.",
+    "form_title": "Envíenos un Mensaje",
+    "form_name": "Nombre Completo",
+    "form_email": "Correo Electrónico",
+    "form_phone": "Número de Teléfono",
+    "form_language": "Idioma Preferido",
+    "form_language_options": {
+      "en": "Inglés",
+      "es": "Español",
+      "fa": "Farsi",
+      "tl": "Tagalo"
+    },
+    "form_subject": "Asunto",
+    "form_subject_options": {
+      "general": "Consulta General",
+      "ssi": "Asistencia con SSI",
+      "ssdi": "Solicitud de SSDI",
+      "retirement": "Beneficios de Jubilación",
+      "disability": "Navegación de Discapacidad",
+      "medicare": "Medicare/Medicaid",
+      "appeal": "Apoyo en Apelaciones",
+      "other": "Otro"
+    },
+    "form_message": "Su Mensaje",
+    "form_submit": "Enviar Mensaje",
+    "form_success": "¡Gracias! Su mensaje ha sido enviado exitosamente. Le responderemos dentro de las próximas 24 horas.",
+    "form_error": "Hubo un error al enviar su mensaje. Por favor intente de nuevo o llámenos directamente.",
+    "form_required": "Este campo es obligatorio",
+    "form_invalid_email": "Por favor ingrese una dirección de correo electrónico válida",
+    "info_phone_label": "Teléfono",
+    "info_phone": "(555) 123-4567",
+    "info_email_label": "Correo Electrónico",
+    "info_email": "info@ssdiproviders.com",
+    "info_hours_label": "Horario de Oficina",
+    "info_hours": "Lunes a Viernes: 9:00 AM – 5:00 PM",
+    "info_location_label": "Ubicación",
+    "info_location": "Sirviendo a toda California (Remoto y Presencial)",
+    "expect_label": "Qué Esperar",
+    "expect_title": "Después de Contactarnos",
+    "expect1": {
+      "title": "Respuesta Rápida",
+      "desc": "Respondemos a todas las consultas dentro de 24 horas en días hábiles — a menudo antes."
+    },
+    "expect2": {
+      "title": "Consulta Inicial Gratuita",
+      "desc": "Su primera consulta siempre es gratuita. Discutiremos su situación y le explicaremos sus opciones."
+    },
+    "expect3": {
+      "title": "Plan Personalizado",
+      "desc": "Según sus necesidades, creamos un plan de acción personalizado con próximos pasos claros y plazos definidos."
+    },
+    "expect4": {
+      "title": "Apoyo Continuo",
+      "desc": "De principio a fin, su asesor dedicado le acompaña durante todo el proceso."
+    }
+  },
+  "faq_page": {
+    "hero_title": "Preguntas Frecuentes",
+    "hero_subtitle": "Encuentre respuestas a preguntas comunes sobre nuestros servicios y el proceso de solicitud de beneficios.",
+    "cat_all": "Todas las Preguntas",
+    "cat_general": "General",
+    "cat_ssi": "SSI",
+    "cat_ssdi": "SSDI",
+    "cat_disability": "Discapacidad",
+    "cat_process": "Proceso",
+    "questions": {
+      "q1": {
+        "q": "¿Cuál es la diferencia entre SSI y SSDI?",
+        "a": "SSI (Ingreso Suplementario de Seguridad) es un programa basado en necesidad para personas con ingresos y recursos limitados que son de edad avanzada, ciegas o discapacitadas. SSDI (Seguro de Incapacidad del Seguro Social) se basa en su historial laboral y los impuestos del Seguro Social que ha pagado. Usted puede calificar para uno o ambos programas dependiendo de su situación. Podemos ayudarle a determinar para qué beneficios es elegible.",
+        "cat": "general"
+      },
+      "q2": {
+        "q": "¿Cuánto cuesta su servicio?",
+        "a": "Ofrecemos una consulta inicial gratuita para evaluar su situación. Nuestros honorarios varían según los servicios que necesite. Para casos de SSDI, muchos representantes trabajan sobre una base de contingencia — lo que significa que usted solo paga si gana su caso. Le explicaremos todos los costos por adelantado antes de que comience cualquier trabajo para que nunca haya sorpresas.",
+        "cat": "general"
+      },
+      "q3": {
+        "q": "¿En qué idiomas ofrecen servicios?",
+        "a": "Brindamos servicios completos en inglés, español, farsi (persa) y tagalo (filipino). Todos nuestros documentos, consultas y comunicaciones están disponibles en estos cuatro idiomas. Si necesita apoyo en otro idioma, contáctenos y haremos todo lo posible para atenderle.",
+        "cat": "general"
+      },
+      "q4": {
+        "q": "¿Cómo sé si califico para SSI?",
+        "a": "Para calificar para SSI, debe tener 65 años o más, ser ciego o tener una discapacidad, Y tener ingresos y recursos limitados. Para 2024, el límite de recursos es $2,000 para individuos y $3,000 para parejas. Los límites de ingresos varían según el estado. California tiene montos de pago de SSI más altos que el mínimo federal. Podemos evaluar su situación específica para determinar su elegibilidad.",
+        "cat": "ssi"
+      },
+      "q5": {
+        "q": "¿Cuánto tiempo toma el proceso de solicitud de SSI?",
+        "a": "El proceso de solicitud de SSI generalmente toma de 3 a 6 meses para una decisión inicial. Si su reclamo es denegado y necesita apelar, el proceso puede tomar más tiempo — a veces de 12 a 24 meses a través de todos los niveles de apelación. Trabajamos para asegurar que su solicitud inicial sea lo más sólida posible para mejorar sus posibilidades de aprobación en el primer intento.",
+        "cat": "ssi"
+      },
+      "q6": {
+        "q": "¿Qué califica como discapacidad para SSDI?",
+        "a": "La Administración del Seguro Social define la discapacidad como una condición médica que le impide realizar una actividad sustancial remunerada (SGA, por sus siglas en inglés) y que se espera dure al menos 12 meses o resulte en la muerte. Esto incluye condiciones tanto físicas como mentales. La SSA mantiene un 'Libro Azul' con una lista de impedimentos que califican, pero también puede calificar si sus condiciones combinadas le impiden trabajar.",
+        "cat": "ssdi"
+      },
+      "q7": {
+        "q": "¿Cuántos créditos de trabajo necesito para SSDI?",
+        "a": "Generalmente, necesita 40 créditos de trabajo para SSDI, con 20 de esos créditos obtenidos en los últimos 10 años. Puede obtener hasta 4 créditos por año. Los trabajadores más jóvenes pueden calificar con menos créditos. Por ejemplo, si queda discapacitado antes de los 24 años, puede que solo necesite 6 créditos obtenidos en los 3 años anteriores al inicio de su discapacidad.",
+        "cat": "ssdi"
+      },
+      "q8": {
+        "q": "¿Qué pasa si mi reclamo de discapacidad es denegado?",
+        "a": "Si su reclamo es denegado, tiene 60 días para apelar. El proceso de apelaciones tiene cuatro niveles: Reconsideración, audiencia ante un Juez de Derecho Administrativo (ALJ), revisión del Consejo de Apelaciones y revisión en Tribunal Federal. Las estadísticas muestran que muchos reclamos son aprobados en el nivel de audiencia ante el ALJ. Nuestro servicio de apoyo en apelaciones le guía a través de cada nivel con una preparación exhaustiva.",
+        "cat": "disability"
+      },
+      "q9": {
+        "q": "¿Puedo trabajar mientras recibo beneficios por discapacidad?",
+        "a": "Sí, con limitaciones. SSDI tiene un Período de Trabajo de Prueba (TWP, por sus siglas en inglés) que le permite probar su capacidad para trabajar durante 9 meses sin perder beneficios. Después del TWP, entra en un Período Extendido de Elegibilidad de 36 meses. SSI tiene reglas diferentes — sus beneficios se reducen según sus ingresos pero no se eliminan de inmediato. Podemos explicarle cómo el trabajo afecta sus beneficios específicos.",
+        "cat": "disability"
+      },
+      "q10": {
+        "q": "¿Qué documentos necesito para solicitar?",
+        "a": "Generalmente necesitará: tarjeta o número de Seguro Social, acta de nacimiento, registros médicos e información de contacto del médico, historial laboral de los últimos 15 años, declaraciones de impuestos o formularios W-2, estados de cuenta bancarios (para SSI), y cualquier documentación de sus condiciones médicas. Le ayudamos a reunir y organizar todos los documentos requeridos para asegurar que no falte nada en su solicitud.",
+        "cat": "process"
+      },
+      "q11": {
+        "q": "¿Cuánto tiempo toma todo el proceso de principio a fin?",
+        "a": "El plazo varía según el caso. Una decisión de solicitud inicial generalmente toma de 3 a 6 meses. Si se aprueba en el primer intento, podría recibir beneficios dentro de ese plazo. Si es denegado y necesita apelar, el proceso puede extenderse de 12 a 24 meses o más, dependiendo de la carga de trabajo de su oficina de audiencias local. Trabajamos diligentemente para avanzar su caso lo más rápido posible.",
+        "cat": "process"
+      },
+      "q12": {
+        "q": "¿Necesito ir a la Administración del Seguro Social en persona?",
+        "a": "No necesariamente. Muchos aspectos de la solicitud se pueden manejar en línea o por teléfono. Sin embargo, algunas situaciones pueden requerir una visita en persona a su oficina local de la SSA. Si se solicita un Examen Consultivo (CE, por sus siglas en inglés), deberá asistir a esa cita médica. Le ayudamos a prepararse para cualquier reunión o examen requerido.",
+        "cat": "process"
+      }
+    }
+  },
+  "portal_page": {
+    "hero_title": "Portal del Cliente",
+    "hero_subtitle": "Envíe documentos, mande mensajes y haga seguimiento del progreso de su caso — todo en un solo lugar seguro.",
+    "nav_dashboard": "Panel Principal",
+    "nav_documents": "Documentos",
+    "nav_messages": "Mensajes",
+    "nav_profile": "Mi Perfil",
+    "dashboard_title": "Su Panel Principal",
+    "status_active": "Casos Activos",
+    "status_pending": "Documentos Pendientes",
+    "status_messages": "Mensajes Nuevos",
+    "status_next": "Días para la Próxima Revisión",
+    "recent_activity": "Actividad Reciente",
+    "activity_1": "Documento 'Registros Médicos - Dr. Smith' enviado exitosamente",
+    "activity_2": "Mensaje recibido de su asesor de caso",
+    "activity_3": "Estado de la solicitud de SSI actualizado a 'En Revisión'",
+    "activity_time_1": "Hace 2 horas",
+    "activity_time_2": "Hace 1 día",
+    "activity_time_3": "Hace 3 días",
+    "documents_title": "Enviar Documentos",
+    "upload_text": "<strong>Haga clic para subir</strong> o arrastre y suelte",
+    "upload_hint": "PDF, JPG, PNG hasta 10MB por archivo",
+    "doc_form_title": "Detalles del Documento",
+    "doc_type_label": "Tipo de Documento",
+    "doc_types": {
+      "medical": "Registros Médicos",
+      "identification": "Identificación",
+      "financial": "Documentos Financieros",
+      "employment": "Registros de Empleo",
+      "legal": "Documentos Legales",
+      "other": "Otro"
+    },
+    "doc_notes_label": "Notas",
+    "doc_notes_placeholder": "Agregue cualquier nota sobre este documento...",
+    "doc_submit": "Enviar Documento",
+    "messages_title": "Mensajes",
+    "message_placeholder": "Escriba su mensaje...",
+    "message_send": "Enviar",
+    "msg_received_1": "¡Hola! He revisado su solicitud. Necesitamos sus registros médicos más recientes del Dr. Johnson. ¿Puede subirlos a través del portal?",
+    "msg_sent_1": "Hola, los subiré hoy. ¿Debo incluir también los registros de mi especialista?",
+    "msg_received_2": "Sí, por favor incluya todos los registros de especialistas de los últimos 12 meses. Eso fortalecerá significativamente su caso.",
+    "profile_title": "Mi Perfil",
+    "profile_name": "Nombre Completo",
+    "profile_email": "Correo Electrónico",
+    "profile_phone": "Número de Teléfono",
+    "profile_language": "Idioma Preferido",
+    "profile_case": "Número de Caso",
+    "profile_save": "Guardar Cambios",
+    "profile_password": "Cambiar Contraseña",
+    "profile_current_pw": "Contraseña Actual",
+    "profile_new_pw": "Nueva Contraseña",
+    "profile_confirm_pw": "Confirmar Nueva Contraseña",
+    "profile_update_pw": "Actualizar Contraseña"
+  },
+  "footer": {
+    "desc": "Conectando a las diversas comunidades de California con los beneficios de seguro social, discapacidad y jubilación que merecen. Apoyo multilingüe en inglés, español, farsi y tagalo.",
+    "quick_links": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "copyright": "© 2024 SSDI Providers. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "accessibility": "Accesibilidad"
+  }
+}
