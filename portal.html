@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SSDI Providers Client Portal — Submit documents, send messages, and track your case progress securely online.">
+  <title>Client Portal — SSDI Providers</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="SSDI Providers Home">
+        <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="20" cy="20" r="18"/>
+          <path d="M14 20l4 4 8-8"/>
+        </svg>
+        <span>SSDI Providers</span>
+      </a>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header__nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
+          <li><a href="services.html" class="nav__link" data-i18n="nav.services">Services</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+          <li><a href="faq.html" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="portal.html" class="nav__link nav__link--active" data-i18n="nav.portal">Client Portal</a></li>
+        </ul>
+
+        <div class="lang-switcher">
+          <button class="lang-switcher__btn" aria-expanded="false" aria-haspopup="true" aria-label="Select language">
+            <span class="lang-switcher__current-flag">🇺🇸</span>
+            <span class="lang-switcher__current">English</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="lang-switcher__dropdown" role="listbox" aria-label="Language options">
+            <button class="lang-switcher__option lang-switcher__option--active" data-lang="en" role="option" aria-selected="true">
+              <span class="lang-switcher__flag">🇺🇸</span> English
+            </button>
+            <button class="lang-switcher__option" data-lang="es" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇲🇽</span> Español
+            </button>
+            <button class="lang-switcher__option" data-lang="fa" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇮🇷</span> فارسی
+            </button>
+            <button class="lang-switcher__option" data-lang="tl" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇵🇭</span> Tagalog
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Portal Hero -->
+    <section class="portal-hero" aria-labelledby="portal-hero-title">
+      <div class="container">
+        <h1 id="portal-hero-title" class="portal-hero__title" data-i18n="portal_page.hero_title">Client Portal</h1>
+        <p class="portal-hero__subtitle" data-i18n="portal_page.hero_subtitle">Submit documents, send messages, and track your case progress — all in one secure place.</p>
+      </div>
+    </section>
+
+    <!-- Portal Grid -->
+    <section class="section" aria-label="Client portal dashboard">
+      <div class="container">
+        <div class="portal-grid">
+
+          <!-- Sidebar -->
+          <aside class="portal-sidebar" aria-label="Portal navigation">
+            <nav class="portal-sidebar__nav" aria-label="Portal sections">
+              <a href="#portal-dashboard" class="portal-sidebar__link portal-sidebar__link--active" data-portal-section="portal-dashboard" aria-current="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="3" width="7" height="7"/>
+                  <rect x="14" y="3" width="7" height="7"/>
+                  <rect x="3" y="14" width="7" height="7"/>
+                  <rect x="14" y="14" width="7" height="7"/>
+                </svg>
+                <span data-i18n="portal_page.nav_dashboard">Dashboard</span>
+              </a>
+              <a href="#portal-documents" class="portal-sidebar__link" data-portal-section="portal-documents">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+                </svg>
+                <span data-i18n="portal_page.nav_documents">Documents</span>
+              </a>
+              <a href="#portal-messages" class="portal-sidebar__link" data-portal-section="portal-messages">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                </svg>
+                <span data-i18n="portal_page.nav_messages">Messages</span>
+              </a>
+              <a href="#portal-profile" class="portal-sidebar__link" data-portal-section="portal-profile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                  <circle cx="12" cy="7" r="4"/>
+                </svg>
+                <span data-i18n="portal_page.nav_profile">My Profile</span>
+              </a>
+            </nav>
+          </aside>
+
+          <!-- Main Content Area -->
+          <div class="portal-content">
+
+            <!-- Dashboard Section -->
+            <div id="portal-dashboard" class="portal-section portal-section--active" role="tabpanel" aria-labelledby="portal-dashboard-label">
+              <h2 class="portal-section__title" id="portal-dashboard-label" data-i18n="portal_page.dashboard_title">Your Dashboard</h2>
+
+              <div class="status-grid">
+                <div class="status-card">
+                  <span class="status-card__label" data-i18n="portal_page.status_active">Active Cases</span>
+                  <span class="status-card__value">1</span>
+                </div>
+                <div class="status-card">
+                  <span class="status-card__label" data-i18n="portal_page.status_pending">Pending Documents</span>
+                  <span class="status-card__value">3</span>
+                </div>
+                <div class="status-card">
+                  <span class="status-card__label" data-i18n="portal_page.status_messages">New Messages</span>
+                  <span class="status-card__value">2</span>
+                </div>
+                <div class="status-card">
+                  <span class="status-card__label" data-i18n="portal_page.status_next">Days to Next Review</span>
+                  <span class="status-card__value">14</span>
+                </div>
+              </div>
+
+              <div class="recent-activity">
+                <h3 class="recent-activity__title" data-i18n="portal_page.recent_activity">Recent Activity</h3>
+                <ul class="activity-list" aria-label="Recent activity">
+                  <li class="activity-list__item">
+                    <span class="activity-list__text" data-i18n="portal_page.activity_1">Document 'Medical Records - Dr. Smith' submitted successfully</span>
+                    <time class="activity-list__time" data-i18n="portal_page.activity_1_time">2 hours ago</time>
+                  </li>
+                  <li class="activity-list__item">
+                    <span class="activity-list__text" data-i18n="portal_page.activity_2">Message received from your case advisor</span>
+                    <time class="activity-list__time" data-i18n="portal_page.activity_2_time">1 day ago</time>
+                  </li>
+                  <li class="activity-list__item">
+                    <span class="activity-list__text" data-i18n="portal_page.activity_3">SSI Application status updated to 'Under Review'</span>
+                    <time class="activity-list__time" data-i18n="portal_page.activity_3_time">3 days ago</time>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Documents Section -->
+            <div id="portal-documents" class="portal-section" role="tabpanel" aria-labelledby="portal-documents-label">
+              <h2 class="portal-section__title" id="portal-documents-label" data-i18n="portal_page.documents_title">Submit Documents</h2>
+
+              <form id="portal-doc-form" aria-label="Document submission form">
+                <div class="upload-area" role="button" tabindex="0" aria-label="Click to upload files or drag and drop">
+                  <div class="upload-area__icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <polyline points="16 16 12 12 8 16"/>
+                      <line x1="12" y1="12" x2="12" y2="21"/>
+                      <path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/>
+                    </svg>
+                  </div>
+                  <p class="upload-area__text" data-i18n="portal_page.upload_text">Click to upload or drag and drop</p>
+                  <p class="upload-area__hint" data-i18n="portal_page.upload_hint">PDF, JPG, PNG up to 10MB per file</p>
+                </div>
+                <input type="file" id="portal-file-input" multiple accept=".pdf,.jpg,.jpeg,.png" class="visually-hidden" aria-label="File upload input">
+                <div class="upload-list" aria-live="polite"></div>
+
+                <div class="form__group">
+                  <label for="doc-type" class="form__label" data-i18n="portal_page.doc_type_label">Document Type</label>
+                  <select id="doc-type" class="form__select" name="doc-type" required>
+                    <option value="" disabled selected data-i18n="portal_page.doc_type_placeholder">Select document type</option>
+                    <option value="medical-records" data-i18n="portal_page.doc_type_medical">Medical Records</option>
+                    <option value="identification" data-i18n="portal_page.doc_type_id">Identification</option>
+                    <option value="financial" data-i18n="portal_page.doc_type_financial">Financial Documents</option>
+                    <option value="employment" data-i18n="portal_page.doc_type_employment">Employment Records</option>
+                    <option value="legal" data-i18n="portal_page.doc_type_legal">Legal Documents</option>
+                    <option value="other" data-i18n="portal_page.doc_type_other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form__group">
+                  <label for="doc-notes" class="form__label" data-i18n="portal_page.doc_notes_label">Notes</label>
+                  <textarea id="doc-notes" class="form__textarea" name="doc-notes" rows="4" placeholder="Add any additional notes about this document..." data-i18n-placeholder="portal_page.doc_notes_placeholder"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary" data-i18n="portal_page.doc_submit">Submit Document</button>
+                <div class="form__success" role="alert" aria-live="polite" data-i18n="portal_page.doc_success">Your document has been submitted successfully.</div>
+              </form>
+            </div>
+
+            <!-- Messages Section -->
+            <div id="portal-messages" class="portal-section" role="tabpanel" aria-labelledby="portal-messages-label">
+              <h2 class="portal-section__title" id="portal-messages-label" data-i18n="portal_page.messages_title">Messages</h2>
+
+              <div class="message-list" aria-label="Message conversation">
+                <div class="message message--received">
+                  <div class="message__avatar" aria-hidden="true">CA</div>
+                  <div class="message__content">
+                    <span class="message__sender" data-i18n="portal_page.msg_sender_advisor">Case Advisor</span>
+                    <p class="message__text" data-i18n="portal_page.msg_received_1">Hello! I've reviewed your application. We need your most recent medical records from Dr. Johnson. Can you upload those through the portal?</p>
+                    <time class="message__time" data-i18n="portal_page.msg_time_1">Feb 20, 2026 at 10:32 AM</time>
+                  </div>
+                </div>
+                <div class="message message--sent">
+                  <div class="message__content">
+                    <span class="message__sender" data-i18n="portal_page.msg_sender_you">You</span>
+                    <p class="message__text" data-i18n="portal_page.msg_sent_1">Hi, I'll get those uploaded today. Should I include the records from my specialist as well?</p>
+                    <time class="message__time" data-i18n="portal_page.msg_time_2">Feb 20, 2026 at 11:15 AM</time>
+                  </div>
+                </div>
+                <div class="message message--received">
+                  <div class="message__avatar" aria-hidden="true">CA</div>
+                  <div class="message__content">
+                    <span class="message__sender" data-i18n="portal_page.msg_sender_advisor">Case Advisor</span>
+                    <p class="message__text" data-i18n="portal_page.msg_received_2">Yes, please include all specialist records from the past 12 months. That will strengthen your case significantly.</p>
+                    <time class="message__time" data-i18n="portal_page.msg_time_3">Feb 20, 2026 at 11:48 AM</time>
+                  </div>
+                </div>
+              </div>
+
+              <form id="portal-msg-form" class="message-compose" aria-label="Compose a new message">
+                <div class="form__group">
+                  <label for="msg-text" class="visually-hidden" data-i18n="portal_page.msg_compose_label">Type your message</label>
+                  <textarea id="msg-text" class="form__textarea" name="msg-text" rows="3" placeholder="Type your message..." required data-i18n-placeholder="portal_page.msg_placeholder"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary" data-i18n="portal_page.msg_send">Send</button>
+              </form>
+            </div>
+
+            <!-- Profile Section -->
+            <div id="portal-profile" class="portal-section" role="tabpanel" aria-labelledby="portal-profile-label">
+              <h2 class="portal-section__title" id="portal-profile-label" data-i18n="portal_page.profile_title">My Profile</h2>
+
+              <form id="portal-profile-form" aria-label="Profile information form">
+                <div class="form__row">
+                  <div class="form__group">
+                    <label for="profile-name" class="form__label" data-i18n="portal_page.profile_name">Full Name</label>
+                    <input type="text" id="profile-name" class="form__input" name="profile-name" value="John Doe" required>
+                  </div>
+                  <div class="form__group">
+                    <label for="profile-email" class="form__label" data-i18n="portal_page.profile_email">Email</label>
+                    <input type="email" id="profile-email" class="form__input" name="profile-email" value="john.doe@email.com" required>
+                  </div>
+                </div>
+
+                <div class="form__row">
+                  <div class="form__group">
+                    <label for="profile-phone" class="form__label" data-i18n="portal_page.profile_phone">Phone</label>
+                    <input type="tel" id="profile-phone" class="form__input" name="profile-phone" value="(555) 987-6543">
+                  </div>
+                  <div class="form__group">
+                    <label for="profile-language" class="form__label" data-i18n="portal_page.profile_language">Preferred Language</label>
+                    <select id="profile-language" class="form__select" name="profile-language">
+                      <option value="en" selected data-i18n="portal_page.lang_english">English</option>
+                      <option value="es" data-i18n="portal_page.lang_spanish">Spanish</option>
+                      <option value="fa" data-i18n="portal_page.lang_farsi">Farsi</option>
+                      <option value="tl" data-i18n="portal_page.lang_tagalog">Tagalog</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <label for="profile-case" class="form__label" data-i18n="portal_page.profile_case">Case Number</label>
+                  <input type="text" id="profile-case" class="form__input" name="profile-case" value="SSDI-2026-004817" readonly aria-readonly="true">
+                </div>
+
+                <button type="submit" class="btn btn--primary" data-i18n="portal_page.profile_save">Save Changes</button>
+                <div class="form__success" role="alert" aria-live="polite" data-i18n="portal_page.profile_success">Your profile has been updated successfully.</div>
+              </form>
+
+              <hr class="portal-divider">
+
+              <h3 class="portal-section__subtitle" data-i18n="portal_page.change_password">Change Password</h3>
+              <form id="portal-password-form" aria-label="Change password form">
+                <div class="form__group">
+                  <label for="current-password" class="form__label" data-i18n="portal_page.current_password">Current Password</label>
+                  <input type="password" id="current-password" class="form__input" name="current-password" required autocomplete="current-password">
+                </div>
+                <div class="form__group">
+                  <label for="new-password" class="form__label" data-i18n="portal_page.new_password">New Password</label>
+                  <input type="password" id="new-password" class="form__input" name="new-password" required autocomplete="new-password">
+                </div>
+                <div class="form__group">
+                  <label for="confirm-password" class="form__label" data-i18n="portal_page.confirm_password">Confirm New Password</label>
+                  <input type="password" id="confirm-password" class="form__input" name="confirm-password" required autocomplete="new-password">
+                </div>
+                <button type="submit" class="btn btn--secondary" data-i18n="portal_page.update_password">Update Password</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="20" cy="20" r="18"/>
+              <path d="M14 20l4 4 8-8"/>
+            </svg>
+            SSDI Providers
+          </div>
+          <p class="footer__desc" data-i18n="footer.desc">Connecting California's diverse communities to the social security, disability, and retirement benefits they deserve. Multilingual support in English, Spanish, Farsi, and Tagalog.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.quick_links">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" class="footer__link" data-i18n="nav.about">About</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
+            <li><a href="faq.html" class="footer__link" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="portal.html" class="footer__link" data-i18n="nav.portal">Client Portal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssi.title">SSI Assistance</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssdi.title">SSDI Applications</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.retirement.title">Retirement Benefits</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.disability.title">Disability Navigation</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.appeals.title">Appeals Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.contact">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="tel:+15551234567" class="footer__link" data-i18n="contact_page.info_phone">(555) 123-4567</a></li>
+            <li><a href="mailto:info@ssdiproviders.com" class="footer__link" data-i18n="contact_page.info_email">info@ssdiproviders.com</a></li>
+            <li><span class="footer__link" data-i18n="contact_page.info_hours">Monday – Friday: 9:00 AM – 5:00 PM</span></li>
+            <li><a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span data-i18n="footer.copyright">&copy; 2024 SSDI Providers. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" class="footer__bottom-link" data-i18n="footer.terms">Terms of Service</a>
+          <a href="#" class="footer__bottom-link" data-i18n="footer.accessibility">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
