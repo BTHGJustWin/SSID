@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SSDI Providers connects individuals and families across California to SSI, SSDI, retirement, disability, and Medicare/Medicaid benefits. Multilingual support in English, Spanish, Farsi, and Tagalog.">
+  <title>SSDI Providers — Benefits Navigation Services in California</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="SSDI Providers Home">
+        <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="20" cy="20" r="18"/>
+          <path d="M14 20l4 4 8-8"/>
+        </svg>
+        <span>SSDI Providers</span>
+      </a>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header__nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
+          <li><a href="services.html" class="nav__link" data-i18n="nav.services">Services</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
+          <li><a href="faq.html" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="portal.html" class="nav__link" data-i18n="nav.portal">Client Portal</a></li>
+        </ul>
+
+        <div class="lang-switcher">
+          <button class="lang-switcher__btn" aria-expanded="false" aria-haspopup="true" aria-label="Select language">
+            <span class="lang-switcher__current-flag">🇺🇸</span>
+            <span class="lang-switcher__current">English</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+          </button>
+          <div class="lang-switcher__dropdown" role="listbox" aria-label="Language options">
+            <button class="lang-switcher__option lang-switcher__option--active" data-lang="en" role="option" aria-selected="true">
+              <span class="lang-switcher__flag">🇺🇸</span> English
+            </button>
+            <button class="lang-switcher__option" data-lang="es" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇲🇽</span> Español
+            </button>
+            <button class="lang-switcher__option" data-lang="fa" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇮🇷</span> فارسی
+            </button>
+            <button class="lang-switcher__option" data-lang="tl" role="option" aria-selected="false">
+              <span class="lang-switcher__flag">🇵🇭</span> Tagalog
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__decoration" aria-hidden="true"></div>
+      <div class="hero__decoration hero__decoration--top" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__badge" data-i18n="hero.badge">Trusted Benefits Navigation in California</span>
+          <h1 id="hero-title" class="hero__title" data-i18n="hero.title">Connecting You to the <span>Benefits You Deserve</span></h1>
+          <p class="hero__subtitle" data-i18n="hero.subtitle">We help individuals and families across California navigate SSI, SSDI, retirement, disability, and Medicare/Medicaid — in English, Spanish, Farsi, and Tagalog.</p>
+          <div class="hero__actions">
+            <a href="contact.html" class="btn btn--gold btn--lg" data-i18n="hero.cta_primary">Get Started</a>
+            <a href="services.html" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.4); color: #fff;" data-i18n="hero.cta_secondary">Our Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section__header animate-on-scroll">
+          <span class="section__label" data-i18n="services_section.label">What We Do</span>
+          <h2 id="services-title" class="section__title" data-i18n="services_section.title">Services Tailored to Your Needs</h2>
+          <p class="section__subtitle" data-i18n="services_section.subtitle">From initial applications to appeals, we guide you through every step of the benefits process with personalized, multilingual support.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="service_cards.ssi.title">SSI Assistance</h3>
+            <p class="service-card__desc" data-i18n="service_cards.ssi.desc">Expert guidance through the Supplemental Security Income application process, including eligibility assessment and documentation preparation.</p>
+            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="service_cards.ssdi.title">SSDI Applications</h3>
+            <p class="service-card__desc" data-i18n="service_cards.ssdi.desc">Comprehensive support for Social Security Disability Insurance claims, from initial filing to approval, ensuring your work history is accurately represented.</p>
+            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="service_cards.retirement.title">Retirement Benefits</h3>
+            <p class="service-card__desc" data-i18n="service_cards.retirement.desc">Strategic planning for Social Security retirement benefits, helping you understand when and how to file for maximum benefit amounts.</p>
+            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="service_cards.disability.title">Disability Navigation</h3>
+            <p class="service-card__desc" data-i18n="service_cards.disability.desc">End-to-end support navigating the disability determination process, including medical documentation gathering and examiner communication.</p>
+            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section section--gray" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section__header animate-on-scroll">
+          <span class="section__label" data-i18n="how_it_works.label">How It Works</span>
+          <h2 id="how-title" class="section__title" data-i18n="how_it_works.title">Three Simple Steps to Get Help</h2>
+          <p class="section__subtitle" data-i18n="how_it_works.subtitle">We've simplified the process so you can focus on what matters most — your health and your family.</p>
+        </div>
+        <div class="steps">
+          <div class="step animate-on-scroll">
+            <div class="step__number">1</div>
+            <h3 class="step__title" data-i18n="how_it_works.step1.title">Contact Us</h3>
+            <p class="step__desc" data-i18n="how_it_works.step1.desc">Reach out by phone, email, or through our contact form. Tell us about your situation in the language you're most comfortable with.</p>
+          </div>
+          <div class="step animate-on-scroll">
+            <div class="step__number">2</div>
+            <h3 class="step__title" data-i18n="how_it_works.step2.title">We Assess Your Needs</h3>
+            <p class="step__desc" data-i18n="how_it_works.step2.desc">Our team reviews your case, identifies which benefits you qualify for, and creates a personalized action plan.</p>
+          </div>
+          <div class="step animate-on-scroll">
+            <div class="step__number">3</div>
+            <h3 class="step__title" data-i18n="how_it_works.step3.title">We Connect You</h3>
+            <p class="step__desc" data-i18n="how_it_works.step3.desc">We guide you through the application process, prepare your documents, and connect you with the right programs and providers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section__header animate-on-scroll">
+          <span class="section__label" data-i18n="testimonials.label">What Our Clients Say</span>
+          <h2 id="testimonials-title" class="section__title" data-i18n="testimonials.title">Trusted by Families Across California</h2>
+          <p class="section__subtitle" data-i18n="testimonials.subtitle">Real stories from real people we've helped navigate the benefits system.</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card animate-on-scroll">
+            <p class="testimonial-card__quote" data-i18n="testimonials.t1.quote">They helped me understand the entire SSDI process in Spanish. I felt supported every step of the way. Within 4 months, my claim was approved.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">MG</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.t1.name">Maria G.</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t1.role">SSDI Client, Los Angeles</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll">
+            <p class="testimonial-card__quote" data-i18n="testimonials.t2.quote">After my claim was denied twice, SSDI Providers stepped in and handled my appeal. They organized all my medical records and prepared me for the hearing. I finally got approved.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">JT</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.t2.name">James T.</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t2.role">Appeals Client, Sacramento</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll">
+            <p class="testimonial-card__quote" data-i18n="testimonials.t3.quote">As a Farsi speaker, finding someone who could help me in my language was a blessing. They guided my mother through the SSI application and she was approved on the first try.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">PM</div>
+              <div>
+                <div class="testimonial-card__name" data-i18n="testimonials.t3.name">Parisa M.</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t3.role">SSI Client, San Diego</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner" aria-labelledby="cta-title">
+      <div class="container cta-banner__content">
+        <h2 id="cta-title" class="cta-banner__title" data-i18n="cta_banner.title">Need Help with Your Benefits?</h2>
+        <p class="cta-banner__text" data-i18n="cta_banner.text">Contact us today for a free consultation. We're here to help you navigate the system in your language.</p>
+        <a href="contact.html" class="btn btn--gold btn--lg" data-i18n="cta_banner.button">Contact Us Today</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="20" cy="20" r="18"/>
+              <path d="M14 20l4 4 8-8"/>
+            </svg>
+            SSDI Providers
+          </div>
+          <p class="footer__desc" data-i18n="footer.desc">Connecting California's diverse communities to the social security, disability, and retirement benefits they deserve. Multilingual support in English, Spanish, Farsi, and Tagalog.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.quick_links">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" class="footer__link" data-i18n="nav.about">About</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
+            <li><a href="faq.html" class="footer__link" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="portal.html" class="footer__link" data-i18n="nav.portal">Client Portal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssi.title">SSI Assistance</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssdi.title">SSDI Applications</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.retirement.title">Retirement Benefits</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.disability.title">Disability Navigation</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service_cards.appeals.title">Appeals Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="footer.contact">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="tel:+15551234567" class="footer__link" data-i18n="contact_page.info_phone">(555) 123-4567</a></li>
+            <li><a href="mailto:info@ssdiproviders.com" class="footer__link" data-i18n="contact_page.info_email">info@ssdiproviders.com</a></li>
+            <li><span class="footer__link" data-i18n="contact_page.info_hours">Monday – Friday: 9:00 AM – 5:00 PM</span></li>
+            <li><a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span data-i18n="footer.copyright">&copy; 2024 SSDI Providers. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" class="footer__bottom-link" data-i18n="footer.terms">Terms of Service</a>
+          <a href="#" class="footer__bottom-link" data-i18n="footer.accessibility">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
