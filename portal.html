@@ -3,10 +3,224 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SSDI Providers Client Portal — Submit documents, send messages, and track your case progress securely online.">
+  <meta name="description" content="SSDI Providers Client Portal — Secure login to access your case status, submit documents, and communicate with your advisor.">
+  <meta name="robots" content="noindex, nofollow">
   <title>Client Portal — SSDI Providers</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
+
+  <style>
+    .portal-login {
+      min-height: calc(100vh - 200px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-3xl) var(--space-xl);
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 50%, var(--navy-light) 100%);
+      position: relative;
+    }
+
+    .portal-login::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 30% 50%, rgba(42, 157, 143, 0.08) 0%, transparent 60%),
+                  radial-gradient(circle at 70% 80%, rgba(233, 196, 106, 0.05) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .portal-login__wrapper {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 460px;
+    }
+
+    .portal-login__brand {
+      text-align: center;
+      margin-bottom: var(--space-2xl);
+    }
+
+    .portal-login__logo {
+      width: 56px;
+      height: 56px;
+      margin: 0 auto var(--space-md);
+      color: var(--teal);
+    }
+
+    .portal-login__title {
+      font-size: var(--font-size-2xl);
+      font-weight: var(--font-weight-bold);
+      color: var(--white);
+      margin-bottom: var(--space-xs);
+    }
+
+    .portal-login__title span {
+      color: var(--teal);
+    }
+
+    .portal-login__subtitle {
+      color: var(--gray-300);
+      font-size: var(--font-size-sm);
+    }
+
+    .portal-login__tabs {
+      display: flex;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 0;
+    }
+
+    .portal-login__tab {
+      flex: 1;
+      padding: var(--space-md);
+      text-align: center;
+      font-weight: var(--font-weight-semibold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: var(--font-size-xs);
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: var(--gray-400);
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      transition: all 0.3s ease;
+      font-family: var(--font-primary);
+    }
+
+    .portal-login__tab.active {
+      color: var(--teal);
+      border-bottom-color: var(--teal);
+    }
+
+    .portal-login__tab:hover {
+      color: var(--teal-light);
+    }
+
+    .portal-login__box {
+      background: rgba(17, 29, 53, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
+      padding: var(--space-2xl);
+    }
+
+    .portal-login__box .form__label {
+      color: var(--gray-200);
+    }
+
+    .portal-login__box .form__input {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.12);
+      color: var(--white);
+    }
+
+    .portal-login__box .form__input::placeholder {
+      color: var(--gray-500);
+    }
+
+    .portal-login__box .form__input:focus {
+      border-color: var(--teal);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .portal-tab-content {
+      display: none;
+    }
+
+    .portal-tab-content.active {
+      display: block;
+    }
+
+    .portal-login__remember {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: var(--font-size-sm);
+      margin-bottom: var(--space-lg);
+    }
+
+    .portal-login__remember label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--gray-300);
+      cursor: pointer;
+    }
+
+    .portal-login__remember label input {
+      accent-color: var(--teal);
+    }
+
+    .portal-login__remember a {
+      color: var(--teal);
+      font-size: var(--font-size-sm);
+      text-decoration: none;
+    }
+
+    .portal-login__remember a:hover {
+      text-decoration: underline;
+    }
+
+    .portal-login__features {
+      margin-top: var(--space-xl);
+      padding-top: var(--space-xl);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .portal-login__feature {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: var(--space-md);
+    }
+
+    .portal-login__feature svg {
+      width: 16px;
+      height: 16px;
+      color: var(--teal);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .portal-login__feature span {
+      color: var(--gray-400);
+      font-size: var(--font-size-sm);
+    }
+
+    .portal-login__help {
+      text-align: center;
+      margin-top: var(--space-xl);
+      color: var(--gray-400);
+      font-size: var(--font-size-sm);
+    }
+
+    .portal-login__help a {
+      color: var(--teal);
+      text-decoration: none;
+    }
+
+    .portal-login__help a:hover {
+      text-decoration: underline;
+    }
+
+    .portal-login__help p + p {
+      margin-top: var(--space-sm);
+    }
+
+    @media (max-width: 480px) {
+      .portal-login {
+        padding: var(--space-xl) var(--space-md);
+      }
+      .portal-login__box {
+        padding: var(--space-xl);
+      }
+    }
+  </style>
 </head>
 <body>
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
@@ -65,246 +279,120 @@
 
   <!-- Main Content -->
   <main id="main-content">
+    <section class="portal-login" aria-label="Client portal login">
+      <div class="portal-login__wrapper">
 
-    <!-- Portal Hero -->
-    <section class="portal-hero" aria-labelledby="portal-hero-title">
-      <div class="container">
-        <h1 id="portal-hero-title" class="portal-hero__title" data-i18n="portal_page.hero_title">Client Portal</h1>
-        <p class="portal-hero__subtitle" data-i18n="portal_page.hero_subtitle">Submit documents, send messages, and track your case progress — all in one secure place.</p>
-      </div>
-    </section>
+        <!-- Brand -->
+        <div class="portal-login__brand">
+          <svg class="portal-login__logo" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="20" cy="20" r="18"/>
+            <path d="M14 20l4 4 8-8"/>
+          </svg>
+          <h1 class="portal-login__title" data-i18n="portal_page.login_title">Client <span>Portal</span></h1>
+          <p class="portal-login__subtitle" data-i18n="portal_page.login_subtitle">Secure access to your case status and documents</p>
+        </div>
 
-    <!-- Portal Grid -->
-    <section class="section" aria-label="Client portal dashboard">
-      <div class="container">
-        <div class="portal-grid">
+        <!-- Tabs -->
+        <div class="portal-login__tabs">
+          <button class="portal-login__tab active" data-tab="client">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:-2px;" aria-hidden="true">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>&nbsp;
+            <span data-i18n="portal_page.tab_client">Client Login</span>
+          </button>
+          <button class="portal-login__tab" data-tab="advisor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:-2px;" aria-hidden="true">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+            </svg>&nbsp;
+            <span data-i18n="portal_page.tab_advisor">Advisor Login</span>
+          </button>
+        </div>
 
-          <!-- Sidebar -->
-          <aside class="portal-sidebar" aria-label="Portal navigation">
-            <nav class="portal-sidebar__nav" aria-label="Portal sections">
-              <a href="#portal-dashboard" class="portal-sidebar__link portal-sidebar__link--active" data-portal-section="portal-dashboard" aria-current="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                  <rect x="3" y="3" width="7" height="7"/>
-                  <rect x="14" y="3" width="7" height="7"/>
-                  <rect x="3" y="14" width="7" height="7"/>
-                  <rect x="14" y="14" width="7" height="7"/>
-                </svg>
-                <span data-i18n="portal_page.nav_dashboard">Dashboard</span>
-              </a>
-              <a href="#portal-documents" class="portal-sidebar__link" data-portal-section="portal-documents">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                  <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
-                </svg>
-                <span data-i18n="portal_page.nav_documents">Documents</span>
-              </a>
-              <a href="#portal-messages" class="portal-sidebar__link" data-portal-section="portal-messages">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                  <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
-                </svg>
-                <span data-i18n="portal_page.nav_messages">Messages</span>
-              </a>
-              <a href="#portal-profile" class="portal-sidebar__link" data-portal-section="portal-profile">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
-                  <circle cx="12" cy="7" r="4"/>
-                </svg>
-                <span data-i18n="portal_page.nav_profile">My Profile</span>
-              </a>
-            </nav>
-          </aside>
+        <!-- Login Box -->
+        <div class="portal-login__box">
 
-          <!-- Main Content Area -->
-          <div class="portal-content">
-
-            <!-- Dashboard Section -->
-            <div id="portal-dashboard" class="portal-section portal-section--active" role="tabpanel" aria-labelledby="portal-dashboard-label">
-              <h2 class="portal-section__title" id="portal-dashboard-label" data-i18n="portal_page.dashboard_title">Your Dashboard</h2>
-
-              <div class="status-grid">
-                <div class="status-card">
-                  <span class="status-card__label" data-i18n="portal_page.status_active">Active Cases</span>
-                  <span class="status-card__value">1</span>
-                </div>
-                <div class="status-card">
-                  <span class="status-card__label" data-i18n="portal_page.status_pending">Pending Documents</span>
-                  <span class="status-card__value">3</span>
-                </div>
-                <div class="status-card">
-                  <span class="status-card__label" data-i18n="portal_page.status_messages">New Messages</span>
-                  <span class="status-card__value">2</span>
-                </div>
-                <div class="status-card">
-                  <span class="status-card__label" data-i18n="portal_page.status_next">Days to Next Review</span>
-                  <span class="status-card__value">14</span>
-                </div>
+          <!-- Client Login Tab -->
+          <div class="portal-tab-content active" id="tab-client">
+            <form id="portal-login-client">
+              <div class="form__group">
+                <label for="client-case" class="form__label" data-i18n="portal_page.login_case_label">Case Number or Email</label>
+                <input type="text" id="client-case" class="form__input" placeholder="e.g. SSDI-2026-004817 or john@email.com" required aria-required="true">
               </div>
-
-              <div class="recent-activity">
-                <h3 class="recent-activity__title" data-i18n="portal_page.recent_activity">Recent Activity</h3>
-                <ul class="activity-list" aria-label="Recent activity">
-                  <li class="activity-list__item">
-                    <span class="activity-list__text" data-i18n="portal_page.activity_1">Document 'Medical Records - Dr. Smith' submitted successfully</span>
-                    <time class="activity-list__time" data-i18n="portal_page.activity_1_time">2 hours ago</time>
-                  </li>
-                  <li class="activity-list__item">
-                    <span class="activity-list__text" data-i18n="portal_page.activity_2">Message received from your case advisor</span>
-                    <time class="activity-list__time" data-i18n="portal_page.activity_2_time">1 day ago</time>
-                  </li>
-                  <li class="activity-list__item">
-                    <span class="activity-list__text" data-i18n="portal_page.activity_3">SSI Application status updated to 'Under Review'</span>
-                    <time class="activity-list__time" data-i18n="portal_page.activity_3_time">3 days ago</time>
-                  </li>
-                </ul>
+              <div class="form__group">
+                <label for="client-password" class="form__label" data-i18n="portal_page.login_password_label">Password</label>
+                <input type="password" id="client-password" class="form__input" placeholder="Enter your password" required aria-required="true" autocomplete="current-password">
               </div>
-            </div>
-
-            <!-- Documents Section -->
-            <div id="portal-documents" class="portal-section" role="tabpanel" aria-labelledby="portal-documents-label">
-              <h2 class="portal-section__title" id="portal-documents-label" data-i18n="portal_page.documents_title">Submit Documents</h2>
-
-              <form id="portal-doc-form" aria-label="Document submission form">
-                <div class="upload-area" role="button" tabindex="0" aria-label="Click to upload files or drag and drop">
-                  <div class="upload-area__icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                      <polyline points="16 16 12 12 8 16"/>
-                      <line x1="12" y1="12" x2="12" y2="21"/>
-                      <path d="M20.39 18.39A5 5 0 0018 9h-1.26A8 8 0 103 16.3"/>
-                    </svg>
-                  </div>
-                  <p class="upload-area__text" data-i18n="portal_page.upload_text">Click to upload or drag and drop</p>
-                  <p class="upload-area__hint" data-i18n="portal_page.upload_hint">PDF, JPG, PNG up to 10MB per file</p>
-                </div>
-                <input type="file" id="portal-file-input" multiple accept=".pdf,.jpg,.jpeg,.png" class="visually-hidden" aria-label="File upload input">
-                <div class="upload-list" aria-live="polite"></div>
-
-                <div class="form__group">
-                  <label for="doc-type" class="form__label" data-i18n="portal_page.doc_type_label">Document Type</label>
-                  <select id="doc-type" class="form__select" name="doc-type" required>
-                    <option value="" disabled selected data-i18n="portal_page.doc_type_placeholder">Select document type</option>
-                    <option value="medical-records" data-i18n="portal_page.doc_type_medical">Medical Records</option>
-                    <option value="identification" data-i18n="portal_page.doc_type_id">Identification</option>
-                    <option value="financial" data-i18n="portal_page.doc_type_financial">Financial Documents</option>
-                    <option value="employment" data-i18n="portal_page.doc_type_employment">Employment Records</option>
-                    <option value="legal" data-i18n="portal_page.doc_type_legal">Legal Documents</option>
-                    <option value="other" data-i18n="portal_page.doc_type_other">Other</option>
-                  </select>
-                </div>
-
-                <div class="form__group">
-                  <label for="doc-notes" class="form__label" data-i18n="portal_page.doc_notes_label">Notes</label>
-                  <textarea id="doc-notes" class="form__textarea" name="doc-notes" rows="4" placeholder="Add any additional notes about this document..." data-i18n-placeholder="portal_page.doc_notes_placeholder"></textarea>
-                </div>
-
-                <button type="submit" class="btn btn--primary" data-i18n="portal_page.doc_submit">Submit Document</button>
-                <div class="form__success" role="alert" aria-live="polite" data-i18n="portal_page.doc_success">Your document has been submitted successfully.</div>
-              </form>
-            </div>
-
-            <!-- Messages Section -->
-            <div id="portal-messages" class="portal-section" role="tabpanel" aria-labelledby="portal-messages-label">
-              <h2 class="portal-section__title" id="portal-messages-label" data-i18n="portal_page.messages_title">Messages</h2>
-
-              <div class="message-list" aria-label="Message conversation">
-                <div class="message message--received">
-                  <div class="message__avatar" aria-hidden="true">CA</div>
-                  <div class="message__content">
-                    <span class="message__sender" data-i18n="portal_page.msg_sender_advisor">Case Advisor</span>
-                    <p class="message__text" data-i18n="portal_page.msg_received_1">Hello! I've reviewed your application. We need your most recent medical records from Dr. Johnson. Can you upload those through the portal?</p>
-                    <time class="message__time" data-i18n="portal_page.msg_time_1">Feb 20, 2026 at 10:32 AM</time>
-                  </div>
-                </div>
-                <div class="message message--sent">
-                  <div class="message__content">
-                    <span class="message__sender" data-i18n="portal_page.msg_sender_you">You</span>
-                    <p class="message__text" data-i18n="portal_page.msg_sent_1">Hi, I'll get those uploaded today. Should I include the records from my specialist as well?</p>
-                    <time class="message__time" data-i18n="portal_page.msg_time_2">Feb 20, 2026 at 11:15 AM</time>
-                  </div>
-                </div>
-                <div class="message message--received">
-                  <div class="message__avatar" aria-hidden="true">CA</div>
-                  <div class="message__content">
-                    <span class="message__sender" data-i18n="portal_page.msg_sender_advisor">Case Advisor</span>
-                    <p class="message__text" data-i18n="portal_page.msg_received_2">Yes, please include all specialist records from the past 12 months. That will strengthen your case significantly.</p>
-                    <time class="message__time" data-i18n="portal_page.msg_time_3">Feb 20, 2026 at 11:48 AM</time>
-                  </div>
-                </div>
+              <div class="portal-login__remember">
+                <label>
+                  <input type="checkbox"> <span data-i18n="portal_page.login_remember">Remember me</span>
+                </label>
+                <a href="#" data-i18n="portal_page.login_forgot">Forgot Password?</a>
               </div>
+              <button type="submit" class="btn btn--primary btn--full" data-i18n="portal_page.login_submit">Sign In</button>
+            </form>
+          </div>
 
-              <form id="portal-msg-form" class="message-compose" aria-label="Compose a new message">
-                <div class="form__group">
-                  <label for="msg-text" class="visually-hidden" data-i18n="portal_page.msg_compose_label">Type your message</label>
-                  <textarea id="msg-text" class="form__textarea" name="msg-text" rows="3" placeholder="Type your message..." required data-i18n-placeholder="portal_page.msg_placeholder"></textarea>
-                </div>
-                <button type="submit" class="btn btn--primary" data-i18n="portal_page.msg_send">Send</button>
-              </form>
+          <!-- Advisor Login Tab -->
+          <div class="portal-tab-content" id="tab-advisor">
+            <form id="portal-login-advisor">
+              <div class="form__group">
+                <label for="advisor-email" class="form__label" data-i18n="portal_page.login_advisor_email">Advisor Email</label>
+                <input type="email" id="advisor-email" class="form__input" placeholder="advisor@ssdiproviders.com" required aria-required="true">
+              </div>
+              <div class="form__group">
+                <label for="advisor-password" class="form__label" data-i18n="portal_page.login_password_label">Password</label>
+                <input type="password" id="advisor-password" class="form__input" placeholder="Enter your password" required aria-required="true" autocomplete="current-password">
+              </div>
+              <div class="portal-login__remember">
+                <label>
+                  <input type="checkbox"> <span data-i18n="portal_page.login_remember">Remember me</span>
+                </label>
+                <a href="#" data-i18n="portal_page.login_forgot">Forgot Password?</a>
+              </div>
+              <button type="submit" class="btn btn--primary btn--full" data-i18n="portal_page.login_advisor_submit">Advisor Sign In</button>
+            </form>
+          </div>
+
+          <!-- Features -->
+          <div class="portal-login__features">
+            <div class="portal-login__feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0110 0v4"/>
+              </svg>
+              <span data-i18n="portal_page.login_feature_secure">256-bit SSL encryption protects all your data</span>
             </div>
-
-            <!-- Profile Section -->
-            <div id="portal-profile" class="portal-section" role="tabpanel" aria-labelledby="portal-profile-label">
-              <h2 class="portal-section__title" id="portal-profile-label" data-i18n="portal_page.profile_title">My Profile</h2>
-
-              <form id="portal-profile-form" aria-label="Profile information form">
-                <div class="form__row">
-                  <div class="form__group">
-                    <label for="profile-name" class="form__label" data-i18n="portal_page.profile_name">Full Name</label>
-                    <input type="text" id="profile-name" class="form__input" name="profile-name" value="John Doe" required>
-                  </div>
-                  <div class="form__group">
-                    <label for="profile-email" class="form__label" data-i18n="portal_page.profile_email">Email</label>
-                    <input type="email" id="profile-email" class="form__input" name="profile-email" value="john.doe@email.com" required>
-                  </div>
-                </div>
-
-                <div class="form__row">
-                  <div class="form__group">
-                    <label for="profile-phone" class="form__label" data-i18n="portal_page.profile_phone">Phone</label>
-                    <input type="tel" id="profile-phone" class="form__input" name="profile-phone" value="(555) 987-6543">
-                  </div>
-                  <div class="form__group">
-                    <label for="profile-language" class="form__label" data-i18n="portal_page.profile_language">Preferred Language</label>
-                    <select id="profile-language" class="form__select" name="profile-language">
-                      <option value="en" selected data-i18n="portal_page.lang_english">English</option>
-                      <option value="es" data-i18n="portal_page.lang_spanish">Spanish</option>
-                      <option value="fa" data-i18n="portal_page.lang_farsi">Farsi</option>
-                      <option value="tl" data-i18n="portal_page.lang_tagalog">Tagalog</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="form__group">
-                  <label for="profile-case" class="form__label" data-i18n="portal_page.profile_case">Case Number</label>
-                  <input type="text" id="profile-case" class="form__input" name="profile-case" value="SSDI-2026-004817" readonly aria-readonly="true">
-                </div>
-
-                <button type="submit" class="btn btn--primary" data-i18n="portal_page.profile_save">Save Changes</button>
-                <div class="form__success" role="alert" aria-live="polite" data-i18n="portal_page.profile_success">Your profile has been updated successfully.</div>
-              </form>
-
-              <hr class="portal-divider">
-
-              <h3 class="portal-section__subtitle" data-i18n="portal_page.change_password">Change Password</h3>
-              <form id="portal-password-form" aria-label="Change password form">
-                <div class="form__group">
-                  <label for="current-password" class="form__label" data-i18n="portal_page.current_password">Current Password</label>
-                  <input type="password" id="current-password" class="form__input" name="current-password" required autocomplete="current-password">
-                </div>
-                <div class="form__group">
-                  <label for="new-password" class="form__label" data-i18n="portal_page.new_password">New Password</label>
-                  <input type="password" id="new-password" class="form__input" name="new-password" required autocomplete="new-password">
-                </div>
-                <div class="form__group">
-                  <label for="confirm-password" class="form__label" data-i18n="portal_page.confirm_password">Confirm New Password</label>
-                  <input type="password" id="confirm-password" class="form__input" name="confirm-password" required autocomplete="new-password">
-                </div>
-                <button type="submit" class="btn btn--secondary" data-i18n="portal_page.update_password">Update Password</button>
-              </form>
+            <div class="portal-login__feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/>
+              </svg>
+              <span data-i18n="portal_page.login_feature_documents">Submit documents and track your case progress</span>
             </div>
-
+            <div class="portal-login__feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+              </svg>
+              <span data-i18n="portal_page.login_feature_messages">Message your advisor directly and securely</span>
+            </div>
           </div>
         </div>
+
+        <!-- Help Text -->
+        <div class="portal-login__help">
+          <p><span data-i18n="portal_page.login_new_client">New client?</span> <a href="contact.html" data-i18n="portal_page.login_contact_us">Contact us to set up your account</a></p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;vertical-align:-2px;" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>&nbsp;
+            <a href="mailto:info@ssdiproviders.com" data-i18n="contact_page.info_email">info@ssdiproviders.com</a>
+          </p>
+        </div>
+
       </div>
     </section>
-
   </main>
 
   <!-- Footer -->
@@ -355,7 +443,6 @@
         <div>
           <h4 class="footer__heading" data-i18n="footer.contact">Contact</h4>
           <ul class="footer__links">
-            <li><a href="tel:+15551234567" class="footer__link" data-i18n="contact_page.info_phone">(555) 123-4567</a></li>
             <li><a href="mailto:info@ssdiproviders.com" class="footer__link" data-i18n="contact_page.info_email">info@ssdiproviders.com</a></li>
             <li><span class="footer__link" data-i18n="contact_page.info_hours">Monday – Friday: 9:00 AM – 5:00 PM</span></li>
             <li><a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact Us</a></li>
@@ -363,7 +450,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span data-i18n="footer.copyright">&copy; 2024 SSDI Providers. All rights reserved.</span>
+        <span data-i18n="footer.copyright">&copy; 2026 SSDI Providers. All rights reserved.</span>
         <div class="footer__bottom-links">
           <a href="#" class="footer__bottom-link" data-i18n="footer.privacy">Privacy Policy</a>
           <a href="#" class="footer__bottom-link" data-i18n="footer.terms">Terms of Service</a>
@@ -375,5 +462,37 @@
 
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    // Portal tab switching
+    document.querySelectorAll('.portal-login__tab').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        document.querySelectorAll('.portal-login__tab').forEach(function(t) {
+          t.classList.remove('active');
+        });
+        document.querySelectorAll('.portal-tab-content').forEach(function(c) {
+          c.classList.remove('active');
+        });
+        this.classList.add('active');
+        var target = this.getAttribute('data-tab');
+        document.getElementById('tab-' + target).classList.add('active');
+      });
+    });
+
+    // Portal login form handlers
+    document.querySelectorAll('#portal-login-client, #portal-login-advisor').forEach(function(form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = form.querySelector('button[type="submit"]');
+        var originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = 'Signing in...';
+        setTimeout(function() {
+          btn.disabled = false;
+          btn.textContent = originalText;
+          alert('Portal access is currently being set up. Please contact us at info@ssdiproviders.com for account assistance.');
+        }, 1500);
+      });
+    });
+  </script>
 </body>
 </html>
