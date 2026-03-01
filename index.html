@@ -90,13 +90,48 @@
       <div class="hero__decoration" aria-hidden="true"></div>
       <div class="hero__decoration hero__decoration--top" aria-hidden="true"></div>
       <div class="container">
-        <div class="hero__content">
-          <span class="hero__badge" data-i18n="hero.badge">California IHSS Advocacy & Appeals</span>
-          <h1 id="hero-title" class="hero__title" data-i18n="hero.title">IHSS Hours Cut? <span>Act Now to Protect Your Care.</span></h1>
-          <p class="hero__subtitle" data-i18n="hero.subtitle">We help IHSS recipients across all 58 California counties fight for the hours they need. Advocacy, appeals, protective supervision, and fair hearing representation — in English, Spanish, Farsi, and Tagalog.</p>
-          <div class="hero__actions">
-            <a href="ihss-appeals.html" class="btn btn--gold btn--lg" data-i18n="hero.cta_primary">Start Your Appeal</a>
-            <a href="tel:8182645355" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.4); color: #fff;" data-i18n="hero.cta_secondary">Call Now</a>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__badge" data-i18n="hero.badge">California IHSS Advocacy & Appeals</span>
+            <h1 id="hero-title" class="hero__title" data-i18n="hero.title">IHSS Hours Cut? <span>Act Now to Protect Your Care.</span></h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle">We help IHSS recipients across all 58 California counties fight for the hours they need. Advocacy, appeals, protective supervision, and fair hearing representation — in English, Spanish, Farsi, and Tagalog.</p>
+            <div class="hero__actions">
+              <a href="ihss-appeals.html" class="btn btn--gold btn--lg" data-i18n="hero.cta_primary">Start Your Appeal</a>
+              <a href="tel:8182645355" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.4); color: #fff;" data-i18n="hero.cta_secondary">Call Now</a>
+            </div>
+          </div>
+          <div class="hero__form">
+            <div class="hero__form-header">
+              <h2 class="hero__form-title" data-i18n="quick_contact.title">Need IHSS Help? Contact Us Now</h2>
+              <p class="hero__form-subtitle" data-i18n="quick_contact.subtitle">Fill out this quick form and we'll get back to you within 24 hours — often the same day.</p>
+            </div>
+            <form id="quick-contact-form" class="hero__form-body" novalidate>
+              <div class="form__group">
+                <label for="qc-name" class="form__label" data-i18n="quick_contact.name">Your Name</label>
+                <input type="text" id="qc-name" name="name" class="form__input" required placeholder="Your full name">
+              </div>
+              <div class="form__group">
+                <label for="qc-phone" class="form__label" data-i18n="quick_contact.phone">Phone Number</label>
+                <input type="tel" id="qc-phone" name="phone" class="form__input" required placeholder="(555) 000-0000">
+              </div>
+              <div class="form__group">
+                <label for="qc-email" class="form__label" data-i18n="quick_contact.email">Email Address</label>
+                <input type="email" id="qc-email" name="email" class="form__input" placeholder="your@email.com">
+              </div>
+              <div class="form__group">
+                <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
+                <select id="qc-issue" name="issue" class="form__select">
+                  <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
+                  <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
+                  <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
+                  <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
+                  <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
+                  <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
+              <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>
+            </form>
           </div>
         </div>
       </div>
@@ -215,43 +250,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Quick Contact -->
-    <section class="quick-contact" aria-labelledby="quick-contact-title">
-      <div class="container">
-        <div class="quick-contact__header">
-          <h2 id="quick-contact-title" class="quick-contact__title" data-i18n="quick_contact.title">Need IHSS Help? Contact Us Now</h2>
-          <p class="quick-contact__subtitle" data-i18n="quick_contact.subtitle">Fill out this quick form and we'll get back to you within 24 hours — often the same day.</p>
-        </div>
-        <form id="quick-contact-form" class="quick-contact__form" novalidate>
-          <div class="form__group">
-            <label for="qc-name" class="form__label" data-i18n="quick_contact.name">Your Name</label>
-            <input type="text" id="qc-name" name="name" class="form__input" required placeholder="Your full name">
-          </div>
-          <div class="form__group">
-            <label for="qc-phone" class="form__label" data-i18n="quick_contact.phone">Phone Number</label>
-            <input type="tel" id="qc-phone" name="phone" class="form__input" required placeholder="(555) 000-0000">
-          </div>
-          <div class="form__group">
-            <label for="qc-email" class="form__label" data-i18n="quick_contact.email">Email Address</label>
-            <input type="email" id="qc-email" name="email" class="form__input" placeholder="your@email.com">
-          </div>
-          <div class="form__group">
-            <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
-            <select id="qc-issue" name="issue" class="form__select">
-              <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
-              <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
-              <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
-              <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
-              <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
-              <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
-          <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>
-        </form>
       </div>
     </section>
 

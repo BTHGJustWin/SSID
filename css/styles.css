@@ -527,10 +527,73 @@ select {
   pointer-events: none;
 }
 
+.hero__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
 .hero__content {
   position: relative;
   z-index: 1;
-  max-width: 700px;
+}
+
+.hero__form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+}
+
+.hero__form-header {
+  margin-bottom: var(--space-lg);
+}
+
+.hero__form-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--white);
+  margin-bottom: var(--space-xs);
+}
+
+.hero__form-subtitle {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hero__form-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.hero__form-body .form__input,
+.hero__form-body .form__select {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: var(--white);
+}
+
+.hero__form-body .form__input::placeholder {
+  color: var(--gray-400);
+}
+
+.hero__form-body .form__input:focus,
+.hero__form-body .form__select:focus {
+  border-color: var(--gold);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.hero__form-body .form__label {
+  color: var(--gray-200);
+}
+
+.hero__form-body .btn--gold {
+  width: 100%;
 }
 
 .hero__badge {
@@ -1906,6 +1969,11 @@ select {
   .hero {
     padding: var(--space-2xl) 0;
     min-height: auto;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
   }
 
   .hero__title {
