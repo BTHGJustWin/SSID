@@ -20,7 +20,7 @@
   },
   "urgency_banner": {
     "text": "IHSS Hours Cut or Terminated? You have 90 days to appeal.",
-    "phone": "(555) 123-4567",
+    "phone": "(818) 264-5355",
     "cta": "Get Help Now"
   },
   "quick_contact": {
@@ -267,7 +267,7 @@
     "form_required": "این فیلد الزامی است",
     "form_invalid_email": "لطفاً یک آدرس ایمیل معتبر وارد کنید",
     "info_phone_label": "تلفن",
-    "info_phone": "(555) 123-4567",
+    "info_phone": "(818) 264-5355",
     "info_email_label": "ایمیل",
     "info_email": "info@ssdiproviders.com",
     "info_hours_label": "ساعات کاری",
@@ -459,7 +459,7 @@
     "form_upload_formats": "PDF, JPG, or PNG — Max 10MB",
     "form_submit": "Get Help Now — Act Before Your Deadline",
     "form_success_title": "Your Intake Has Been Submitted!",
-    "form_success_text": "We'll review your case and contact you within 24 hours. If your deadline is urgent, call us directly at (555) 123-4567.",
+    "form_success_text": "We'll review your case and contact you within 24 hours. If your deadline is urgent, call us directly at (818) 264-5355.",
     "what_next_title": "What Happens Next",
     "what_next_step1": "We review your Notice of Action and case details within 24 hours",
     "what_next_step2": "We contact you to discuss your options and next steps",
