@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact SSDI Providers for help with SSI, SSDI, retirement, disability, and Medicare/Medicaid benefits. Multilingual support in English, Spanish, Farsi, and Tagalog.">
-  <title>Contact Us — SSDI Providers</title>
+  <meta name="description" content="Contact SSDI Providers for IHSS appeals, protective supervision, fair hearings, and benefits help. Multilingual support in English, Spanish, Farsi, and Tagalog across California.">
+  <title>Contact Us — SSDI Providers | IHSS Help California</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
 </head>
 <body>
+  <!-- Urgency Banner -->
+  <div class="urgency-banner" role="alert">
+    <div class="urgency-banner__text">
+      <span data-i18n="urgency_banner.text">IHSS Hours Cut or Terminated? You have 90 days to appeal.</span>
+      <a href="tel:5551234567" class="urgency-banner__phone" data-i18n="urgency_banner.phone">(555) 123-4567</a>
+    </div>
+    <a href="ihss-appeals.html" class="urgency-banner__cta" data-i18n="urgency_banner.cta">Get Help Now</a>
+    <button class="urgency-banner__dismiss" aria-label="Dismiss banner">&times;</button>
+  </div>
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
 
   <!-- Header -->
@@ -32,11 +41,19 @@
       <nav class="header__nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list">
           <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li class="nav__dropdown">
+            <a href="#" class="nav__link nav__dropdown-toggle" data-i18n="nav.ihss_help">IHSS Help <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg></a>
+            <div class="nav__dropdown-menu">
+              <a href="ihss-appeals.html" data-i18n="nav.ihss_appeals">IHSS Appeals</a>
+              <a href="protective-supervision.html" data-i18n="nav.protective_supervision">Protective Supervision</a>
+              <a href="fair-hearing.html" data-i18n="nav.fair_hearing">Fair Hearing</a>
+              <a href="resources.html" data-i18n="nav.resources">Resources</a>
+            </div>
+          </li>
           <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
           <li><a href="services.html" class="nav__link" data-i18n="nav.services">Services</a></li>
           <li><a href="contact.html" class="nav__link nav__link--active" data-i18n="nav.contact">Contact</a></li>
           <li><a href="faq.html" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
-          <li><a href="portal.html" class="nav__link" data-i18n="nav.portal">Client Portal</a></li>
         </ul>
 
         <div class="lang-switcher">
@@ -125,6 +142,12 @@
               <div class="form__group">
                 <label for="subject" class="form__label" data-i18n="contact_page.form_subject">Subject</label>
                 <select id="subject" name="subject" class="form__select">
+                  <option value="IHSS Hours Reduced" data-i18n="contact_page.form_subject_options.ihss_reduced">IHSS Hours Reduced</option>
+                  <option value="IHSS Terminated" data-i18n="contact_page.form_subject_options.ihss_terminated">IHSS Terminated</option>
+                  <option value="Protective Supervision" data-i18n="contact_page.form_subject_options.ihss_ps">Protective Supervision</option>
+                  <option value="Fair Hearing Help" data-i18n="contact_page.form_subject_options.ihss_hearing">Fair Hearing Help</option>
+                  <option value="Authorized Representative" data-i18n="contact_page.form_subject_options.ihss_auth_rep">Authorized Representative</option>
+                  <option value="IHSS Application Help" data-i18n="contact_page.form_subject_options.ihss_application">IHSS Application Help</option>
                   <option value="General Inquiry" data-i18n="contact_page.form_subject_options.general">General Inquiry</option>
                   <option value="SSI Assistance" data-i18n="contact_page.form_subject_options.ssi">SSI Assistance</option>
                   <option value="SSDI Application" data-i18n="contact_page.form_subject_options.ssdi">SSDI Application</option>
@@ -247,7 +270,52 @@
       </div>
     </section>
 
+    <!-- Quick Contact -->
+    <section class="quick-contact" aria-labelledby="quick-contact-title">
+      <div class="container">
+        <div class="quick-contact__header">
+          <h2 id="quick-contact-title" class="quick-contact__title" data-i18n="quick_contact.title">Need IHSS Help? Contact Us Now</h2>
+          <p class="quick-contact__subtitle" data-i18n="quick_contact.subtitle">Fill out this quick form and we'll get back to you within 24 hours — often the same day.</p>
+        </div>
+        <form id="quick-contact-form" class="quick-contact__form" novalidate>
+          <div class="form__group">
+            <label for="qc-name" class="form__label" data-i18n="quick_contact.name">Your Name</label>
+            <input type="text" id="qc-name" name="name" class="form__input" required placeholder="Your full name">
+          </div>
+          <div class="form__group">
+            <label for="qc-phone" class="form__label" data-i18n="quick_contact.phone">Phone Number</label>
+            <input type="tel" id="qc-phone" name="phone" class="form__input" required placeholder="(555) 000-0000">
+          </div>
+          <div class="form__group">
+            <label for="qc-email" class="form__label" data-i18n="quick_contact.email">Email Address</label>
+            <input type="email" id="qc-email" name="email" class="form__input" placeholder="your@email.com">
+          </div>
+          <div class="form__group">
+            <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
+            <select id="qc-issue" name="issue" class="form__select">
+              <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
+              <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
+              <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
+              <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
+              <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
+              <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
+          <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>
+        </form>
+      </div>
+    </section>
+
   </main>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="ihss-appeals.html" class="floating-cta__btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+      <span data-i18n="floating_cta.text">Get Help Now</span>
+    </a>
+  </div>
 
   <!-- Footer -->
   <footer class="footer" role="contentinfo">
@@ -286,13 +354,13 @@
           </ul>
         </div>
         <div>
-          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <h4 class="footer__heading" data-i18n="footer.ihss_services">IHSS Services</h4>
           <ul class="footer__links">
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssi.title">SSI Assistance</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssdi.title">SSDI Applications</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.retirement.title">Retirement Benefits</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.disability.title">Disability Navigation</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.appeals.title">Appeals Support</a></li>
+            <li><a href="ihss-appeals.html" class="footer__link" data-i18n="nav.ihss_appeals">IHSS Appeals</a></li>
+            <li><a href="protective-supervision.html" class="footer__link" data-i18n="nav.protective_supervision">Protective Supervision</a></li>
+            <li><a href="fair-hearing.html" class="footer__link" data-i18n="nav.fair_hearing">Fair Hearing</a></li>
+            <li><a href="resources.html" class="footer__link" data-i18n="nav.resources">Resources</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="footer.other_services">Other Services</a></li>
           </ul>
         </div>
         <div>

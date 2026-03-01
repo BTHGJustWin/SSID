@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SSDI Providers connects individuals and families across California to SSI, SSDI, retirement, disability, and Medicare/Medicaid benefits. Multilingual support in English, Spanish, Farsi, and Tagalog.">
-  <title>SSDI Providers — Benefits Navigation Services in California</title>
+  <meta name="description" content="IHSS hours cut or terminated? SSDI Providers helps California IHSS recipients fight hour reductions, secure protective supervision, and navigate fair hearings. Free consultation in English, Spanish, Farsi, and Tagalog.">
+  <title>IHSS Appeals & Advocacy — SSDI Providers | California IHSS Help</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
 </head>
 <body>
+  <!-- Urgency Banner -->
+  <div class="urgency-banner" role="alert">
+    <div class="urgency-banner__text">
+      <span data-i18n="urgency_banner.text">IHSS Hours Cut or Terminated? You have 90 days to appeal.</span>
+      <a href="tel:5551234567" class="urgency-banner__phone" data-i18n="urgency_banner.phone">(555) 123-4567</a>
+    </div>
+    <a href="ihss-appeals.html" class="urgency-banner__cta" data-i18n="urgency_banner.cta">Get Help Now</a>
+    <button class="urgency-banner__dismiss" aria-label="Dismiss banner">&times;</button>
+  </div>
+
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
 
   <!-- Header -->
@@ -32,11 +42,19 @@
       <nav class="header__nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list">
           <li><a href="index.html" class="nav__link nav__link--active" data-i18n="nav.home">Home</a></li>
+          <li class="nav__dropdown">
+            <a href="#" class="nav__link nav__dropdown-toggle" data-i18n="nav.ihss_help">IHSS Help <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg></a>
+            <div class="nav__dropdown-menu">
+              <a href="ihss-appeals.html" data-i18n="nav.ihss_appeals">IHSS Appeals</a>
+              <a href="protective-supervision.html" data-i18n="nav.protective_supervision">Protective Supervision</a>
+              <a href="fair-hearing.html" data-i18n="nav.fair_hearing">Fair Hearing</a>
+              <a href="resources.html" data-i18n="nav.resources">Resources</a>
+            </div>
+          </li>
           <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
           <li><a href="services.html" class="nav__link" data-i18n="nav.services">Services</a></li>
           <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
           <li><a href="faq.html" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
-          <li><a href="portal.html" class="nav__link" data-i18n="nav.portal">Client Portal</a></li>
         </ul>
 
         <div class="lang-switcher">
@@ -73,57 +91,57 @@
       <div class="hero__decoration hero__decoration--top" aria-hidden="true"></div>
       <div class="container">
         <div class="hero__content">
-          <span class="hero__badge" data-i18n="hero.badge">Trusted Benefits Navigation in California</span>
-          <h1 id="hero-title" class="hero__title" data-i18n="hero.title">Connecting You to the <span>Benefits You Deserve</span></h1>
-          <p class="hero__subtitle" data-i18n="hero.subtitle">We help individuals and families across California navigate SSI, SSDI, retirement, disability, and Medicare/Medicaid — in English, Spanish, Farsi, and Tagalog.</p>
+          <span class="hero__badge" data-i18n="hero.badge">California IHSS Advocacy & Appeals</span>
+          <h1 id="hero-title" class="hero__title" data-i18n="hero.title">IHSS Hours Cut? <span>Act Now to Protect Your Care.</span></h1>
+          <p class="hero__subtitle" data-i18n="hero.subtitle">We help IHSS recipients across all 58 California counties fight for the hours they need. Advocacy, appeals, protective supervision, and fair hearing representation — in English, Spanish, Farsi, and Tagalog.</p>
           <div class="hero__actions">
-            <a href="contact.html" class="btn btn--gold btn--lg" data-i18n="hero.cta_primary">Get Started</a>
-            <a href="services.html" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.4); color: #fff;" data-i18n="hero.cta_secondary">Our Services</a>
+            <a href="ihss-appeals.html" class="btn btn--gold btn--lg" data-i18n="hero.cta_primary">Start Your Appeal</a>
+            <a href="tel:5551234567" class="btn btn--outline btn--lg" style="border-color: rgba(255,255,255,0.4); color: #fff;" data-i18n="hero.cta_secondary">Call Now</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- What We Do -->
+    <!-- IHSS Services -->
     <section class="section" aria-labelledby="services-title">
       <div class="container">
         <div class="section__header animate-on-scroll">
-          <span class="section__label" data-i18n="services_section.label">What We Do</span>
-          <h2 id="services-title" class="section__title" data-i18n="services_section.title">Services Tailored to Your Needs</h2>
-          <p class="section__subtitle" data-i18n="services_section.subtitle">From initial applications to appeals, we guide you through every step of the benefits process with personalized, multilingual support.</p>
+          <span class="section__label" data-i18n="services_section.label">How We Help</span>
+          <h2 id="services-title" class="section__title" data-i18n="services_section.title">IHSS Services</h2>
+          <p class="section__subtitle" data-i18n="services_section.subtitle">From fighting hour reductions to securing protective supervision, we provide expert advocacy for IHSS recipients throughout California.</p>
         </div>
         <div class="services-grid">
           <div class="service-card animate-on-scroll">
             <div class="service-card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M8 12l3 3 5-5"/></svg>
             </div>
-            <h3 class="service-card__title" data-i18n="service_cards.ssi.title">SSI Assistance</h3>
-            <p class="service-card__desc" data-i18n="service_cards.ssi.desc">Expert guidance through the Supplemental Security Income application process, including eligibility assessment and documentation preparation.</p>
-            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <h3 class="service-card__title" data-i18n="ihss_service_cards.appeals.title">IHSS Appeals</h3>
+            <p class="service-card__desc" data-i18n="ihss_service_cards.appeals.desc">Your IHSS hours were reduced or terminated. We help you file a timely appeal, request aid-paid-pending, and build a strong case to restore your care.</p>
+            <a href="ihss-appeals.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
           <div class="service-card animate-on-scroll">
             <div class="service-card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
             </div>
-            <h3 class="service-card__title" data-i18n="service_cards.ssdi.title">SSDI Applications</h3>
-            <p class="service-card__desc" data-i18n="service_cards.ssdi.desc">Comprehensive support for Social Security Disability Insurance claims, from initial filing to approval, ensuring your work history is accurately represented.</p>
-            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <h3 class="service-card__title" data-i18n="ihss_service_cards.protective_supervision.title">Protective Supervision</h3>
+            <p class="service-card__desc" data-i18n="ihss_service_cards.protective_supervision.desc">If your loved one is non-self-directing, they may qualify for up to 283 hours/month. We help with SOC 821 doctor forms and denials.</p>
+            <a href="protective-supervision.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
           <div class="service-card animate-on-scroll">
             <div class="service-card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
             </div>
-            <h3 class="service-card__title" data-i18n="service_cards.retirement.title">Retirement Benefits</h3>
-            <p class="service-card__desc" data-i18n="service_cards.retirement.desc">Strategic planning for Social Security retirement benefits, helping you understand when and how to file for maximum benefit amounts.</p>
-            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <h3 class="service-card__title" data-i18n="ihss_service_cards.fair_hearing.title">Fair Hearing Prep</h3>
+            <p class="service-card__desc" data-i18n="ihss_service_cards.fair_hearing.desc">We prepare you for your State fair hearing — organizing evidence, preparing testimony, and serving as your authorized representative.</p>
+            <a href="fair-hearing.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
           <div class="service-card animate-on-scroll">
             <div class="service-card__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><path d="M9 15l2 2 4-4"/></svg>
             </div>
-            <h3 class="service-card__title" data-i18n="service_cards.disability.title">Disability Navigation</h3>
-            <p class="service-card__desc" data-i18n="service_cards.disability.desc">End-to-end support navigating the disability determination process, including medical documentation gathering and examiner communication.</p>
-            <a href="services.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <h3 class="service-card__title" data-i18n="ihss_service_cards.authorized_rep.title">Authorized Representative</h3>
+            <p class="service-card__desc" data-i18n="ihss_service_cards.authorized_rep.desc">We serve as your authorized representative at hearings and with the county. For court proceedings, we connect you with qualified attorneys.</p>
+            <a href="fair-hearing.html" class="service-card__link" data-i18n="service_cards.learn_more">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           </div>
         </div>
       </div>
@@ -134,24 +152,24 @@
       <div class="container">
         <div class="section__header animate-on-scroll">
           <span class="section__label" data-i18n="how_it_works.label">How It Works</span>
-          <h2 id="how-title" class="section__title" data-i18n="how_it_works.title">Three Simple Steps to Get Help</h2>
-          <p class="section__subtitle" data-i18n="how_it_works.subtitle">We've simplified the process so you can focus on what matters most — your health and your family.</p>
+          <h2 id="how-title" class="section__title" data-i18n="how_it_works.title">Three Steps to Fight for Your Hours</h2>
+          <p class="section__subtitle" data-i18n="how_it_works.subtitle">We've simplified the IHSS appeal process so you can focus on your care.</p>
         </div>
         <div class="steps">
           <div class="step animate-on-scroll">
             <div class="step__number">1</div>
-            <h3 class="step__title" data-i18n="how_it_works.step1.title">Contact Us</h3>
-            <p class="step__desc" data-i18n="how_it_works.step1.desc">Reach out by phone, email, or through our contact form. Tell us about your situation in the language you're most comfortable with.</p>
+            <h3 class="step__title" data-i18n="how_it_works.step1.title">Tell Us What Happened</h3>
+            <p class="step__desc" data-i18n="how_it_works.step1.desc">Fill out our intake form or call us. Share your Notice of Action and tell us about your situation — in your language.</p>
           </div>
           <div class="step animate-on-scroll">
             <div class="step__number">2</div>
-            <h3 class="step__title" data-i18n="how_it_works.step2.title">We Assess Your Needs</h3>
-            <p class="step__desc" data-i18n="how_it_works.step2.desc">Our team reviews your case, identifies which benefits you qualify for, and creates a personalized action plan.</p>
+            <h3 class="step__title" data-i18n="how_it_works.step2.title">We Review Your Case</h3>
+            <p class="step__desc" data-i18n="how_it_works.step2.desc">Our team analyzes your NOA, calculates deadlines, and identifies the strongest arguments for your appeal.</p>
           </div>
           <div class="step animate-on-scroll">
             <div class="step__number">3</div>
-            <h3 class="step__title" data-i18n="how_it_works.step3.title">We Connect You</h3>
-            <p class="step__desc" data-i18n="how_it_works.step3.desc">We guide you through the application process, prepare your documents, and connect you with the right programs and providers.</p>
+            <h3 class="step__title" data-i18n="how_it_works.step3.title">We Fight for Your Hours</h3>
+            <p class="step__desc" data-i18n="how_it_works.step3.desc">We file your appeal, request aid-paid-pending, prepare your evidence, and represent you at your fair hearing.</p>
           </div>
         </div>
       </div>
@@ -162,37 +180,37 @@
       <div class="container">
         <div class="section__header animate-on-scroll">
           <span class="section__label" data-i18n="testimonials.label">What Our Clients Say</span>
-          <h2 id="testimonials-title" class="section__title" data-i18n="testimonials.title">Trusted by Families Across California</h2>
-          <p class="section__subtitle" data-i18n="testimonials.subtitle">Real stories from real people we've helped navigate the benefits system.</p>
+          <h2 id="testimonials-title" class="section__title" data-i18n="testimonials.title">Trusted by IHSS Recipients Across California</h2>
+          <p class="section__subtitle" data-i18n="testimonials.subtitle">Real stories from real people we've helped protect their IHSS care.</p>
         </div>
         <div class="testimonials-grid">
           <div class="testimonial-card animate-on-scroll">
-            <p class="testimonial-card__quote" data-i18n="testimonials.t1.quote">They helped me understand the entire SSDI process in Spanish. I felt supported every step of the way. Within 4 months, my claim was approved.</p>
+            <p class="testimonial-card__quote" data-i18n="testimonials.t1.quote">My mother's IHSS hours were cut from 195 to 80 after a reassessment. SSDI Providers helped us appeal and file for protective supervision. She got all her hours back plus PS approval.</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">MG</div>
               <div>
                 <div class="testimonial-card__name" data-i18n="testimonials.t1.name">Maria G.</div>
-                <div class="testimonial-card__role" data-i18n="testimonials.t1.role">SSDI Client, Los Angeles</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t1.role">IHSS Family, Los Angeles</div>
               </div>
             </div>
           </div>
           <div class="testimonial-card animate-on-scroll">
-            <p class="testimonial-card__quote" data-i18n="testimonials.t2.quote">After my claim was denied twice, SSDI Providers stepped in and handled my appeal. They organized all my medical records and prepared me for the hearing. I finally got approved.</p>
+            <p class="testimonial-card__quote" data-i18n="testimonials.t2.quote">I was terrified when I got the notice my IHSS was being terminated. They helped me request aid-paid-pending and represented me at the hearing. I won and kept all my services.</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">JT</div>
               <div>
                 <div class="testimonial-card__name" data-i18n="testimonials.t2.name">James T.</div>
-                <div class="testimonial-card__role" data-i18n="testimonials.t2.role">Appeals Client, Sacramento</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t2.role">IHSS Recipient, Sacramento</div>
               </div>
             </div>
           </div>
           <div class="testimonial-card animate-on-scroll">
-            <p class="testimonial-card__quote" data-i18n="testimonials.t3.quote">As a Farsi speaker, finding someone who could help me in my language was a blessing. They guided my mother through the SSI application and she was approved on the first try.</p>
+            <p class="testimonial-card__quote" data-i18n="testimonials.t3.quote">As a Farsi speaker caring for my disabled father, finding someone who could help us in our language was incredible. They handled the entire protective supervision process.</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">PM</div>
               <div>
                 <div class="testimonial-card__name" data-i18n="testimonials.t3.name">Parisa M.</div>
-                <div class="testimonial-card__role" data-i18n="testimonials.t3.role">SSI Client, San Diego</div>
+                <div class="testimonial-card__role" data-i18n="testimonials.t3.role">IHSS Caregiver, San Diego</div>
               </div>
             </div>
           </div>
@@ -200,12 +218,49 @@
       </div>
     </section>
 
+    <!-- Quick Contact -->
+    <section class="quick-contact" aria-labelledby="quick-contact-title">
+      <div class="container">
+        <div class="quick-contact__header">
+          <h2 id="quick-contact-title" class="quick-contact__title" data-i18n="quick_contact.title">Need IHSS Help? Contact Us Now</h2>
+          <p class="quick-contact__subtitle" data-i18n="quick_contact.subtitle">Fill out this quick form and we'll get back to you within 24 hours — often the same day.</p>
+        </div>
+        <form id="quick-contact-form" class="quick-contact__form" novalidate>
+          <div class="form__group">
+            <label for="qc-name" class="form__label" data-i18n="quick_contact.name">Your Name</label>
+            <input type="text" id="qc-name" name="name" class="form__input" required placeholder="Your full name">
+          </div>
+          <div class="form__group">
+            <label for="qc-phone" class="form__label" data-i18n="quick_contact.phone">Phone Number</label>
+            <input type="tel" id="qc-phone" name="phone" class="form__input" required placeholder="(555) 000-0000">
+          </div>
+          <div class="form__group">
+            <label for="qc-email" class="form__label" data-i18n="quick_contact.email">Email Address</label>
+            <input type="email" id="qc-email" name="email" class="form__input" placeholder="your@email.com">
+          </div>
+          <div class="form__group">
+            <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
+            <select id="qc-issue" name="issue" class="form__select">
+              <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
+              <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
+              <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
+              <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
+              <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
+              <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
+          <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>
+        </form>
+      </div>
+    </section>
+
     <!-- CTA Banner -->
     <section class="cta-banner" aria-labelledby="cta-title">
       <div class="container cta-banner__content">
-        <h2 id="cta-title" class="cta-banner__title" data-i18n="cta_banner.title">Need Help with Your Benefits?</h2>
-        <p class="cta-banner__text" data-i18n="cta_banner.text">Contact us today for a free consultation. We're here to help you navigate the system in your language.</p>
-        <a href="contact.html" class="btn btn--gold btn--lg" data-i18n="cta_banner.button">Contact Us Today</a>
+        <h2 id="cta-title" class="cta-banner__title" data-i18n="cta_banner.title">Don't Lose Your IHSS Hours</h2>
+        <p class="cta-banner__text" data-i18n="cta_banner.text">Every day you wait could cost you. Contact us now for a free case review — we respond within 24 hours.</p>
+        <a href="ihss-appeals.html" class="btn btn--gold btn--lg" data-i18n="cta_banner.button">Start Your Appeal</a>
       </div>
     </section>
 
@@ -224,7 +279,7 @@
             </svg>
             SSDI Providers
           </div>
-          <p class="footer__desc" data-i18n="footer.desc">Connecting California's diverse communities to the social security, disability, and retirement benefits they deserve. Multilingual support in English, Spanish, Farsi, and Tagalog.</p>
+          <p class="footer__desc" data-i18n="footer.desc">California's IHSS advocacy and benefits navigation specialists. We help IHSS recipients fight hour reductions, secure protective supervision, and navigate fair hearings — in English, Spanish, Farsi, and Tagalog.</p>
           <div class="footer__social">
             <a href="#" class="footer__social-link" aria-label="Facebook">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
@@ -244,17 +299,17 @@
             <li><a href="about.html" class="footer__link" data-i18n="nav.about">About</a></li>
             <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
             <li><a href="faq.html" class="footer__link" data-i18n="nav.faq">FAQ</a></li>
-            <li><a href="portal.html" class="footer__link" data-i18n="nav.portal">Client Portal</a></li>
+            <li><a href="contact.html" class="footer__link" data-i18n="nav.contact">Contact</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <h4 class="footer__heading" data-i18n="footer.ihss_services">IHSS Services</h4>
           <ul class="footer__links">
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssi.title">SSI Assistance</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssdi.title">SSDI Applications</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.retirement.title">Retirement Benefits</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.disability.title">Disability Navigation</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.appeals.title">Appeals Support</a></li>
+            <li><a href="ihss-appeals.html" class="footer__link" data-i18n="nav.ihss_appeals">IHSS Appeals</a></li>
+            <li><a href="protective-supervision.html" class="footer__link" data-i18n="nav.protective_supervision">Protective Supervision</a></li>
+            <li><a href="fair-hearing.html" class="footer__link" data-i18n="nav.fair_hearing">Fair Hearing</a></li>
+            <li><a href="resources.html" class="footer__link" data-i18n="nav.resources">Resources</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="footer.other_services">Other Services</a></li>
           </ul>
         </div>
         <div>
@@ -276,6 +331,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="ihss-appeals.html" class="floating-cta__btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+      <span data-i18n="floating_cta.text">Get Help Now</span>
+    </a>
+  </div>
 
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>

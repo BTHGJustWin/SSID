@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Frequently asked questions about SSI, SSDI, disability benefits, and our services at SSDI Providers. Get answers in English, Spanish, Farsi, and Tagalog.">
-  <title>FAQ — SSDI Providers</title>
+  <meta name="description" content="Frequently asked questions about IHSS, SSI, SSDI, disability benefits, and our services at SSDI Providers. Get answers about IHSS appeals, protective supervision, and fair hearings.">
+  <title>FAQ — SSDI Providers | IHSS & Benefits Questions</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/rtl.css" id="rtl-stylesheet" disabled>
 </head>
 <body>
+  <!-- Urgency Banner -->
+  <div class="urgency-banner" role="alert">
+    <div class="urgency-banner__text">
+      <span data-i18n="urgency_banner.text">IHSS Hours Cut or Terminated? You have 90 days to appeal.</span>
+      <a href="tel:5551234567" class="urgency-banner__phone" data-i18n="urgency_banner.phone">(555) 123-4567</a>
+    </div>
+    <a href="ihss-appeals.html" class="urgency-banner__cta" data-i18n="urgency_banner.cta">Get Help Now</a>
+    <button class="urgency-banner__dismiss" aria-label="Dismiss banner">&times;</button>
+  </div>
   <a href="#main-content" class="skip-to-content">Skip to main content</a>
 
   <!-- Header -->
@@ -32,11 +41,19 @@
       <nav class="header__nav" role="navigation" aria-label="Main navigation">
         <ul class="nav__list">
           <li><a href="index.html" class="nav__link" data-i18n="nav.home">Home</a></li>
+          <li class="nav__dropdown">
+            <a href="#" class="nav__link nav__dropdown-toggle" data-i18n="nav.ihss_help">IHSS Help <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg></a>
+            <div class="nav__dropdown-menu">
+              <a href="ihss-appeals.html" data-i18n="nav.ihss_appeals">IHSS Appeals</a>
+              <a href="protective-supervision.html" data-i18n="nav.protective_supervision">Protective Supervision</a>
+              <a href="fair-hearing.html" data-i18n="nav.fair_hearing">Fair Hearing</a>
+              <a href="resources.html" data-i18n="nav.resources">Resources</a>
+            </div>
+          </li>
           <li><a href="about.html" class="nav__link" data-i18n="nav.about">About</a></li>
           <li><a href="services.html" class="nav__link" data-i18n="nav.services">Services</a></li>
           <li><a href="contact.html" class="nav__link" data-i18n="nav.contact">Contact</a></li>
           <li><a href="faq.html" class="nav__link nav__link--active" data-i18n="nav.faq">FAQ</a></li>
-          <li><a href="portal.html" class="nav__link" data-i18n="nav.portal">Client Portal</a></li>
         </ul>
 
         <div class="lang-switcher">
@@ -80,6 +97,7 @@
       <div class="container">
         <div class="faq-categories animate-on-scroll" role="group" aria-label="Filter questions by category">
           <button class="faq-category-btn faq-category-btn--active" data-category="all" data-i18n="faq_page.cat_all">All Questions</button>
+          <button class="faq-category-btn" data-category="ihss" data-i18n="faq_page.cat_ihss">IHSS</button>
           <button class="faq-category-btn" data-category="general" data-i18n="faq_page.cat_general">General</button>
           <button class="faq-category-btn" data-category="ssi" data-i18n="faq_page.cat_ssi">SSI</button>
           <button class="faq-category-btn" data-category="ssdi" data-i18n="faq_page.cat_ssdi">SSDI</button>
@@ -246,6 +264,123 @@
             </div>
           </div>
 
+          <!-- Q13 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq13-body">
+              <span data-i18n="faq_page.questions.q13.q">What is IHSS?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq13-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q13.a">In-Home Supportive Services (IHSS) is a California program that provides personal care and domestic services to eligible aged, blind, and disabled individuals so they can remain safely in their own homes. Services can include housecleaning, meal preparation, laundry, grocery shopping, personal care, accompaniment to medical appointments, and protective supervision.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q14 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq14-body">
+              <span data-i18n="faq_page.questions.q14.q">What is protective supervision?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq14-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q14.a">Protective supervision is an IHSS service category for recipients who have a mental impairment or mental illness that makes them unable to assess danger and make safe decisions. It provides 24-hour oversight to prevent injury, hazard, or accident. To qualify, the recipient must have a mental (not physical) condition that requires constant monitoring. This can significantly increase the total authorized IHSS hours.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q15 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq15-body">
+              <span data-i18n="faq_page.questions.q15.q">What is SOC 821?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq15-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q15.a">The SOC 821 is the IHSS Program Physician's Report form. It is completed by your doctor and provides the county with medical documentation about your functional limitations and need for IHSS services. This form is critical for your IHSS assessment — the more detailed and specific your doctor is about your limitations, the more likely you are to receive the hours you need. We can help ensure this form is completed thoroughly.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q16 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq16-body">
+              <span data-i18n="faq_page.questions.q16.q">How does a fair hearing work for IHSS?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq16-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q16.a">A State fair hearing is a formal appeal process where an Administrative Law Judge (ALJ) reviews your IHSS case. You can request a fair hearing if your hours are reduced, terminated, or if you disagree with your assessment. You have 90 days from the date of the Notice of Action to request a hearing. During the hearing, you can present evidence, call witnesses, and have a representative speak on your behalf. We help prepare you thoroughly for this process.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q17 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq17-body">
+              <span data-i18n="faq_page.questions.q17.q">What are the maximum IHSS hours I can receive?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq17-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q17.a">The maximum IHSS hours depend on your assessed needs. For most service categories, the county assigns hours based on your functional index ranking. With protective supervision, you can receive up to 195 hours per month for oversight alone, plus additional hours for other service categories. The total combined hours cannot exceed 283 hours per month for one provider. Our team works to ensure you receive every hour you are entitled to.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q18 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq18-body">
+              <span data-i18n="faq_page.questions.q18.q">Can my doctor charge me for filling out IHSS forms?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq18-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q18.a">Doctors can charge for their time completing IHSS forms, as this is considered administrative work not covered by insurance. However, some doctors include this as part of your care. If cost is a concern, community health centers and clinics may complete these forms at little or no cost. We can help you find resources and ensure the forms are filled out correctly to support your case.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q19 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq19-body">
+              <span data-i18n="faq_page.questions.q19.q">What is aid-paid-pending?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq19-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q19.a">Aid-paid-pending (APP) means your current IHSS hours continue at the same level while your appeal is being processed. To receive APP, you must request a fair hearing BEFORE the effective date of the reduction or termination listed on your Notice of Action. This is why acting quickly when you receive a notice is critical — if you miss the deadline, your hours will be reduced while you wait for the hearing.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q20 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq20-body">
+              <span data-i18n="faq_page.questions.q20.q">What is an authorized representative for IHSS?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq20-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q20.a">An authorized representative is someone you designate to act on your behalf in IHSS matters. They can attend your county assessment, communicate with the county social worker, request fair hearings, and represent you at hearings. This is especially helpful if you have difficulty communicating, understanding the process, or advocating for yourself. We can serve as your authorized representative throughout the entire IHSS process.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q21 -->
+          <div class="accordion__item animate-on-scroll" data-category="ihss" role="listitem">
+            <button class="accordion__header" aria-expanded="false" aria-controls="faq21-body">
+              <span data-i18n="faq_page.questions.q21.q">What is the difference between DPA 19 and SOC 839?</span>
+              <svg class="accordion__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6,9 12,15 18,9"/></svg>
+            </button>
+            <div class="accordion__body" id="faq21-body" role="region">
+              <div class="accordion__content">
+                <p data-i18n="faq_page.questions.q21.a">The DPA 19 (Authorized Representative form) designates someone to act on your behalf for IHSS matters, including attending assessments and hearings. The SOC 839 (IHSS Recipient Designation of Authorized Representative) is specifically used to authorize someone to represent you in fair hearing proceedings. Both forms are important for ensuring you have proper representation. We help you complete and submit both forms correctly as part of our advocacy services.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -259,7 +394,52 @@
       </div>
     </section>
 
+    <!-- Quick Contact -->
+    <section class="quick-contact" aria-labelledby="quick-contact-title">
+      <div class="container">
+        <div class="quick-contact__header">
+          <h2 id="quick-contact-title" class="quick-contact__title" data-i18n="quick_contact.title">Need IHSS Help? Contact Us Now</h2>
+          <p class="quick-contact__subtitle" data-i18n="quick_contact.subtitle">Fill out this quick form and we'll get back to you within 24 hours — often the same day.</p>
+        </div>
+        <form id="quick-contact-form" class="quick-contact__form" novalidate>
+          <div class="form__group">
+            <label for="qc-name" class="form__label" data-i18n="quick_contact.name">Your Name</label>
+            <input type="text" id="qc-name" name="name" class="form__input" required placeholder="Your full name">
+          </div>
+          <div class="form__group">
+            <label for="qc-phone" class="form__label" data-i18n="quick_contact.phone">Phone Number</label>
+            <input type="tel" id="qc-phone" name="phone" class="form__input" required placeholder="(555) 000-0000">
+          </div>
+          <div class="form__group">
+            <label for="qc-email" class="form__label" data-i18n="quick_contact.email">Email Address</label>
+            <input type="email" id="qc-email" name="email" class="form__input" placeholder="your@email.com">
+          </div>
+          <div class="form__group">
+            <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
+            <select id="qc-issue" name="issue" class="form__select">
+              <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
+              <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
+              <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
+              <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
+              <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
+              <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
+          <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>
+        </form>
+      </div>
+    </section>
+
   </main>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="ihss-appeals.html" class="floating-cta__btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+      <span data-i18n="floating_cta.text">Get Help Now</span>
+    </a>
+  </div>
 
   <!-- Footer -->
   <footer class="footer" role="contentinfo">
@@ -298,13 +478,13 @@
           </ul>
         </div>
         <div>
-          <h4 class="footer__heading" data-i18n="footer.services">Services</h4>
+          <h4 class="footer__heading" data-i18n="footer.ihss_services">IHSS Services</h4>
           <ul class="footer__links">
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssi.title">SSI Assistance</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.ssdi.title">SSDI Applications</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.retirement.title">Retirement Benefits</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.disability.title">Disability Navigation</a></li>
-            <li><a href="services.html" class="footer__link" data-i18n="service_cards.appeals.title">Appeals Support</a></li>
+            <li><a href="ihss-appeals.html" class="footer__link" data-i18n="nav.ihss_appeals">IHSS Appeals</a></li>
+            <li><a href="protective-supervision.html" class="footer__link" data-i18n="nav.protective_supervision">Protective Supervision</a></li>
+            <li><a href="fair-hearing.html" class="footer__link" data-i18n="nav.fair_hearing">Fair Hearing</a></li>
+            <li><a href="resources.html" class="footer__link" data-i18n="nav.resources">Resources</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="footer.other_services">Other Services</a></li>
           </ul>
         </div>
         <div>

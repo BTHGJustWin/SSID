@@ -153,6 +153,68 @@
   flex-direction: row-reverse;
 }
 
+/* Urgency Banner */
+[dir="rtl"] .urgency-banner__dismiss {
+  right: auto;
+  left: var(--space-md);
+}
+
+/* Nav Dropdown */
+[dir="rtl"] .nav__dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+/* Quick Contact */
+[dir="rtl"] .quick-contact__form .form__select {
+  background-position: left 1rem center;
+  padding-right: 1rem;
+  padding-left: 2.5rem;
+}
+
+/* Floating CTA */
+[dir="rtl"] .floating-cta {
+  right: auto;
+  left: var(--space-xl);
+}
+
+/* Info Boxes */
+[dir="rtl"] .info-box {
+  border-left: none;
+  border-right: 4px solid var(--teal);
+}
+
+[dir="rtl"] .info-box--urgent {
+  border-right-color: #c0392b;
+}
+
+[dir="rtl"] .info-box--tip {
+  border-right-color: var(--gold);
+}
+
+/* Checklist */
+[dir="rtl"] .checklist__item {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* County Contact Card */
+[dir="rtl"] .county-contact-card__item {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* Content Section */
+[dir="rtl"] .content-section {
+  text-align: right;
+}
+
+[dir="rtl"] .content-section ul,
+[dir="rtl"] .content-section ol {
+  padding-left: 0;
+  padding-right: var(--space-xl);
+}
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
   [dir="rtl"] .header__nav {
@@ -161,5 +223,13 @@
 
   [dir="rtl"] .header__nav--open {
     transform: translateX(0);
+  }
+
+  [dir="rtl"] .floating-cta {
+    left: var(--space-md);
+  }
+
+  [dir="rtl"] .urgency-banner__dismiss {
+    left: var(--space-xs);
   }
 }

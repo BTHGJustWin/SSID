@@ -366,11 +366,257 @@
     return div.innerHTML;
   }
 
+  /* --- Nav Dropdown (IHSS Help) --- */
+  function initNavDropdown() {
+    var dropdowns = document.querySelectorAll('.nav__dropdown');
+    if (!dropdowns.length) return;
+
+    dropdowns.forEach(function (dropdown) {
+      var toggle = dropdown.querySelector('.nav__dropdown-toggle');
+      if (!toggle) return;
+
+      toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isOpen = dropdown.classList.contains('nav__dropdown--open');
+        // Close all dropdowns first
+        document.querySelectorAll('.nav__dropdown--open').forEach(function (d) {
+          d.classList.remove('nav__dropdown--open');
+        });
+        if (!isOpen) {
+          dropdown.classList.add('nav__dropdown--open');
+        }
+      });
+    });
+
+    document.addEventListener('click', function () {
+      document.querySelectorAll('.nav__dropdown--open').forEach(function (d) {
+        d.classList.remove('nav__dropdown--open');
+      });
+    });
+  }
+
+  /* --- Urgency Banner --- */
+  function initUrgencyBanner() {
+    var banner = document.querySelector('.urgency-banner');
+    if (!banner) return;
+
+    if (sessionStorage.getItem('urgency_banner_dismissed') === '1') {
+      banner.classList.add('urgency-banner--hidden');
+      return;
+    }
+
+    var dismissBtn = banner.querySelector('.urgency-banner__dismiss');
+    if (dismissBtn) {
+      dismissBtn.addEventListener('click', function () {
+        banner.classList.add('urgency-banner--hidden');
+        sessionStorage.setItem('urgency_banner_dismissed', '1');
+      });
+    }
+  }
+
+  /* --- Quick Contact Form (Web3Forms) --- */
+  function initQuickContactForm() {
+    var form = document.getElementById('quick-contact-form');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var requiredFields = form.querySelectorAll('[required]');
+      var isValid = true;
+      requiredFields.forEach(function (field) {
+        if (!field.value.trim()) {
+          isValid = false;
+          field.classList.add('form__input--error');
+        } else {
+          field.classList.remove('form__input--error');
+        }
+      });
+      if (!isValid) return;
+
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+
+      var formData = new FormData(form);
+      formData.append('access_key', WEB3FORMS_KEY);
+      formData.append('subject', 'Quick Contact - IHSS Help Request');
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+        .then(function (response) { return response.json(); })
+        .then(function (data) {
+          if (data.success) {
+            var successEl = form.querySelector('.quick-contact__success');
+            if (successEl) {
+              successEl.classList.add('quick-contact__success--visible');
+              form.reset();
+              setTimeout(function () {
+                successEl.classList.remove('quick-contact__success--visible');
+              }, 5000);
+            }
+          } else {
+            alert('Error sending message. Please try again.');
+          }
+        })
+        .catch(function () {
+          alert('Error sending message. Please try again.');
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        });
+    });
+  }
+
+  /* --- Triage Intake Form --- */
+  function initTriageForm() {
+    var form = document.getElementById('triage-form');
+    if (!form) return;
+
+    // NOA date -> deadline calculation
+    var noaDateInput = form.querySelector('#noa-date');
+    var deadlineCalc = form.querySelector('.triage-form__deadline-calc');
+
+    if (noaDateInput && deadlineCalc) {
+      noaDateInput.addEventListener('change', function () {
+        var noaDate = new Date(noaDateInput.value);
+        if (isNaN(noaDate.getTime())) {
+          deadlineCalc.style.display = 'none';
+          deadlineCalc.className = 'triage-form__deadline-calc';
+          return;
+        }
+        var deadline = new Date(noaDate.getTime() + 90 * 24 * 60 * 60 * 1000);
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+        var daysLeft = Math.ceil((deadline - today) / (24 * 60 * 60 * 1000));
+
+        if (daysLeft <= 0) {
+          deadlineCalc.textContent = 'Your 90-day deadline has passed. Contact us immediately — we may still be able to help.';
+          deadlineCalc.className = 'triage-form__deadline-calc triage-form__deadline-calc--urgent';
+        } else if (daysLeft <= 14) {
+          deadlineCalc.textContent = 'URGENT: Only ' + daysLeft + ' days left to file! Contact us now.';
+          deadlineCalc.className = 'triage-form__deadline-calc triage-form__deadline-calc--urgent';
+        } else {
+          deadlineCalc.textContent = 'You have ' + daysLeft + ' days remaining to file your appeal.';
+          deadlineCalc.className = 'triage-form__deadline-calc triage-form__deadline-calc--ok';
+        }
+      });
+    }
+
+    // File upload UI
+    var fileInput = form.querySelector('#noa-upload');
+    var fileLabel = form.querySelector('.triage-form__file-name');
+    if (fileInput && fileLabel) {
+      fileInput.addEventListener('change', function () {
+        if (fileInput.files.length > 0) {
+          fileLabel.textContent = fileInput.files[0].name;
+        } else {
+          fileLabel.textContent = '';
+        }
+      });
+    }
+
+    // Submit
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      var requiredFields = form.querySelectorAll('[required]');
+      var isValid = true;
+      requiredFields.forEach(function (field) {
+        if (!field.value.trim()) {
+          isValid = false;
+          field.classList.add('form__input--error');
+          var errorEl = field.parentElement.querySelector('.form__error');
+          if (errorEl) {
+            errorEl.textContent = 'This field is required';
+            errorEl.classList.add('form__error--visible');
+          }
+        } else {
+          field.classList.remove('form__input--error');
+          var errorEl = field.parentElement.querySelector('.form__error');
+          if (errorEl) errorEl.classList.remove('form__error--visible');
+        }
+      });
+      if (!isValid) {
+        var firstError = form.querySelector('.form__input--error');
+        if (firstError) firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+
+      var submitBtn = form.querySelector('button[type="submit"]');
+      var originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+
+      var formData = new FormData(form);
+      formData.append('access_key', WEB3FORMS_KEY);
+      formData.append('subject', 'IHSS Triage Intake - Urgent');
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+        .then(function (response) { return response.json(); })
+        .then(function (data) {
+          if (data.success) {
+            var successEl = form.querySelector('.triage-form__success');
+            if (successEl) {
+              successEl.classList.add('triage-form__success--visible');
+              form.style.display = 'none';
+            }
+          } else {
+            alert('Error submitting form. Please try again or call us directly.');
+          }
+        })
+        .catch(function () {
+          alert('Error submitting form. Please try again or call us directly.');
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        });
+    });
+
+    // Live validation clear on input
+    var inputs = form.querySelectorAll('.form__input, .form__select, .form__textarea');
+    inputs.forEach(function (input) {
+      input.addEventListener('input', function () {
+        input.classList.remove('form__input--error');
+        var errorEl = input.parentElement.querySelector('.form__error');
+        if (errorEl) errorEl.classList.remove('form__error--visible');
+      });
+    });
+  }
+
+  /* --- Floating CTA --- */
+  function initFloatingCTA() {
+    var cta = document.querySelector('.floating-cta');
+    if (!cta) return;
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 400) {
+        cta.classList.add('floating-cta--visible');
+      } else {
+        cta.classList.remove('floating-cta--visible');
+      }
+    });
+  }
+
   /* --- Initialize Everything --- */
   function init() {
     initHeaderScroll();
     initMobileMenu();
     initLangSwitcher();
+    initNavDropdown();
+    initUrgencyBanner();
+    initQuickContactForm();
+    initTriageForm();
+    initFloatingCTA();
     initAccordion();
     initFaqFilters();
     initContactForm();
