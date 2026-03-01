@@ -8,28 +8,28 @@
     "home": "Tahanan",
     "about": "Tungkol sa Amin",
     "services": "Mga Serbisyo",
-    "ihss_help": "IHSS Help",
-    "ihss_appeals": "IHSS Appeals",
+    "ihss_help": "Tulong sa IHSS",
+    "ihss_appeals": "Mga Apela sa IHSS",
     "protective_supervision": "Protective Supervision",
     "fair_hearing": "Fair Hearing",
-    "resources": "Resources",
+    "resources": "Mga Mapagkukunan",
     "contact": "Makipag-ugnayan",
     "faq": "Mga Tanong",
     "portal": "Portal ng Kliyente",
     "langLabel": "Wika"
   },
   "urgency_banner": {
-    "text": "IHSS Hours Cut or Terminated? You have 90 days to appeal.",
+    "text": "Nabawasan o Tinanggal ang Oras ng IHSS? Mayroon kayong 90 araw para mag-apela.",
     "phone": "(818) 264-5355",
-    "cta": "Get Help Now"
+    "cta": "Humingi ng Tulong Ngayon"
   },
   "quick_contact": {
-    "title": "Need IHSS Help? Contact Us Now",
-    "subtitle": "Fill out this quick form and we'll get back to you within 24 hours — often the same day.",
-    "name": "Your Name",
-    "phone": "Phone Number",
+    "title": "Kailangan ng Tulong sa IHSS? Makipag-ugnayan sa Amin Ngayon",
+    "subtitle": "Punan ang mabilisang form na ito at babalikan po namin kayo sa loob ng 24 na oras — kadalasan sa parehong araw.",
+    "name": "Inyong Pangalan",
+    "phone": "Numero ng Telepono",
     "email": "Email Address",
-    "issue": "What happened?",
+    "issue": "Ano ang nangyari?",
     "issue_options": {
       "select": "-- Pumili ng isyu --",
       "hours_reduced": "Nabawasan ang Oras ng IHSS",
@@ -39,56 +39,56 @@
       "fair_hearing": "Kailangan ng Tulong sa Fair Hearing",
       "auth_rep": "Kailangan ng Authorized Representative",
       "new_application": "Bagong Aplikasyon sa IHSS",
-      "reassessment": "Isyu sa Reassessment ng IHSS",
+      "reassessment": "Isyu sa Muling Pagsusuri ng IHSS",
       "provider_issue": "Isyu sa Provider/Caregiver",
       "doctor_form": "Tulong sa SOC 821 / Form ng Doktor",
       "other": "Iba pa"
     },
-    "other_reason": "Mangyaring ilarawan ang iyong isyu",
+    "other_reason": "Mangyaring ilarawan ang inyong isyu",
     "submit": "Kumuha ng Libreng Konsultasyon",
-    "success": "Salamat! Makikipag-ugnayan kami sa iyo sa loob ng 24 na oras."
+    "success": "Salamat! Makikipag-ugnayan kami sa inyo sa loob ng 24 na oras."
   },
   "floating_cta": {
-    "text": "Get Help Now"
+    "text": "Humingi ng Tulong Ngayon"
   },
   "hero": {
-    "badge": "California IHSS Advocacy & Appeals",
-    "title": "IHSS Hours Cut? <span>Act Now to Protect Your Care.</span>",
-    "subtitle": "We help IHSS recipients across all 58 California counties fight for the hours they need. Advocacy, appeals, protective supervision, and fair hearing representation — in English, Spanish, Farsi, and Tagalog.",
-    "cta_primary": "Start Your Appeal",
-    "cta_secondary": "Call Now"
+    "badge": "Adbokasiya at Apela sa IHSS sa California",
+    "title": "Nabawasan ang Oras ng IHSS? <span>Kumilos Agad para Protektahan ang Inyong Pangangalaga.</span>",
+    "subtitle": "Tinutulungan namin ang mga tatanggap ng IHSS sa lahat ng 58 county ng California na ipaglaban ang mga oras na kailangan nila. Adbokasiya, apela, protective supervision, at representasyon sa fair hearing — sa English, Spanish, Farsi, at Tagalog.",
+    "cta_primary": "Simulan ang Inyong Apela",
+    "cta_secondary": "Tumawag Ngayon"
   },
   "services_section": {
-    "label": "How We Help",
-    "title": "IHSS Services",
-    "subtitle": "From fighting hour reductions to securing protective supervision, we provide expert advocacy for IHSS recipients throughout California."
+    "label": "Paano Kami Tumutulong",
+    "title": "Mga Serbisyo ng IHSS",
+    "subtitle": "Mula sa paglaban sa pagbawas ng oras hanggang sa pagkuha ng protective supervision, nagbibigay kami ng dalubhasang adbokasiya para sa mga tatanggap ng IHSS sa buong California."
   },
   "ihss_service_cards": {
     "appeals": {
-      "title": "IHSS Appeals",
-      "desc": "Your IHSS hours were reduced or terminated. We help you file a timely appeal, request aid-paid-pending, and build a strong case to restore your care."
+      "title": "Mga Apela sa IHSS",
+      "desc": "Nabawasan o tinanggal ang inyong mga oras ng IHSS. Tinutulungan namin kayong mag-file ng napapanahong apela, humiling ng aid-paid-pending, at bumuo ng matibay na kaso upang maibalik ang inyong pangangalaga."
     },
     "protective_supervision": {
       "title": "Protective Supervision",
-      "desc": "If your loved one is non-self-directing, they may qualify for up to 283 hours/month. We help with SOC 821 doctor forms and denials."
+      "desc": "Kung ang inyong mahal sa buhay ay non-self-directing, maaari silang maging kwalipikado para sa hanggang 283 oras/buwan. Tinutulungan namin sa mga SOC 821 na form ng doktor at mga pagtanggi."
     },
     "fair_hearing": {
-      "title": "Fair Hearing Prep",
-      "desc": "We prepare you for your State fair hearing — organizing evidence, preparing testimony, and serving as your authorized representative."
+      "title": "Paghahanda sa Fair Hearing",
+      "desc": "Inihahanda namin kayo para sa inyong State fair hearing — pag-aayos ng ebidensya, paghahanda ng testimonya, at pagsisilbi bilang inyong authorized representative."
     },
     "authorized_rep": {
       "title": "Authorized Representative",
-      "desc": "We serve as your authorized representative at hearings and with the county. For court proceedings, we connect you with qualified attorneys."
+      "desc": "Nagsisilbi kami bilang inyong authorized representative sa mga pagdinig at sa county. Para sa mga paglilitis sa korte, ikikokonekta namin kayo sa mga kwalipikadong abogado."
     }
   },
   "service_cards": {
     "ssi": {
       "title": "Tulong sa SSI",
-      "desc": "Eksperto na gabay sa proseso ng aplikasyon para sa Supplemental Security Income, kasama ang pagsusuri ng pagiging kwalipikado at paghahanda ng mga dokumento."
+      "desc": "Dalubhasang gabay sa proseso ng aplikasyon para sa Supplemental Security Income, kasama ang pagsusuri ng pagiging kwalipikado at paghahanda ng mga dokumento."
     },
     "ssdi": {
       "title": "Mga Aplikasyon para sa SSDI",
-      "desc": "Komprehensibong suporta para sa mga claim sa Social Security Disability Insurance, mula sa unang pag-file hanggang sa pag-apruba, na tinitiyak na tama ang representasyon ng inyong work history."
+      "desc": "Komprehensibong suporta para sa mga claim sa Social Security Disability Insurance, mula sa unang pag-file hanggang sa pag-apruba, na tinitiyak na tama ang representasyon ng inyong kasaysayan ng trabaho."
     },
     "retirement": {
       "title": "Mga Benepisyo sa Pagreretiro",
@@ -96,7 +96,7 @@
     },
     "disability": {
       "title": "Gabay sa Disability",
-      "desc": "Buong suporta sa pag-navigate ng proseso ng disability determination, kasama ang pagtitipon ng mga medikal na dokumento at komunikasyon sa examiner."
+      "desc": "Buong suporta sa pag-navigate ng proseso ng pagtukoy ng disability, kasama ang pagtitipon ng mga medikal na dokumento at komunikasyon sa examiner."
     },
     "medicare": {
       "title": "Medicare at Medicaid",
@@ -108,136 +108,136 @@
     },
     "documents": {
       "title": "Paghahanda ng mga Dokumento",
-      "desc": "Masusing paghahanda at pag-aayos ng lahat ng kinakailangang dokumentasyon, mga medikal na rekord, at mga sumusuportang ebidensya para sa inyong aplikasyon ng benefits."
+      "desc": "Masusing paghahanda at pag-aayos ng lahat ng kinakailangang dokumentasyon, mga medikal na rekord, at mga sumusuportang ebidensya para sa inyong aplikasyon ng benepisyo."
     },
     "learn_more": "Alamin Pa"
   },
   "how_it_works": {
-    "label": "How It Works",
-    "title": "Three Steps to Fight for Your Hours",
-    "subtitle": "We've simplified the IHSS appeal process so you can focus on your care.",
+    "label": "Paano Ito Gumagana",
+    "title": "Tatlong Hakbang para Ipaglaban ang Inyong Oras",
+    "subtitle": "Pinasimple namin ang proseso ng apela sa IHSS para makapag-focus kayo sa inyong pangangalaga.",
     "step1": {
-      "title": "Tell Us What Happened",
-      "desc": "Fill out our intake form or call us. Share your Notice of Action and tell us about your situation — in your language."
+      "title": "Sabihin sa Amin ang Nangyari",
+      "desc": "Punan ang aming intake form o tawagan kami. Ibahagi ang inyong Notice of Action at sabihin sa amin ang tungkol sa inyong sitwasyon — sa inyong wika."
     },
     "step2": {
-      "title": "We Review Your Case",
-      "desc": "Our team analyzes your NOA, calculates deadlines, and identifies the strongest arguments for your appeal."
+      "title": "Susuriin Namin ang Inyong Kaso",
+      "desc": "Sinusuri ng aming pangkat ang inyong NOA, kinakalkula ang mga deadline, at tinutukoy ang mga pinakamatibay na argumento para sa inyong apela."
     },
     "step3": {
-      "title": "We Fight for Your Hours",
-      "desc": "We file your appeal, request aid-paid-pending, prepare your evidence, and represent you at your fair hearing."
+      "title": "Ipaglalaban Namin ang Inyong Oras",
+      "desc": "Ifa-file namin ang inyong apela, hihingin ang aid-paid-pending, ihahanda ang inyong ebidensya, at kakatawan sa inyo sa inyong fair hearing."
     }
   },
   "testimonials": {
-    "label": "What Our Clients Say",
-    "title": "Trusted by IHSS Recipients Across California",
-    "subtitle": "Real stories from real people we've helped protect their IHSS care.",
+    "label": "Ano ang Sinasabi ng Aming mga Kliyente",
+    "title": "Pinagkakatiwalaan ng mga Tatanggap ng IHSS sa Buong California",
+    "subtitle": "Tunay na mga kwento mula sa tunay na mga taong tinulungan naming protektahan ang kanilang pangangalaga sa IHSS.",
     "t1": {
-      "quote": "My mother's IHSS hours were cut from 195 to 80 after a reassessment. SSDI Providers helped us appeal and file for protective supervision. She got all her hours back plus PS approval.",
+      "quote": "Ang mga oras ng IHSS ng aking ina ay nabawasan mula 195 tungong 80 pagkatapos ng muling pagsusuri. Tinulungan kami ng SSDI Providers na mag-apela at mag-file para sa protective supervision. Naibalik ang lahat ng kanyang oras kasama ang pag-apruba ng PS.",
       "name": "Maria G.",
-      "role": "IHSS Family, Los Angeles"
+      "role": "Pamilyang IHSS, Los Angeles"
     },
     "t2": {
-      "quote": "I was terrified when I got the notice my IHSS was being terminated. They helped me request aid-paid-pending and represented me at the hearing. I won and kept all my services.",
+      "quote": "Labis akong natakot nang matanggap ko ang abiso na tinanggal ang aking IHSS. Tinulungan nila akong humiling ng aid-paid-pending at kinatawan nila ako sa pagdinig. Nanalo ako at napanatili ko ang lahat ng aking mga serbisyo.",
       "name": "James T.",
-      "role": "IHSS Recipient, Sacramento"
+      "role": "Tatanggap ng IHSS, Sacramento"
     },
     "t3": {
-      "quote": "As a Farsi speaker caring for my disabled father, finding someone who could help us in our language was incredible. They handled the entire protective supervision process.",
+      "quote": "Bilang isang nagsasalita ng Farsi na nag-aalaga sa aking may-kapansanang ama, napakagandang makahanap ng taong makakatulong sa amin sa aming wika. Sila ang humawak ng buong proseso ng protective supervision.",
       "name": "Parisa M.",
-      "role": "IHSS Caregiver, San Diego"
+      "role": "Caregiver ng IHSS, San Diego"
     }
   },
   "cta_banner": {
-    "title": "Don't Lose Your IHSS Hours",
-    "text": "Every day you wait could cost you. Contact us now for a free case review — we respond within 24 hours.",
-    "button": "Start Your Appeal"
+    "title": "Huwag Mawala ang Inyong Oras sa IHSS",
+    "text": "Bawat araw na naghihintay kayo ay maaaring magastos sa inyo. Makipag-ugnayan sa amin ngayon para sa libreng pagsusuri ng kaso — sumasagot kami sa loob ng 24 na oras.",
+    "button": "Simulan ang Inyong Apela"
   },
   "about_page": {
     "hero_title": "Tungkol sa SSDI Providers",
-    "hero_subtitle": "California's IHSS advocacy, social work, and benefits navigation specialists.",
+    "hero_subtitle": "Mga dalubhasa sa adbokasiya ng IHSS, social work, at pag-navigate ng benepisyo sa California.",
     "bio_title": "Ang Aming Kwento",
-    "bio_p1": "SSDI Providers was founded to fight for Californians who depend on In-Home Supportive Services. When IHSS hours get cut or terminated, we step in as advocates, case managers, and authorized representatives to protect the care our clients need to live independently.",
-    "bio_p2": "Our team combines social work expertise with deep knowledge of IHSS regulations, fair hearing procedures, and protective supervision requirements. We understand the system because we've helped hundreds of families navigate it across all 58 California counties.",
-    "bio_p3": "We provide services in English, Spanish, Farsi, and Tagalog — because the communities that rely most on IHSS are often the ones facing the biggest language barriers. For cases requiring legal representation, we connect clients with qualified attorneys.",
+    "bio_p1": "Itinatag ang SSDI Providers upang ipaglaban ang mga Californian na umaasa sa In-Home Supportive Services. Kapag nabawasan o tinanggal ang mga oras ng IHSS, pumapasok kami bilang mga tagapagtaguyod, tagapamahala ng kaso, at mga authorized representative upang protektahan ang pangangalagang kailangan ng aming mga kliyente para mamuhay nang malaya.",
+    "bio_p2": "Pinagsasama ng aming pangkat ang kadalubhasaan sa social work at malalim na kaalaman sa mga regulasyon ng IHSS, mga pamamaraan ng fair hearing, at mga kinakailangan para sa protective supervision. Naiintindihan namin ang sistema dahil nakatulong na kami sa daan-daang pamilya na mag-navigate dito sa lahat ng 58 county ng California.",
+    "bio_p3": "Nagbibigay kami ng mga serbisyo sa English, Spanish, Farsi, at Tagalog — dahil ang mga komunidad na pinakamasidhi ang pangangailangan sa IHSS ay kadalasang sila ring humaharap sa pinakamalaking hadlang sa wika. Para sa mga kasong nangangailangan ng legal na representasyon, ikinokonekta namin ang mga kliyente sa mga kwalipikadong abogado.",
     "mission_label": "Ang Aming Misyon",
     "mission_title": "Bakit Ginagawa Namin ang Ginagawa Namin",
-    "mission_text": "We fight for IHSS recipients who can't fight alone. Through advocacy, social work, and strategic case management, we ensure that California's most vulnerable residents keep the in-home care they need and deserve."
+    "mission_text": "Ipinaglalaban namin ang mga tatanggap ng IHSS na hindi kayang lumaban nang mag-isa. Sa pamamagitan ng adbokasiya, social work, at estratehikong pamamahala ng kaso, tinitiyak naming ang mga pinakamahihinang residente ng California ay mapanatili ang pangangalagang kailangan at nararapat sa kanila sa kanilang tahanan."
   },
   "values": {
     "label": "Ang Aming mga Pagpapahalaga",
-    "title": "What Guides Us Every Day",
+    "title": "Ang Gumagabay sa Amin Araw-araw",
     "community": {
-      "title": "Community First",
-      "desc": "We serve the IHSS communities across California — from LA to Sacramento to the Central Valley. Every client is a neighbor."
+      "title": "Komunidad Muna",
+      "desc": "Nagsisilbi kami sa mga komunidad ng IHSS sa buong California — mula sa LA hanggang Sacramento hanggang sa Central Valley. Bawat kliyente ay isang kapitbahay."
     },
     "accessibility": {
-      "title": "Total Accessibility",
-      "desc": "Language barriers, confusing county processes, complicated forms — we remove every obstacle between you and your IHSS hours."
+      "title": "Ganap na Aksesibilidad",
+      "desc": "Hadlang sa wika, nakalilitong proseso sa county, kumplikadong mga form — inaalis namin ang bawat hadlang sa pagitan ninyo at ng inyong mga oras sa IHSS."
     },
     "integrity": {
-      "title": "Complete Integrity",
-      "desc": "We're upfront about what we can and can't do. As advocates and authorized representatives, we work within the system. For legal matters, we connect you with attorneys."
+      "title": "Ganap na Integridad",
+      "desc": "Tapat kami sa kung ano ang kaya at hindi namin magagawa. Bilang mga tagapagtaguyod at authorized representative, nagtatrabaho kami sa loob ng sistema. Para sa mga legal na usapin, ikinokonekta namin kayo sa mga abogado."
     },
     "advocacy": {
-      "title": "Fierce Advocacy",
-      "desc": "Whether it's a first appeal or a protective supervision denial, we bring the same determination to every IHSS case."
+      "title": "Matibay na Adbokasiya",
+      "desc": "Maging ito man ang unang apela o pagtanggi sa protective supervision, nagdadala kami ng parehong determinasyon sa bawat kaso ng IHSS."
     }
   },
   "areas": {
     "label": "Saan Kami Nagsisilbi",
-    "title": "All 58 California Counties",
+    "title": "Lahat ng 58 County ng California",
     "list": [
-      "Los Angeles County",
-      "San Diego County",
-      "Orange County",
-      "Riverside County",
-      "San Francisco Bay Area",
-      "Sacramento Region",
+      "County ng Los Angeles",
+      "County ng San Diego",
+      "County ng Orange",
+      "County ng Riverside",
+      "Lugar ng San Francisco Bay",
+      "Rehiyon ng Sacramento",
       "Inland Empire",
-      "Statewide (Remote)"
+      "Buong Estado (Remote)"
     ]
   },
   "credentials": {
     "label": "Ang Aming mga Kredensyal",
     "title": "Kwalipikado at Mapagkakatiwalaan",
     "c1": {
-      "title": "IHSS Advocacy Specialists",
-      "desc": "Experienced in IHSS appeals, protective supervision, and fair hearings across all California counties."
+      "title": "Mga Dalubhasa sa Adbokasiya ng IHSS",
+      "desc": "May karanasan sa mga apela ng IHSS, protective supervision, at fair hearing sa lahat ng county ng California."
     },
     "c2": {
-      "title": "Licensed Social Workers",
-      "desc": "Our team includes licensed social workers who understand case management and client advocacy."
+      "title": "Mga Lisensyadong Social Worker",
+      "desc": "Kasama sa aming pangkat ang mga lisensyadong social worker na nauunawaan ang pamamahala ng kaso at adbokasiya ng kliyente."
     },
     "c3": {
-      "title": "Multilingual Services",
-      "desc": "Full services in English, Spanish, Farsi, and Tagalog — ensuring IHSS recipients can communicate in their language."
+      "title": "Mga Serbisyong Multilinggwal",
+      "desc": "Buong serbisyo sa English, Spanish, Farsi, at Tagalog — na tinitiyak na makakakomunika ang mga tatanggap ng IHSS sa kanilang wika."
     },
     "c4": {
-      "title": "Attorney Referral Network",
-      "desc": "For cases requiring legal representation, we connect clients with qualified disability and elder law attorneys."
+      "title": "Network ng Referral ng Abogado",
+      "desc": "Para sa mga kasong nangangailangan ng legal na representasyon, ikinokonekta namin ang mga kliyente sa mga kwalipikadong abogado sa disability at elder law."
     }
   },
   "services_page": {
     "hero_title": "Ang Aming mga Serbisyo",
-    "hero_subtitle": "IHSS advocacy and benefits navigation for individuals and families throughout California.",
-    "ihss_section_label": "Primary Services",
-    "ihss_section_title": "IHSS Services",
-    "ihss_section_subtitle": "Expert advocacy for IHSS recipients facing hour reductions, terminations, and protective supervision denials.",
-    "additional_section_label": "Additional Services",
-    "additional_section_title": "Additional Benefits Services",
-    "additional_section_subtitle": "We also help with SSI, SSDI, retirement, and other benefits.",
-    "grid_label": "What We Offer",
-    "grid_title": "Full Range of Benefits Support",
-    "grid_subtitle": "From IHSS appeals to SSI applications, we guide you through every step with personalized, multilingual support.",
+    "hero_subtitle": "Adbokasiya sa IHSS at pag-navigate ng benepisyo para sa mga indibidwal at pamilya sa buong California.",
+    "ihss_section_label": "Mga Pangunahing Serbisyo",
+    "ihss_section_title": "Mga Serbisyo ng IHSS",
+    "ihss_section_subtitle": "Dalubhasang adbokasiya para sa mga tatanggap ng IHSS na nahaharap sa pagbawas ng oras, pagkakatanggal, at pagtanggi sa protective supervision.",
+    "additional_section_label": "Mga Karagdagang Serbisyo",
+    "additional_section_title": "Mga Karagdagang Serbisyo sa Benepisyo",
+    "additional_section_subtitle": "Tumutulong din kami sa SSI, SSDI, pagreretiro, at iba pang benepisyo.",
+    "grid_label": "Ang Aming mga Inaalok",
+    "grid_title": "Buong Hanay ng Suporta sa Benepisyo",
+    "grid_subtitle": "Mula sa mga apela sa IHSS hanggang sa mga aplikasyon ng SSI, ginagabayan namin kayo sa bawat hakbang na may personalisado at multilinggwal na suporta.",
     "cta_title": "Hindi Sigurado Kung Aling Serbisyo ang Kailangan Ninyo?",
     "cta_text": "Makipag-ugnayan po sa amin para sa libreng konsultasyon. Susuriin namin ang inyong sitwasyon at irerekomenda ang pinakamahusay na hakbang pasulong.",
     "cta_button": "Libreng Konsultasyon"
   },
   "contact_page": {
     "hero_title": "Makipag-ugnayan sa Amin",
-    "hero_subtitle": "Get in touch today. We respond within 24 hours — often the same day. Available in English, Spanish, Farsi, and Tagalog.",
+    "hero_subtitle": "Makipag-ugnayan ngayon. Sumasagot kami sa loob ng 24 na oras — kadalasan sa parehong araw. Available sa English, Spanish, Farsi, at Tagalog.",
     "form_title": "Magpadala ng Mensahe sa Amin",
     "form_desc": "Punan po ang form sa ibaba at sasagutin po namin kayo sa loob ng isang araw ng negosyo.",
     "form_name": "Buong Pangalan",
@@ -252,12 +252,12 @@
     },
     "form_subject": "Paksa",
     "form_subject_options": {
-      "ihss_reduced": "IHSS Hours Reduced",
-      "ihss_terminated": "IHSS Terminated",
+      "ihss_reduced": "Nabawasan ang Oras ng IHSS",
+      "ihss_terminated": "Tinanggal ang IHSS",
       "ihss_ps": "Protective Supervision",
-      "ihss_hearing": "Fair Hearing Help",
+      "ihss_hearing": "Tulong sa Fair Hearing",
       "ihss_auth_rep": "Authorized Representative",
-      "ihss_application": "IHSS Application Help",
+      "ihss_application": "Tulong sa Aplikasyon ng IHSS",
       "general": "Pangkalahatang Katanungan",
       "ssi": "Tulong sa SSI",
       "ssdi": "Aplikasyon para sa SSDI",
@@ -272,7 +272,7 @@
     "form_success": "Salamat po! Matagumpay na naipadala ang inyong mensahe. Sasagutin po namin kayo sa loob ng 24 na oras.",
     "form_error": "Nagkaroon po ng error sa pagpapadala ng inyong mensahe. Pakisubukan po ulit o tawagan kami nang direkta.",
     "form_required": "Kinakailangan po ang field na ito",
-    "form_invalid_email": "Pakimaglagay po ng wastong email address",
+    "form_invalid_email": "Pakilagay po ng wastong email address",
     "info_phone_label": "Telepono",
     "info_phone": "(818) 264-5355",
     "info_email_label": "Email",
@@ -281,7 +281,7 @@
     "info_hours": "Lunes – Biyernes: 9:00 AM – 5:00 PM",
     "info_location_label": "Lokasyon",
     "info_location": "Nagsisilbi sa buong California (Remote at Personal)",
-    "info_title": "Get in Touch",
+    "info_title": "Makipag-ugnayan",
     "expect_label": "Ano ang Dapat Asahan",
     "expect_title": "Pagkatapos Ninyong Makipag-ugnayan sa Amin",
     "expect_subtitle": "Mula sa inyong unang mensahe hanggang sa patuloy na suporta, ganito po kami nakikipagtulungan sa inyo sa bawat hakbang.",
@@ -295,7 +295,7 @@
     },
     "expect3": {
       "title": "Personalisadong Plano",
-      "desc": "Batay sa inyong mga pangangailangan, gagawa po kami ng customized na plano ng aksyon na may malinaw na mga susunod na hakbang at timeline."
+      "desc": "Batay sa inyong mga pangangailangan, gagawa po kami ng naka-customize na plano ng aksyon na may malinaw na mga susunod na hakbang at timeline."
     },
     "expect4": {
       "title": "Patuloy na Suporta",
@@ -304,7 +304,7 @@
   },
   "faq_page": {
     "hero_title": "Mga Madalas Itanong",
-    "hero_subtitle": "Find answers to common questions about IHSS, our services, and the benefits application process.",
+    "hero_subtitle": "Makahanap ng mga sagot sa mga karaniwang tanong tungkol sa IHSS, sa aming mga serbisyo, at sa proseso ng aplikasyon ng benepisyo.",
     "cat_all": "Lahat ng Tanong",
     "cat_ihss": "IHSS",
     "cat_general": "Pangkalahatan",
@@ -315,7 +315,7 @@
     "questions": {
       "q1": {
         "q": "Ano ang pagkakaiba ng SSI at SSDI?",
-        "a": "Ang SSI (Supplemental Security Income) ay isang needs-based na programa para sa mga taong may limitadong kita at resources na matatanda, bulag, o may kapansanan. Ang SSDI (Social Security Disability Insurance) ay batay sa inyong work history at sa mga Social Security taxes na inyong binayaran. Maaari po kayong maging kwalipikado sa isa o pareho ng mga programa depende sa inyong sitwasyon. Matutulungan po namin kayong malaman kung aling mga benefits ang kwalipikado kayo.",
+        "a": "Ang SSI (Supplemental Security Income) ay isang programang batay sa pangangailangan para sa mga taong may limitadong kita at resources na matatanda, bulag, o may kapansanan. Ang SSDI (Social Security Disability Insurance) ay batay sa inyong kasaysayan ng trabaho at sa mga buwis sa Social Security na inyong binayaran. Maaari po kayong maging kwalipikado sa isa o pareho ng mga programa depende sa inyong sitwasyon. Matutulungan po namin kayong malaman kung aling mga benepisyo ang kwalipikado kayo.",
         "cat": "general"
       },
       "q2": {
@@ -355,17 +355,17 @@
       },
       "q9": {
         "q": "Maaari ba akong magtrabaho habang tumatanggap ng disability benefits?",
-        "a": "Opo, na may mga limitasyon. Ang SSDI ay may Trial Work Period (TWP) na nagpapahintulot sa inyong subukan ang inyong kakayahang magtrabaho sa loob ng 9 na buwan nang hindi nawawala ang benefits. Pagkatapos ng TWP, papasok kayo sa 36 na buwang Extended Period of Eligibility. Ang SSI ay may ibang mga patakaran — ang inyong benefits ay nababawasan batay sa inyong kita ngunit hindi agad inaalis. Maaari po naming ipaliwanag kung paano nakakaapekto ang pagtatrabaho sa inyong partikular na benefits.",
+        "a": "Opo, na may mga limitasyon. Ang SSDI ay may Trial Work Period (TWP) na nagpapahintulot sa inyong subukan ang inyong kakayahang magtrabaho sa loob ng 9 na buwan nang hindi nawawala ang benepisyo. Pagkatapos ng TWP, papasok kayo sa 36 na buwang Extended Period of Eligibility. Ang SSI ay may ibang mga patakaran — ang inyong benepisyo ay nababawasan batay sa inyong kita ngunit hindi agad inaalis. Maaari po naming ipaliwanag kung paano nakakaapekto ang pagtatrabaho sa inyong partikular na benepisyo.",
         "cat": "disability"
       },
       "q10": {
         "q": "Anong mga dokumento ang kailangan ko para mag-apply?",
-        "a": "Karaniwang kakailanganin po ninyo ang: Social Security card o numero, birth certificate, mga medikal na rekord at contact information ng doktor, work history sa nakalipas na 15 taon, tax returns o W-2 forms, mga bank statement (para sa SSI), at anumang dokumentasyon ng inyong mga medikal na kondisyon. Tinutulungan po namin kayong tipunin at ayusin ang lahat ng kinakailangang mga dokumento upang matiyak na walang kulang sa inyong aplikasyon.",
+        "a": "Karaniwang kakailanganin po ninyo ang: Social Security card o numero, birth certificate, mga medikal na rekord at contact information ng doktor, kasaysayan ng trabaho sa nakalipas na 15 taon, tax returns o W-2 forms, mga bank statement (para sa SSI), at anumang dokumentasyon ng inyong mga medikal na kondisyon. Tinutulungan po namin kayong tipunin at ayusin ang lahat ng kinakailangang mga dokumento upang matiyak na walang kulang sa inyong aplikasyon.",
         "cat": "process"
       },
       "q11": {
         "q": "Gaano katagal ang buong proseso mula simula hanggang katapusan?",
-        "a": "Ang timeline ay nag-iiba sa bawat kaso. Ang unang desisyon sa aplikasyon ay karaniwang tumatagal ng 3 hanggang 6 na buwan. Kung maaprubahan sa unang pagtatangka, maaari po kayong makatanggap ng benefits sa loob ng panahong iyon. Kung tatanggihan at kailangan ninyong mag-apela, ang proseso ay maaaring tumagal ng 12-24 na buwan o higit pa, depende sa backlog ng inyong lokal na hearing office. Masigasig po kaming nagtatrabaho upang maisulong ang inyong kaso nang mabilis hangga't maaari.",
+        "a": "Ang timeline ay nag-iiba sa bawat kaso. Ang unang desisyon sa aplikasyon ay karaniwang tumatagal ng 3 hanggang 6 na buwan. Kung maaprubahan sa unang pagtatangka, maaari po kayong makatanggap ng benepisyo sa loob ng panahong iyon. Kung tatanggihan at kailangan ninyong mag-apela, ang proseso ay maaaring tumagal ng 12-24 na buwan o higit pa, depende sa backlog ng inyong lokal na hearing office. Masigasig po kaming nagtatrabaho upang maisulong ang inyong kaso nang mabilis hangga't maaari.",
         "cat": "process"
       },
       "q12": {
@@ -374,251 +374,251 @@
         "cat": "process"
       },
       "q13": {
-        "q": "What is IHSS (In-Home Supportive Services)?",
-        "a": "IHSS is a California program that provides in-home care services to eligible aged, blind, or disabled individuals who cannot safely live at home without assistance. Services include housecleaning, meal preparation, laundry, personal care, accompaniment to medical appointments, and protective supervision. IHSS is funded by Medi-Cal and administered by each county.",
+        "q": "Ano ang IHSS (In-Home Supportive Services)?",
+        "a": "Ang IHSS ay isang programa sa California na nagbibigay ng mga serbisyo ng pangangalaga sa bahay sa mga kwalipikadong matatanda, bulag, o may-kapansanang indibidwal na hindi ligtas na mamuhay sa bahay nang walang tulong. Kabilang sa mga serbisyo ang paglilinis ng bahay, paghahanda ng pagkain, paglalaba, personal na pangangalaga, pagsama sa mga medikal na appointment, at protective supervision. Ang IHSS ay pinopondohan ng Medi-Cal at pinamamahalaan ng bawat county.",
         "cat": "ihss"
       },
       "q14": {
-        "q": "What is protective supervision for IHSS?",
-        "a": "Protective supervision is an IHSS service for recipients who are non-self-directing and need 24-hour supervision to prevent injury. It can provide up to 283 hours per month (compared to the standard 195-hour maximum for other services). Your doctor must complete a SOC 821 form certifying the need. Many initial requests are denied, but we have experience overturning these denials.",
+        "q": "Ano ang protective supervision para sa IHSS?",
+        "a": "Ang protective supervision ay isang kategorya ng serbisyo ng IHSS para sa mga tatanggap na non-self-directing at nangangailangan ng 24 na oras na pagsubaybay upang maiwasan ang pinsala. Maaari itong magbigay ng hanggang 283 oras bawat buwan (kumpara sa karaniwang maximum na 195 oras para sa ibang mga serbisyo). Kailangan ng inyong doktor na kumpletuhin ang form na SOC 821 na nagpapatunay ng pangangailangan. Maraming unang kahilingan ang tinatanggihan, ngunit mayroon kaming karanasan sa pagbaligtad ng mga pagtangging ito.",
         "cat": "ihss"
       },
       "q15": {
-        "q": "What is the SOC 821 form?",
-        "a": "The SOC 821 is the 'Physician's Report for IHSS Protective Supervision' form. Your doctor must complete it to support a request for protective supervision hours. The form asks the doctor to certify that the recipient is non-self-directing and at risk of injury without constant supervision. Under California Health & Safety Code 123114, your doctor cannot charge you for completing this form.",
+        "q": "Ano ang form na SOC 821?",
+        "a": "Ang SOC 821 ay ang form na 'Physician's Report for IHSS Protective Supervision'. Kailangan itong kumpletuhin ng inyong doktor upang suportahan ang kahilingan para sa mga oras ng protective supervision. Hinihiling ng form na patunayan ng doktor na ang tatanggap ay non-self-directing at nasa panganib ng pinsala kung walang tuloy-tuloy na pagsubaybay. Sa ilalim ng California Health & Safety Code 123114, hindi maaaring singilin kayo ng inyong doktor para sa pagkumpleto ng form na ito.",
         "cat": "ihss"
       },
       "q16": {
-        "q": "How does the IHSS fair hearing process work?",
-        "a": "If you disagree with a county IHSS decision, you can request a State fair hearing within 90 days of receiving your Notice of Action. You can request the hearing online, by phone, or by mail. An Administrative Law Judge will review your case and issue a decision. If you request the hearing before the effective date of the action and ask for aid-paid-pending, your current services continue until the hearing decision.",
+        "q": "Paano gumagana ang proseso ng fair hearing ng IHSS?",
+        "a": "Kung hindi kayo sumasang-ayon sa desisyon ng county sa IHSS, maaari kayong humiling ng State fair hearing sa loob ng 90 araw mula sa pagtanggap ng inyong Notice of Action. Maaari ninyong hilingin ang pagdinig online, sa telepono, o sa koreo. Susuriin ng isang Administrative Law Judge ang inyong kaso at maglalabas ng desisyon. Kung hiniling ninyo ang pagdinig bago ang effective date ng aksyon at humingi ng aid-paid-pending, magpapatuloy ang inyong kasalukuyang mga serbisyo hanggang sa desisyon ng pagdinig.",
         "cat": "ihss"
       },
       "q17": {
-        "q": "What is the maximum number of IHSS hours I can receive?",
-        "a": "The maximum number of IHSS hours varies by service category. For most services, the combined maximum is 283 hours per month (195 hours for domestic and related services plus up to 195 hours for personal care). If you qualify for protective supervision, you may receive up to 283 hours per month for that service alone. The actual hours authorized depend on your individual needs assessment.",
+        "q": "Ano ang pinakamataas na bilang ng oras ng IHSS na maaari kong matanggap?",
+        "a": "Ang pinakamataas na bilang ng oras ng IHSS ay nag-iiba ayon sa kategorya ng serbisyo. Para sa karamihan ng mga serbisyo, ang pinagsama-samang maximum ay 283 oras bawat buwan (195 oras para sa domestic at kaugnay na mga serbisyo at hanggang 195 oras para sa personal na pangangalaga). Kung kwalipikado kayo sa protective supervision, maaari kayong makatanggap ng hanggang 283 oras bawat buwan para sa serbisyong iyon lamang. Ang aktwal na mga oras na awtorisado ay nakadepende sa inyong indibidwal na pagsusuri ng pangangailangan.",
         "cat": "ihss"
       },
       "q18": {
-        "q": "Can my doctor charge me for filling out IHSS forms?",
-        "a": "No. Under California Health and Safety Code Section 123114, healthcare providers cannot charge patients for completing forms required for government benefits programs, including IHSS. This applies to the SOC 821 (protective supervision), SOC 825 (plan of care), and other IHSS-related medical forms. If your doctor tries to charge you, inform them of this law.",
+        "q": "Maaari ba akong singilin ng aking doktor sa pagsagot ng mga form ng IHSS?",
+        "a": "Hindi po. Sa ilalim ng California Health and Safety Code Section 123114, hindi maaaring singilin ng mga healthcare provider ang mga pasyente sa pagkumpleto ng mga form na kinakailangan para sa mga programang benepisyo ng pamahalaan, kasama ang IHSS. Nalalapat ito sa SOC 821 (protective supervision), SOC 825 (plano ng pangangalaga), at iba pang mga medikal na form na kaugnay ng IHSS. Kung sinusubukan kayong singilin ng inyong doktor, ipaalam sa kanila ang batas na ito.",
         "cat": "ihss"
       },
       "q19": {
-        "q": "What is aid-paid-pending for IHSS?",
-        "a": "Aid-paid-pending means your current IHSS services continue at the existing level while your appeal is being processed. To qualify, you must request a fair hearing BEFORE the effective date listed on your Notice of Action and specifically request aid-paid-pending. This is critical — if you wait until after the effective date, your services may be reduced or terminated during the appeal process.",
+        "q": "Ano ang aid-paid-pending para sa IHSS?",
+        "a": "Ang aid-paid-pending ay nangangahulugan na ang inyong kasalukuyang mga serbisyo ng IHSS ay magpapatuloy sa kasalukuyang antas habang pinoproseso ang inyong apela. Upang maging kwalipikado, kailangan ninyong humiling ng fair hearing BAGO ang effective date na nakalista sa inyong Notice of Action at partikular na humiling ng aid-paid-pending. Napakahalaga nito — kung maghihintay kayo hanggang pagkatapos ng effective date, ang inyong mga serbisyo ay maaaring mabawasan o matanggal sa panahon ng proseso ng apela.",
         "cat": "ihss"
       },
       "q20": {
-        "q": "What is an authorized representative for IHSS?",
-        "a": "An authorized representative is someone you designate to act on your behalf in IHSS matters, including at fair hearings. This requires completing form DPA 19 (for the hearing) or SOC 839 (for county interactions). We serve as authorized representatives for our clients — handling communications, preparing evidence, and representing you at hearings. For court proceedings, we connect you with qualified attorneys.",
+        "q": "Ano ang authorized representative para sa IHSS?",
+        "a": "Ang authorized representative ay isang taong itinatalaga ninyo upang kumilos sa inyong ngalan sa mga usapin ng IHSS, kasama na sa mga fair hearing. Nangangailangan ito ng pagkumpleto ng form DPA 19 (para sa pagdinig) o SOC 839 (para sa pakikipag-ugnayan sa county). Nagsisilbi kami bilang authorized representative para sa aming mga kliyente — humahawak ng mga komunikasyon, naghahanda ng ebidensya, at kumakatawan sa inyo sa mga pagdinig. Para sa mga paglilitis sa korte, ikinokonekta namin kayo sa mga kwalipikadong abogado.",
         "cat": "ihss"
       },
       "q21": {
-        "q": "What is the difference between form DPA 19 and SOC 839?",
-        "a": "The DPA 19 (Authorized Representative form) is used to designate someone to represent you at a State fair hearing before an Administrative Law Judge. The SOC 839 (IHSS Recipient Designation of Authorized Representative) is used to authorize someone to interact with the county IHSS office on your behalf. You may need both forms if we are representing you at the county level and at a hearing.",
+        "q": "Ano ang pagkakaiba ng form DPA 19 at SOC 839?",
+        "a": "Ang DPA 19 (form ng Authorized Representative) ay ginagamit upang italaga ang isang tao na kumatawan sa inyo sa isang State fair hearing sa harap ng Administrative Law Judge. Ang SOC 839 (IHSS Recipient Designation of Authorized Representative) ay ginagamit upang pahintulutan ang isang tao na makipag-ugnayan sa county IHSS office sa inyong ngalan. Maaaring kailanganin ninyo ang parehong form kung kinakatawan namin kayo sa antas ng county at sa pagdinig.",
         "cat": "ihss"
       }
     }
   },
   "ihss_appeals_page": {
-    "hero_title": "IHSS Hours Cut or Terminated? <span>Act Now.</span>",
-    "hero_subtitle": "You have 90 days from your Notice of Action to file an appeal. Don't wait — every day counts.",
-    "hero_cta": "Start Your Appeal Below",
+    "hero_title": "Nabawasan o Tinanggal ang Oras ng IHSS? <span>Kumilos Agad.</span>",
+    "hero_subtitle": "Mayroon kayong 90 araw mula sa inyong Notice of Action para mag-file ng apela. Huwag maghintay — bawat araw ay mahalaga.",
+    "hero_cta": "Simulan ang Inyong Apela sa Ibaba",
     "deadline_number": "90",
-    "deadline_label": "Days to File Your Appeal",
-    "deadline_text": "From the date you receive your Notice of Action (NOA), you have 90 days to request a State fair hearing. File BEFORE the effective date to keep your current hours through aid-paid-pending.",
-    "rights_title": "Your Rights Under IHSS",
-    "rights_text": "California law protects your right to appeal any IHSS decision that reduces, terminates, or denies your services. You have the right to continue receiving your current services during the appeal (aid-paid-pending), be represented at your hearing, and present evidence supporting your case.",
-    "reasons_title": "Common Reasons for IHSS Changes",
-    "reason_reduced": "Hours Reduced After Reassessment",
-    "reason_reduced_desc": "The county social worker reassessed your needs and reduced your authorized hours.",
-    "reason_terminated": "IHSS Services Terminated",
-    "reason_terminated_desc": "The county determined you no longer meet eligibility requirements for IHSS.",
-    "reason_denied": "IHSS Application Denied",
-    "reason_denied_desc": "Your initial application for IHSS services was denied.",
-    "reason_ps_denied": "Protective Supervision Denied",
-    "reason_ps_denied_desc": "Your request for protective supervision hours was denied or insufficient hours were authorized.",
-    "form_title": "IHSS Intake Form",
-    "form_subtitle": "Complete this form and we'll review your case within 24 hours. All information is confidential.",
-    "form_section_personal": "Personal Information",
-    "form_section_case": "Case Information",
-    "form_section_issue": "Your Issue",
-    "form_section_noa": "Notice of Action Details",
-    "form_section_upload": "Upload Your NOA",
-    "form_name": "Full Name",
-    "form_phone": "Phone Number",
+    "deadline_label": "Araw para Mag-file ng Inyong Apela",
+    "deadline_text": "Mula sa petsa na matanggap ninyo ang inyong Notice of Action (NOA), mayroon kayong 90 araw para humiling ng State fair hearing. Mag-file BAGO ang effective date upang mapanatili ang inyong kasalukuyang oras sa pamamagitan ng aid-paid-pending.",
+    "rights_title": "Ang Inyong mga Karapatan sa Ilalim ng IHSS",
+    "rights_text": "Pinoprotektahan ng batas ng California ang inyong karapatang mag-apela ng anumang desisyon ng IHSS na nagbabawas, nag-aalis, o tumatanggi sa inyong mga serbisyo. Mayroon kayong karapatan na magpatuloy na tumanggap ng inyong kasalukuyang mga serbisyo sa panahon ng apela (aid-paid-pending), magkaroon ng kinatawan sa inyong pagdinig, at magpresenta ng ebidensyang sumusuporta sa inyong kaso.",
+    "reasons_title": "Mga Karaniwang Dahilan ng Pagbabago sa IHSS",
+    "reason_reduced": "Nabawasan ang Oras Pagkatapos ng Muling Pagsusuri",
+    "reason_reduced_desc": "Muling sinuri ng social worker ng county ang inyong mga pangangailangan at binawasan ang inyong awtorisadong oras.",
+    "reason_terminated": "Tinanggal ang mga Serbisyo ng IHSS",
+    "reason_terminated_desc": "Natukoy ng county na hindi na kayo nakakatugon sa mga kinakailangan sa pagiging kwalipikado para sa IHSS.",
+    "reason_denied": "Tinanggihan ang Aplikasyon sa IHSS",
+    "reason_denied_desc": "Tinanggihan ang inyong unang aplikasyon para sa mga serbisyo ng IHSS.",
+    "reason_ps_denied": "Tinanggihan ang Protective Supervision",
+    "reason_ps_denied_desc": "Tinanggihan ang inyong kahilingan para sa mga oras ng protective supervision o hindi sapat ang mga oras na inawtorisahan.",
+    "form_title": "Form ng Intake para sa IHSS",
+    "form_subtitle": "Kumpletuhin ang form na ito at susuriin namin ang inyong kaso sa loob ng 24 na oras. Lahat ng impormasyon ay kumpidensyal.",
+    "form_section_personal": "Personal na Impormasyon",
+    "form_section_case": "Impormasyon ng Kaso",
+    "form_section_issue": "Ang Inyong Isyu",
+    "form_section_noa": "Mga Detalye ng Notice of Action",
+    "form_section_upload": "I-upload ang Inyong NOA",
+    "form_name": "Buong Pangalan",
+    "form_phone": "Numero ng Telepono",
     "form_email": "Email Address",
-    "form_language": "Preferred Language",
+    "form_language": "Nais na Wika",
     "form_county": "County",
-    "form_county_placeholder": "Select your county",
-    "form_case_number": "IHSS Case Number (optional)",
-    "form_issue_reduced": "Hours Reduced",
-    "form_issue_terminated": "IHSS Terminated",
-    "form_issue_denied": "Application Denied",
-    "form_issue_ps": "Protective Supervision Denied",
-    "form_issue_other": "Other Issue",
-    "form_noa_date": "Date on Notice of Action",
-    "form_effective_date": "Effective Date of Change",
-    "form_aid_pending": "Do you want to continue receiving benefits during your appeal?",
-    "form_aid_pending_yes": "Yes — I want aid-paid-pending",
-    "form_aid_pending_no": "No",
-    "form_upload_text": "Click to upload your Notice of Action",
-    "form_upload_formats": "PDF, JPG, or PNG — Max 10MB",
-    "form_submit": "Get Help Now — Act Before Your Deadline",
-    "form_success_title": "Your Intake Has Been Submitted!",
-    "form_success_text": "We'll review your case and contact you within 24 hours. If your deadline is urgent, call us directly at (818) 264-5355.",
-    "what_next_title": "What Happens Next",
-    "what_next_step1": "We review your Notice of Action and case details within 24 hours",
-    "what_next_step2": "We contact you to discuss your options and next steps",
-    "what_next_step3": "We help you file your hearing request and request aid-paid-pending",
-    "what_next_step4": "We prepare your case and represent you at your hearing"
+    "form_county_placeholder": "Piliin ang inyong county",
+    "form_case_number": "Numero ng Kaso sa IHSS (opsyonal)",
+    "form_issue_reduced": "Nabawasan ang Oras",
+    "form_issue_terminated": "Tinanggal ang IHSS",
+    "form_issue_denied": "Tinanggihan ang Aplikasyon",
+    "form_issue_ps": "Tinanggihan ang Protective Supervision",
+    "form_issue_other": "Ibang Isyu",
+    "form_noa_date": "Petsa sa Notice of Action",
+    "form_effective_date": "Petsa ng Pagkakabisa ng Pagbabago",
+    "form_aid_pending": "Gusto po ba ninyong magpatuloy na tumanggap ng benepisyo sa panahon ng inyong apela?",
+    "form_aid_pending_yes": "Opo — gusto ko ng aid-paid-pending",
+    "form_aid_pending_no": "Hindi",
+    "form_upload_text": "I-click para i-upload ang inyong Notice of Action",
+    "form_upload_formats": "PDF, JPG, o PNG — Hanggang 10MB",
+    "form_submit": "Humingi ng Tulong Ngayon — Kumilos Bago ang Inyong Deadline",
+    "form_success_title": "Naisumite na ang Inyong Intake!",
+    "form_success_text": "Susuriin namin ang inyong kaso at makikipag-ugnayan sa inyo sa loob ng 24 na oras. Kung apurahan ang inyong deadline, tawagan kami nang direkta sa (818) 264-5355.",
+    "what_next_title": "Ano ang Susunod na Mangyayari",
+    "what_next_step1": "Susuriin namin ang inyong Notice of Action at mga detalye ng kaso sa loob ng 24 na oras",
+    "what_next_step2": "Makikipag-ugnayan kami sa inyo upang talakayin ang inyong mga opsyon at mga susunod na hakbang",
+    "what_next_step3": "Tutulungan namin kayong mag-file ng kahilingan para sa pagdinig at humiling ng aid-paid-pending",
+    "what_next_step4": "Ihahanda namin ang inyong kaso at kakatawan kami sa inyo sa inyong pagdinig"
   },
   "protective_page": {
     "hero_title": "IHSS Protective Supervision",
-    "hero_subtitle": "Understanding protective supervision, maximum hours, and how to fight denials.",
-    "what_is_title": "What is Protective Supervision?",
-    "what_is_text": "Protective supervision is an IHSS service category for recipients who are non-self-directing due to a mental impairment or mental illness. It provides observation and supervision to prevent injury, harm, or accidents. Unlike other IHSS services, protective supervision can authorize up to 24 hours per day of care.",
-    "hours_title": "Maximum Hours Available",
+    "hero_subtitle": "Pag-unawa sa protective supervision, pinakamataas na oras, at paano labanan ang mga pagtanggi.",
+    "what_is_title": "Ano ang Protective Supervision?",
+    "what_is_text": "Ang protective supervision ay isang kategorya ng serbisyo ng IHSS para sa mga tatanggap na non-self-directing dahil sa mental na kapansanan o sakit sa pag-iisip. Nagbibigay ito ng obserbasyon at pagsubaybay upang maiwasan ang pinsala, sakuna, o aksidente. Hindi katulad ng ibang mga serbisyo ng IHSS, ang protective supervision ay maaaring mag-awtorisahan ng hanggang 24 na oras bawat araw ng pangangalaga.",
+    "hours_title": "Pinakamataas na Oras na Available",
     "hours_standard": "195",
-    "hours_standard_label": "Standard IHSS Maximum (hours/month)",
+    "hours_standard_label": "Karaniwang Maximum ng IHSS (oras/buwan)",
     "hours_ps": "283",
-    "hours_ps_label": "With Protective Supervision (hours/month)",
-    "soc821_title": "The SOC 821 Doctor Form",
-    "soc821_text": "To qualify for protective supervision, your doctor must complete the SOC 821 (Physician's Report for IHSS Protective Supervision). This form asks the doctor to certify that the recipient is non-self-directing and at risk of injury without constant supervision.",
-    "soc825_title": "SOC 825: Coverage Plan",
-    "soc825_text": "The SOC 825 is used to document the plan for protective supervision coverage, including who will provide supervision and during what hours.",
-    "doctor_charge_title": "Can My Doctor Charge Me for IHSS Forms?",
-    "doctor_charge_text": "No. Under California Health and Safety Code Section 123114, your doctor cannot charge you for completing forms required for government benefit programs. This includes the SOC 821, SOC 825, and all other IHSS-related medical forms.",
-    "denial_reasons_title": "Common Denial Reasons & How to Respond",
-    "denial_reason_1": "County says recipient is 'self-directing'",
-    "denial_response_1": "Gather detailed documentation from doctors showing specific examples of non-self-directing behavior.",
-    "denial_reason_2": "Doctor form incomplete or unclear",
-    "denial_response_2": "Work with the doctor to provide specific medical evidence and behavioral examples.",
-    "denial_reason_3": "County claims other services are sufficient",
-    "denial_response_3": "Document incidents showing current services don't prevent risk of injury.",
-    "evidence_title": "Evidence Checklist for Protective Supervision",
-    "evidence_1": "Completed SOC 821 from treating physician",
-    "evidence_2": "Medical records documenting cognitive/mental impairment",
-    "evidence_3": "Incident reports or hospital records showing past injuries",
-    "evidence_4": "Detailed log of non-self-directing behaviors",
-    "evidence_5": "Letters from therapists, social workers, or other professionals",
-    "evidence_6": "Caregiver testimony about daily supervision needs",
-    "cta_title": "Need Help with Protective Supervision?",
-    "cta_text": "We've helped hundreds of families secure protective supervision hours. Let us review your case.",
-    "cta_button": "Start Your Case"
+    "hours_ps_label": "May Protective Supervision (oras/buwan)",
+    "soc821_title": "Ang SOC 821 na Form ng Doktor",
+    "soc821_text": "Upang maging kwalipikado sa protective supervision, kailangan ng inyong doktor na kumpletuhin ang SOC 821 (Physician's Report for IHSS Protective Supervision). Hinihiling ng form na ito na patunayan ng doktor na ang tatanggap ay non-self-directing at nasa panganib ng pinsala kung walang tuloy-tuloy na pagsubaybay.",
+    "soc825_title": "SOC 825: Plano ng Coverage",
+    "soc825_text": "Ang SOC 825 ay ginagamit upang idokumento ang plano para sa coverage ng protective supervision, kasama kung sino ang magbibigay ng pagsubaybay at sa anong mga oras.",
+    "doctor_charge_title": "Maaari Ba Akong Singilin ng Aking Doktor para sa mga Form ng IHSS?",
+    "doctor_charge_text": "Hindi po. Sa ilalim ng California Health and Safety Code Section 123114, hindi maaaring singilin ng inyong doktor kayo sa pagkumpleto ng mga form na kinakailangan para sa mga programang benepisyo ng pamahalaan. Kasama rito ang SOC 821, SOC 825, at lahat ng iba pang medikal na form na kaugnay ng IHSS.",
+    "denial_reasons_title": "Mga Karaniwang Dahilan ng Pagtanggi at Paano Tumugon",
+    "denial_reason_1": "Sinasabi ng county na ang tatanggap ay 'self-directing'",
+    "denial_response_1": "Mangolekta ng detalyadong dokumentasyon mula sa mga doktor na nagpapakita ng mga partikular na halimbawa ng non-self-directing na pag-uugali.",
+    "denial_reason_2": "Hindi kumpleto o hindi malinaw ang form ng doktor",
+    "denial_response_2": "Makipagtulungan sa doktor upang magbigay ng partikular na medikal na ebidensya at mga halimbawa ng pag-uugali.",
+    "denial_reason_3": "Sinasabi ng county na sapat na ang ibang mga serbisyo",
+    "denial_response_3": "Idokumento ang mga insidente na nagpapakita na ang kasalukuyang mga serbisyo ay hindi nakakapigil sa panganib ng pinsala.",
+    "evidence_title": "Listahan ng Ebidensya para sa Protective Supervision",
+    "evidence_1": "Nakumpletong SOC 821 mula sa attending physician",
+    "evidence_2": "Mga medikal na rekord na nagdodokumento ng cognitive/mental na kapansanan",
+    "evidence_3": "Mga ulat ng insidente o rekord sa ospital na nagpapakita ng mga nakaraang pinsala",
+    "evidence_4": "Detalyadong talaan ng mga non-self-directing na pag-uugali",
+    "evidence_5": "Mga liham mula sa mga therapist, social worker, o iba pang mga propesyonal",
+    "evidence_6": "Testimonya ng caregiver tungkol sa mga pang-araw-araw na pangangailangan ng pagsubaybay",
+    "cta_title": "Kailangan ng Tulong sa Protective Supervision?",
+    "cta_text": "Nakatulong na kami sa daan-daang pamilya na makakuha ng mga oras ng protective supervision. Hayaan ninyong suriin namin ang inyong kaso.",
+    "cta_button": "Simulan ang Inyong Kaso"
   },
   "fair_hearing_page": {
-    "hero_title": "IHSS Fair Hearing Process",
-    "hero_subtitle": "Everything you need to know about requesting and preparing for your State fair hearing.",
-    "how_to_request_title": "How to Request a Fair Hearing",
-    "how_to_request_text": "You can request a State fair hearing three ways: online through the California Department of Social Services website, by phone at 1-800-952-5253, or by mail. You must file within 90 days of receiving your Notice of Action.",
-    "deadline_title": "The 90-Day Deadline",
-    "deadline_text": "You have exactly 90 days from the date you receive your Notice of Action to request a hearing. If you file BEFORE the effective date of the county's action AND request aid-paid-pending, your current services will continue while your appeal is processed.",
-    "aid_pending_title": "Aid-Paid-Pending: Keep Your Current Services",
-    "aid_pending_text": "Aid-paid-pending is your right to continue receiving your current IHSS services at the same level while your appeal is being processed. You must request it when you file your hearing request, and you must file BEFORE the effective date on your Notice of Action. This is critical — waiting too long means losing your services during the appeal.",
-    "what_to_expect_title": "What to Expect at Your Hearing",
-    "what_to_expect_text": "Your hearing will be conducted by an Administrative Law Judge (ALJ) from the California Department of Social Services. The hearing may be held in person, by phone, or by video. You'll have the opportunity to present evidence, call witnesses, and make arguments for why the county's decision should be overturned.",
-    "representative_title": "Having a Representative at Your Hearing",
-    "representative_text": "You have the right to be represented at your hearing. We serve as your authorized representative — preparing your case, organizing evidence, and presenting arguments on your behalf. To authorize us, you'll need to complete a DPA 19 form.",
-    "dpa19_title": "DPA 19 vs SOC 839",
-    "dpa19_text": "The DPA 19 authorizes someone to represent you at a State fair hearing. The SOC 839 authorizes someone to interact with the county IHSS office on your behalf. You may need both forms depending on your situation.",
-    "preparation_title": "Hearing Preparation Checklist",
-    "prep_1": "Copy of your Notice of Action",
-    "prep_2": "Your hearing request confirmation",
-    "prep_3": "Medical records supporting your case",
-    "prep_4": "Completed DPA 19 (if using a representative)",
-    "prep_5": "Incident logs or care journals",
-    "prep_6": "Any prior assessments or care plans",
-    "prep_7": "List of witnesses (if applicable)",
-    "compliance_note": "We serve as your authorized representative at State fair hearings. For cases that may proceed to Superior Court or require formal legal representation, we connect you with qualified disability and elder law attorneys in your area.",
-    "cta_title": "Ready for Your Fair Hearing?",
-    "cta_text": "Don't go in unprepared. Let our team build your case and represent you.",
-    "cta_button": "Get Hearing Help"
+    "hero_title": "Proseso ng Fair Hearing ng IHSS",
+    "hero_subtitle": "Lahat ng kailangan ninyong malaman tungkol sa paghiling at paghahanda para sa inyong State fair hearing.",
+    "how_to_request_title": "Paano Humiling ng Fair Hearing",
+    "how_to_request_text": "Maaari kayong humiling ng State fair hearing sa tatlong paraan: online sa pamamagitan ng website ng California Department of Social Services, sa telepono sa 1-800-952-5253, o sa koreo. Kailangan ninyong mag-file sa loob ng 90 araw mula sa pagtanggap ng inyong Notice of Action.",
+    "deadline_title": "Ang 90 Araw na Deadline",
+    "deadline_text": "Mayroon kayong eksaktong 90 araw mula sa petsa na matanggap ninyo ang inyong Notice of Action para humiling ng pagdinig. Kung mag-file kayo BAGO ang effective date ng aksyon ng county AT humiling ng aid-paid-pending, magpapatuloy ang inyong kasalukuyang mga serbisyo habang pinoproseso ang inyong apela.",
+    "aid_pending_title": "Aid-Paid-Pending: Panatilihin ang Inyong Kasalukuyang mga Serbisyo",
+    "aid_pending_text": "Ang aid-paid-pending ay ang inyong karapatan na magpatuloy na tumanggap ng inyong kasalukuyang mga serbisyo ng IHSS sa parehong antas habang pinoproseso ang inyong apela. Kailangan ninyong hilingin ito kapag nag-file kayo ng kahilingan para sa pagdinig, at kailangan ninyong mag-file BAGO ang effective date sa inyong Notice of Action. Napakahalaga nito — ang labis na paghihintay ay nangangahulugan ng pagkawala ng inyong mga serbisyo sa panahon ng apela.",
+    "what_to_expect_title": "Ano ang Aasahan sa Inyong Pagdinig",
+    "what_to_expect_text": "Ang inyong pagdinig ay isasagawa ng isang Administrative Law Judge (ALJ) mula sa California Department of Social Services. Ang pagdinig ay maaaring isagawa nang personal, sa telepono, o sa pamamagitan ng video. Magkakaroon kayo ng pagkakataon na magpresenta ng ebidensya, tumawag ng mga saksi, at magbigay ng mga argumento kung bakit dapat baligtarin ang desisyon ng county.",
+    "representative_title": "Pagkakaroon ng Kinatawan sa Inyong Pagdinig",
+    "representative_text": "May karapatan kayong magkaroon ng kinatawan sa inyong pagdinig. Nagsisilbi kami bilang inyong authorized representative — naghahanda ng inyong kaso, nag-aayos ng ebidensya, at nagprepresenta ng mga argumento sa inyong ngalan. Upang pahintulutan kami, kailangan ninyong kumpletuhin ang isang form na DPA 19.",
+    "dpa19_title": "DPA 19 kumpara sa SOC 839",
+    "dpa19_text": "Ang DPA 19 ay nag-aawtorisahan ng isang tao na kumatawan sa inyo sa isang State fair hearing. Ang SOC 839 ay nag-aawtorisahan ng isang tao na makipag-ugnayan sa county IHSS office sa inyong ngalan. Maaaring kailanganin ninyo ang parehong form depende sa inyong sitwasyon.",
+    "preparation_title": "Listahan ng Paghahanda para sa Pagdinig",
+    "prep_1": "Kopya ng inyong Notice of Action",
+    "prep_2": "Kumpirmasyon ng inyong kahilingan para sa pagdinig",
+    "prep_3": "Mga medikal na rekord na sumusuporta sa inyong kaso",
+    "prep_4": "Nakumpletong DPA 19 (kung gumagamit ng kinatawan)",
+    "prep_5": "Mga talaan ng insidente o journal ng pangangalaga",
+    "prep_6": "Anumang naunang pagsusuri o plano ng pangangalaga",
+    "prep_7": "Listahan ng mga saksi (kung naaangkop)",
+    "compliance_note": "Nagsisilbi kami bilang inyong authorized representative sa mga State fair hearing. Para sa mga kasong maaaring umabot sa Superior Court o nangangailangan ng pormal na legal na representasyon, ikinokonekta namin kayo sa mga kwalipikadong abogado sa disability at elder law sa inyong lugar.",
+    "cta_title": "Handa na ba Kayo para sa Inyong Fair Hearing?",
+    "cta_text": "Huwag pumasok nang hindi handa. Hayaan ang aming pangkat na buuin ang inyong kaso at kumatawan sa inyo.",
+    "cta_button": "Kumuha ng Tulong sa Pagdinig"
   },
   "resources_page": {
-    "hero_title": "IHSS Forms & Resources",
-    "hero_subtitle": "Essential forms, documents, and guides for IHSS recipients and caregivers.",
-    "forms_title": "Important IHSS Forms",
+    "hero_title": "Mga Form at Mapagkukunan ng IHSS",
+    "hero_subtitle": "Mahahalagang form, dokumento, at gabay para sa mga tatanggap at caregiver ng IHSS.",
+    "forms_title": "Mahahalagang Form ng IHSS",
     "soc821_title": "SOC 821",
-    "soc821_desc": "Physician's Report for IHSS Protective Supervision — your doctor must complete this to request protective supervision.",
+    "soc821_desc": "Physician's Report for IHSS Protective Supervision — kailangan itong kumpletuhin ng inyong doktor upang humiling ng protective supervision.",
     "soc825_title": "SOC 825",
-    "soc825_desc": "Protective Supervision Coverage Plan — documents who will provide supervision and the schedule.",
+    "soc825_desc": "Plano ng Coverage para sa Protective Supervision — nagdodokumento kung sino ang magbibigay ng pagsubaybay at ang iskedyul.",
     "dpa19_title": "DPA 19",
-    "dpa19_desc": "Authorized Representative form for State fair hearings — designates someone to represent you at your hearing.",
+    "dpa19_desc": "Form ng Authorized Representative para sa State fair hearing — nagtatatalaga ng isang tao na kumatawan sa inyo sa inyong pagdinig.",
     "soc839_title": "SOC 839",
-    "soc839_desc": "IHSS Recipient Designation of Authorized Representative — authorizes someone to interact with the county on your behalf.",
-    "hearing_request_title": "Hearing Request",
-    "hearing_request_desc": "Request for State Fair Hearing — the form to officially appeal a county IHSS decision.",
+    "soc839_desc": "Pagtatalaga ng Authorized Representative ng Tatanggap ng IHSS — nag-aawtorisahan ng isang tao na makipag-ugnayan sa county sa inyong ngalan.",
+    "hearing_request_title": "Kahilingan para sa Pagdinig",
+    "hearing_request_desc": "Kahilingan para sa State Fair Hearing — ang form upang opisyal na mag-apela ng desisyon ng county sa IHSS.",
     "aid_pending_title": "Aid-Paid-Pending",
-    "aid_pending_desc": "Request to continue current services during your appeal — must be filed before the effective date.",
-    "download": "Learn More",
-    "doctor_charge_title": "Can My Doctor Charge Me for These Forms?",
-    "doctor_charge_text": "No. Under California Health and Safety Code Section 123114, healthcare providers cannot charge patients for completing forms required for government benefit programs. If your doctor attempts to charge you for filling out SOC 821, SOC 825, or any other IHSS-related form, inform them of this law.",
-    "checklists_title": "Document Checklists by Case Type",
-    "checklist_appeal": "Appealing Hour Reduction",
-    "checklist_appeal_items": "Notice of Action, prior assessment, medical records, care log, DPA 19",
-    "checklist_ps": "Protective Supervision Request",
-    "checklist_ps_items": "SOC 821, medical records, incident reports, behavior log, SOC 825",
-    "checklist_hearing": "Fair Hearing Preparation",
-    "checklist_hearing_items": "NOA, hearing confirmation, DPA 19, all medical evidence, witness list, care plan"
+    "aid_pending_desc": "Kahilingan na ipagpatuloy ang kasalukuyang mga serbisyo sa panahon ng inyong apela — kailangang i-file bago ang effective date.",
+    "download": "Alamin Pa",
+    "doctor_charge_title": "Maaari Ba Akong Singilin ng Aking Doktor para sa mga Form na Ito?",
+    "doctor_charge_text": "Hindi po. Sa ilalim ng California Health and Safety Code Section 123114, hindi maaaring singilin ng mga healthcare provider ang mga pasyente sa pagkumpleto ng mga form na kinakailangan para sa mga programang benepisyo ng pamahalaan. Kung sinusubukan kayong singilin ng inyong doktor sa pagsagot ng SOC 821, SOC 825, o anumang iba pang form na kaugnay ng IHSS, ipaalam sa kanila ang batas na ito.",
+    "checklists_title": "Mga Listahan ng Dokumento Ayon sa Uri ng Kaso",
+    "checklist_appeal": "Pag-apela sa Pagbawas ng Oras",
+    "checklist_appeal_items": "Notice of Action, naunang pagsusuri, mga medikal na rekord, talaan ng pangangalaga, DPA 19",
+    "checklist_ps": "Kahilingan para sa Protective Supervision",
+    "checklist_ps_items": "SOC 821, mga medikal na rekord, mga ulat ng insidente, talaan ng pag-uugali, SOC 825",
+    "checklist_hearing": "Paghahanda para sa Fair Hearing",
+    "checklist_hearing_items": "NOA, kumpirmasyon ng pagdinig, DPA 19, lahat ng medikal na ebidensya, listahan ng mga saksi, plano ng pangangalaga"
   },
   "county_page": {
-    "hero_prefix": "IHSS in",
-    "how_ihss_works": "How IHSS Works in",
-    "how_ihss_text": "IHSS is administered at the county level, so each county has its own office, social workers, and processes. Understanding how your county handles IHSS can make a big difference in your case.",
-    "contact_title": "County IHSS Contact Information",
-    "common_issues": "Common IHSS Issues in",
-    "common_issue_1": "Hour reductions after annual reassessments",
-    "common_issue_2": "Protective supervision denials",
-    "common_issue_3": "Delays in processing new applications",
-    "common_issue_4": "Miscommunication between social workers and recipients",
-    "cta_title": "Need IHSS Help in",
-    "cta_text": "We've helped families across this county protect their IHSS services. Contact us for a free case review.",
-    "cta_button": "Start Your Case",
-    "other_counties": "IHSS Help in Other Counties",
+    "hero_prefix": "IHSS sa",
+    "how_ihss_works": "Paano Gumagana ang IHSS sa",
+    "how_ihss_text": "Ang IHSS ay pinamamahalaan sa antas ng county, kaya ang bawat county ay may sariling opisina, mga social worker, at proseso. Ang pag-unawa kung paano hinahawakan ng inyong county ang IHSS ay maaaring gumawa ng malaking pagkakaiba sa inyong kaso.",
+    "contact_title": "Impormasyon sa Pakikipag-ugnayan sa County IHSS",
+    "common_issues": "Mga Karaniwang Isyu sa IHSS sa",
+    "common_issue_1": "Pagbawas ng oras pagkatapos ng taunang muling pagsusuri",
+    "common_issue_2": "Mga pagtanggi sa protective supervision",
+    "common_issue_3": "Pagkaantala sa pagproseso ng mga bagong aplikasyon",
+    "common_issue_4": "Maling komunikasyon sa pagitan ng mga social worker at tatanggap",
+    "cta_title": "Kailangan ng Tulong sa IHSS sa",
+    "cta_text": "Nakatulong na kami sa mga pamilya sa buong county na ito na protektahan ang kanilang mga serbisyo ng IHSS. Makipag-ugnayan sa amin para sa libreng pagsusuri ng kaso.",
+    "cta_button": "Simulan ang Inyong Kaso",
+    "other_counties": "Tulong sa IHSS sa Ibang mga County",
     "la": {
-      "name": "Los Angeles County",
+      "name": "County ng Los Angeles",
       "recipients": "230,000+",
-      "recipients_label": "IHSS Recipients",
+      "recipients_label": "Mga Tatanggap ng IHSS",
       "providers": "200,000+",
-      "providers_label": "IHSS Providers",
-      "office": "IHSS Office",
+      "providers_label": "Mga Provider ng IHSS",
+      "office": "Opisina ng IHSS",
       "phone": "(888) 944-4477",
       "address": "3175 W. 6th Street, Los Angeles, CA 90020",
-      "hours": "Monday – Friday: 8:00 AM – 5:00 PM"
+      "hours": "Lunes – Biyernes: 8:00 AM – 5:00 PM"
     },
     "oc": {
-      "name": "Orange County",
+      "name": "County ng Orange",
       "recipients": "25,000+",
-      "recipients_label": "IHSS Recipients",
+      "recipients_label": "Mga Tatanggap ng IHSS",
       "providers": "22,000+",
-      "providers_label": "IHSS Providers",
-      "office": "IHSS Office",
+      "providers_label": "Mga Provider ng IHSS",
+      "office": "Opisina ng IHSS",
       "phone": "(714) 825-3000",
       "address": "500 N. State College Blvd, Orange, CA 92868",
-      "hours": "Monday – Friday: 8:00 AM – 5:00 PM"
+      "hours": "Lunes – Biyernes: 8:00 AM – 5:00 PM"
     },
     "sd": {
-      "name": "San Diego County",
+      "name": "County ng San Diego",
       "recipients": "40,000+",
-      "recipients_label": "IHSS Recipients",
+      "recipients_label": "Mga Tatanggap ng IHSS",
       "providers": "35,000+",
-      "providers_label": "IHSS Providers",
-      "office": "IHSS Office",
+      "providers_label": "Mga Provider ng IHSS",
+      "office": "Opisina ng IHSS",
       "phone": "(858) 560-0509",
       "address": "5560 Overland Ave, San Diego, CA 92123",
-      "hours": "Monday – Friday: 8:00 AM – 5:00 PM"
+      "hours": "Lunes – Biyernes: 8:00 AM – 5:00 PM"
     },
     "rv": {
-      "name": "Riverside County",
+      "name": "County ng Riverside",
       "recipients": "30,000+",
-      "recipients_label": "IHSS Recipients",
+      "recipients_label": "Mga Tatanggap ng IHSS",
       "providers": "26,000+",
-      "providers_label": "IHSS Providers",
-      "office": "IHSS Office",
+      "providers_label": "Mga Provider ng IHSS",
+      "office": "Opisina ng IHSS",
       "phone": "(877) 410-8829",
       "address": "4060 County Circle Drive, Riverside, CA 92503",
-      "hours": "Monday – Friday: 8:00 AM – 5:00 PM"
+      "hours": "Lunes – Biyernes: 8:00 AM – 5:00 PM"
     }
   },
   "portal_page": {
@@ -640,15 +640,118 @@
     "login_contact_us": "Makipag-ugnayan sa amin para i-setup ang inyong account"
   },
   "footer": {
-    "desc": "California's IHSS advocacy and benefits navigation specialists. We help IHSS recipients fight hour reductions, secure protective supervision, and navigate fair hearings — in English, Spanish, Farsi, and Tagalog.",
+    "desc": "Mga dalubhasa sa adbokasiya ng IHSS at pag-navigate ng benepisyo sa California. Tinutulungan namin ang mga tatanggap ng IHSS na labanan ang pagbawas ng oras, makakuha ng protective supervision, at mag-navigate sa mga fair hearing — sa English, Spanish, Farsi, at Tagalog.",
     "quick_links": "Mga Mabilisang Link",
-    "ihss_services": "IHSS Services",
-    "other_services": "Other Services",
+    "ihss_services": "Mga Serbisyo ng IHSS",
+    "other_services": "Iba pang mga Serbisyo",
     "services": "Mga Serbisyo",
     "contact": "Makipag-ugnayan",
     "copyright": "© 2026 SSDI Providers. Lahat ng karapatan ay nakalaan.",
     "privacy": "Patakaran sa Pagkapribado",
     "terms": "Mga Tuntunin ng Serbisyo",
     "accessibility": "Aksesibilidad"
+  },
+  "legal_page": {
+    "hero_title": "Mga Legal na Disclaimer, Patakaran sa Pagkapribado at Mga Tuntunin",
+    "hero_subtitle": "Mahahalagang legal na impormasyon tungkol sa aming mga serbisyo, inyong pagkapribado, at mga tuntuning namamahala sa inyong paggamit ng website na ito.",
+    "disclaimers_title": "Mga Legal na Disclaimer",
+    "not_law_firm_title": "Hindi Law Firm — Hindi Legal na Payo",
+    "not_law_firm_p1": "Ang SSDI Providers ay <strong>hindi isang law firm</strong> at hindi nagbibigay ng legal na payo, legal na representasyon, o mga serbisyo ng abogado. Ang impormasyong ibinigay sa website na ito at sa pamamagitan ng aming mga serbisyo ay para lamang sa pangkalahatang impormasyon at mga layunin ng adbokasiya. Walang anumang nilalaman sa website na ito ang dapat ituring bilang legal na payo o bilang paglikha ng relasyon sa pagitan ng abogado at kliyente.",
+    "not_law_firm_p2": "Ang aming pangkat ay nagbibigay ng adbokasiya, social work, pamamahala ng kaso, at mga serbisyo bilang authorized representative para sa mga tatanggap ng IHSS (In-Home Supportive Services) sa Estado ng California. Kapag kinakailangan ang legal na representasyon — kasama ngunit hindi limitado sa mga paglilitis sa korte, mga usapin sa administrative law, o mga kumplikadong legal na alitan — inirereper namin ang mga kliyente sa mga kwalipikado at lisensyadong abogado.",
+    "not_law_firm_p3": "<strong>Kung kailangan ninyo ng legal na payo, mangyaring kumonsulta sa isang lisensyadong abogado sa California.</strong>",
+    "auth_rep_title": "Mga Serbisyo bilang Authorized Representative",
+    "auth_rep_p1": "Maaari kaming magsilbi bilang inyong authorized representative sa mga State fair hearing at sa pakikipag-ugnayan sa mga county IHSS office, ayon sa pinapahintulutan ng California Welfare and Institutions Code. Ang authorized representative ay hindi isang abogado at hindi nagbibigay ng legal na representasyon. Ang mga authorized representative ay tumutulong sa adbokasiya, pagtitipon ng ebidensya, at paghahanda sa pagdinig sa isang administrative (hindi sa korte) na kapasidad.",
+    "no_guarantee_title": "Walang Garantiya ng Resulta",
+    "no_guarantee_p1": "Bagama't sinisikap naming makamit ang pinakamainam na resulta para sa aming mga kliyente, <strong>walang garantiya o warranty</strong> kaming ibinibigay tungkol sa resulta ng anumang apela, fair hearing, kahilingan para sa protective supervision, o iba pang usaping kaugnay ng IHSS. Ang bawat kaso ay natatangi, at ang mga resulta ay nakadepende sa mga indibidwal na kalagayan, ebidensya, patakaran ng county, at mga desisyon ng administrative law judge.",
+    "no_guarantee_p2": "Ang mga nakaraang resulta, testimonya, o mga halimbawa ng kaso na inilalarawan sa website na ito ay hindi nagagarantiya o hinuhulaan ang mga resulta sa hinaharap.",
+    "info_only_title": "Para sa Layuning Pang-impormasyon Lamang",
+    "info_only_p1": "Lahat ng nilalaman sa website na ito — kasama ang impormasyon tungkol sa mga programa ng IHSS, fair hearing, protective supervision, mga regulasyon ng California, mga deadline, form, at pamamaraan — ay ibinibigay para lamang sa pangkalahatang layuning pang-impormasyon. Bagama't nagsisikap kami na panatilihing tama at napapanahon ang impormasyong ito, hindi namin ginagarantiyahan ang katumpakan, kabuuran, o pagiging napapanahon nito.",
+    "info_only_p2": "Ang mga patakaran, regulasyon, at pamamaraan ng IHSS sa California ay maaaring magbago anumang oras. Para sa pinakabagong impormasyon, kumonsulta sa California Department of Social Services (CDSS), sa inyong lokal na county IHSS office, o sa isang lisensyadong abogado.",
+    "third_party_title": "Mga Link sa Third-Party",
+    "third_party_p1": "Ang website na ito ay maaaring maglaman ng mga link sa mga panlabas na website, ahensya ng pamahalaan, o mga mapagkukunan ng third-party. Ang mga link na ito ay ibinigay para sa kaginhawahan lamang. Hindi namin ineendorso, kinokontrol, o inaako ang responsibilidad para sa nilalaman, patakaran, o gawi ng anumang third-party na website.",
+    "ca_specific_title": "Mga Serbisyong Partikular sa California",
+    "ca_specific_p1": "Ang aming mga serbisyo ay partikular sa Estado ng California at sa programang IHSS ng California. Ang impormasyon at gabay na ibinigay ay maaaring hindi naaangkop sa ibang estado o programa.",
+    "privacy_title": "Patakaran sa Pagkapribado",
+    "privacy_updated": "<em>Huling na-update: Marso 2026</em>",
+    "info_collect_title": "Impormasyong Kinokolekta Namin",
+    "info_collect_text": "Kapag ginamit ninyo ang aming website o nagsumite ng form, maaari naming kolektahin ang sumusunod na impormasyon:",
+    "info_collect_personal": "<strong>Personal na Impormasyon:</strong> Pangalan, numero ng telepono, email address, nais na wika, at county ng tirahan.",
+    "info_collect_case": "<strong>Impormasyon ng Kaso:</strong> Numero ng kaso sa IHSS, mga detalye tungkol sa inyong isyu sa IHSS, mga petsa ng Notice of Action, at mga na-upload na dokumento (tulad ng mga sulat ng NOA o mga form ng SOC).",
+    "info_collect_usage": "<strong>Impormasyon sa Paggamit:</strong> Uri ng browser, uri ng device, IP address, mga pahinang binisita, at referring website (awtomatikong kinokolekta sa pamamagitan ng karaniwang mga teknolohiya sa web).",
+    "how_use_title": "Paano Namin Ginagamit ang Inyong Impormasyon",
+    "how_use_text": "Ginagamit namin ang impormasyong ibinigay ninyo upang:",
+    "how_use_1": "Tumugon sa inyong mga katanungan at kahilingan para sa serbisyo",
+    "how_use_2": "Suriin ang inyong kaso sa IHSS at matukoy kung paano kami makakatulong",
+    "how_use_3": "Makipag-ugnayan sa inyo tungkol sa inyong kaso at aming mga serbisyo",
+    "how_use_4": "Pagbutihin ang aming website at mga serbisyo",
+    "how_use_5": "Sumunod sa mga naaangkop na batas at regulasyon",
+    "how_protect_title": "Paano Namin Pinoprotektahan ang Inyong Impormasyon",
+    "how_protect_p1": "Nagsasagawa kami ng makatwirang mga hakbang sa administratibo, teknikal, at pisikal upang protektahan ang inyong personal na impormasyon mula sa hindi awtorisadong pag-access, paggamit, o pagbubunyag. Ang mga pagsusumite ng form ay ipinapadala gamit ang industriya-standard na encryption (HTTPS/TLS).",
+    "info_sharing_title": "Pagbabahagi ng Impormasyon",
+    "info_sharing_text": "<strong>Hindi</strong> namin ibinebenta, inuupahan, o ipinagpapalit ang inyong personal na impormasyon sa mga third-party para sa mga layunin ng marketing. Maaari lamang naming ibahagi ang inyong impormasyon sa mga sumusunod na pagkakataon:",
+    "info_sharing_consent": "<strong>Sa inyong pahintulot:</strong> Kapag inawtorisahan ninyo kaming ibahagi ang impormasyon sa isang abogado, county office, o ibang partido kaugnay ng inyong kaso.",
+    "info_sharing_service": "<strong>Mga tagapagbigay ng serbisyo:</strong> Gumagamit kami ng Web3Forms upang iproseso ang mga pagsusumite ng form. Ang inyong data mula sa form ay ipinapadala sa pamamagitan ng kanilang serbisyo alinsunod sa kanilang patakaran sa pagkapribado.",
+    "info_sharing_legal": "<strong>Mga legal na kinakailangan:</strong> Kapag kinakailangan ng batas, utos ng korte, o regulasyon ng pamahalaan.",
+    "info_sharing_attorney": "<strong>Mga referral sa abogado:</strong> Kung irerefer namin kayo sa isang abogado, maaari naming ibahagi ang mga kaugnay na impormasyon ng kaso sa inyong tahasang pahintulot.",
+    "cookies_title": "Mga Cookie",
+    "cookies_p1": "Ang website na ito ay maaaring gumamit ng mga cookie o katulad na teknolohiya upang matandaan ang inyong kagustuhan sa wika at mapabuti ang inyong karanasan sa pag-browse. Maaari ninyong i-disable ang mga cookie sa mga setting ng inyong browser, bagama't ang ilang mga tampok ng website ay maaaring hindi gumana nang maayos.",
+    "ccpa_title": "Mga Karapatan sa Pagkapribado ng California (CCPA/CPRA)",
+    "ccpa_text": "Sa ilalim ng California Consumer Privacy Act (CCPA) at ng California Privacy Rights Act (CPRA), ang mga residente ng California ay may karapatang:",
+    "ccpa_1": "Malaman kung anong personal na impormasyon ang kinokolekta tungkol sa kanila",
+    "ccpa_2": "Malaman kung ang kanilang personal na impormasyon ay ibinebenta o ibinubunyag, at kung kanino",
+    "ccpa_3": "Humiling ng pagbura ng kanilang personal na impormasyon",
+    "ccpa_4": "Tumanggi sa pagbebenta ng kanilang personal na impormasyon",
+    "ccpa_5": "Hindi madiskrimina sa paggamit ng kanilang mga karapatan sa pagkapribado",
+    "ccpa_exercise": "Upang gamitin ang alinman sa mga karapatang ito, mangyaring makipag-ugnayan sa amin gamit ang impormasyong ibinigay sa ibaba.",
+    "children_title": "Pagkapribado ng mga Bata",
+    "children_p1": "Ang aming website at mga serbisyo ay hindi nakadirekta sa mga batang wala pang 13 taong gulang. Hindi kami sadyang nangongolekta ng personal na impormasyon mula sa mga batang wala pang 13. Kung malaman naming nakakolekta kami ng ganitong impormasyon, gagawa kami ng mga hakbang upang agad itong burahin.",
+    "privacy_changes_title": "Mga Pagbabago sa Patakaran sa Pagkapribado na Ito",
+    "privacy_changes_p1": "Maaari naming i-update ang patakaran sa pagkapribado na ito paminsan-minsan. Ang mga pagbabago ay ipopost sa pahinang ito na may na-update na petsa ng rebisyon.",
+    "terms_title": "Mga Tuntunin ng Serbisyo",
+    "terms_updated": "<em>Huling na-update: Marso 2026</em>",
+    "acceptance_title": "Pagtanggap ng mga Tuntunin",
+    "acceptance_p1": "Sa pamamagitan ng pag-access at paggamit ng website na ito, sumasang-ayon kayo na sumailalim sa mga Tuntunin ng Serbisyong ito. Kung hindi kayo sumasang-ayon sa anumang bahagi ng mga tuntuning ito, mangyaring huwag gamitin ang website na ito.",
+    "description_title": "Paglalarawan ng mga Serbisyo",
+    "description_p1": "Ang SSDI Providers ay nag-aalok ng adbokasiya sa IHSS, pamamahala ng kaso, mga serbisyo bilang authorized representative, at pag-navigate ng benepisyo para sa mga residente ng California. Hindi kami isang law firm at ang aming mga serbisyo ay hindi bumubuo ng legal na payo o legal na representasyon.",
+    "use_title": "Paggamit ng Website na Ito",
+    "use_text": "Sumasang-ayon kayo na gamitin ang website na ito para lamang sa mga lehitimong layunin at alinsunod sa mga tuntuning ito. Sumasang-ayon kayong hindi:",
+    "use_1": "Gamitin ang website sa anumang paraan na lumalabag sa anumang naaangkop na pederal, estado, o lokal na batas",
+    "use_2": "Magsumite ng mali, mapanlinlang, o mapanlokong impormasyon sa pamamagitan ng anumang form sa website na ito",
+    "use_3": "Subukang makakuha ng hindi awtorisadong access sa anumang bahagi ng website o ng mga sistema nito",
+    "use_4": "Gamitin ang website upang magpadala ng anumang nakakapinsala, nakakasakit, o nakakagambala na nilalaman",
+    "form_submissions_title": "Mga Pagsusumite ng Form",
+    "form_submissions_p1": "Sa pagsusumite ng form sa website na ito, kinakatawan ninyo na ang impormasyong ibinigay ninyo ay totoo at tama sa abot ng inyong kaalaman. Ang pagsusumite ng form ay hindi lumilikha ng relasyon ng kliyente o garantiya na matutulungan namin kayo.",
+    "ip_title": "Intelektwal na Pag-aari",
+    "ip_p1": "Lahat ng nilalaman sa website na ito — kasama ang teksto, disenyo, mga grapiko, logo, at code — ay pag-aari ng SSDI Providers o ng mga nagbigay ng lisensya nito at protektado ng mga naaangkop na batas sa copyright at intelektwal na pag-aari. Hindi ninyo maaaring kopyahin, ipamahagi, o lumikha ng mga gawa mula sa nilalamang ito nang walang naunang nakasulat na pahintulot.",
+    "liability_title": "Limitasyon ng Pananagutan",
+    "liability_p1": "Sa pinakamataas na lawak na pinapahintulutan ng batas ng California, ang SSDI Providers ay hindi mananagot para sa anumang hindi direkta, hindi sinasadya, espesyal, konsekwensyal, o parusa na danyos na nagmumula sa inyong paggamit ng website na ito o ng aming mga serbisyo. Kasama rito, ngunit hindi limitado sa, mga danyos para sa pagkawala ng kita, data, kabutihang-loob, o iba pang hindi nahahawakang pagkalugi.",
+    "liability_p2": "Ang aming kabuuang pananagutan para sa anumang claim na nagmumula o may kaugnayan sa mga tuntuning ito o sa aming mga serbisyo ay hindi lalampas sa halagang binayaran ninyo sa amin, kung mayroon man, sa loob ng labindalawang (12) buwan bago ang claim.",
+    "indemnification_title": "Indemnipikasyon",
+    "indemnification_p1": "Sumasang-ayon kayong bayaran at protektahan ang SSDI Providers, ang mga may-ari, empleyado, at ahente nito mula sa anumang claim, pananagutan, danyos, pagkalugi, o gastos (kasama ang makatwirang bayad ng abogado) na nagmumula sa inyong paggamit ng website na ito o paglabag sa mga tuntuning ito.",
+    "dispute_title": "Resolusyon ng mga Alitan",
+    "dispute_p1": "Anumang alitan na nagmumula sa mga tuntuning ito o sa inyong paggamit ng website na ito ay pamamahalaan ng mga batas ng Estado ng California, nang walang pagsasaalang-alang sa mga probisyon nito sa conflict of law. Anumang legal na aksyon o paglilitis ay dadalhin nang eksklusibo sa mga korte ng estado o pederal na matatagpuan sa Los Angeles County, California.",
+    "severability_title": "Severability",
+    "severability_p1": "Kung ang anumang probisyon ng mga tuntuning ito ay matuklasang hindi maipatutupad o hindi wasto, ang mga natitirang probisyon ay mananatiling wasto at maipatutupad sa pinakamataas na lawak na pinapahintulutan ng batas.",
+    "terms_changes_title": "Mga Pagbabago sa mga Tuntunin",
+    "terms_changes_p1": "Inilalaan namin ang karapatan na baguhin ang mga tuntuning ito anumang oras. Ang mga pagbabago ay magkakabisa agad sa pagkakapost sa pahinang ito. Ang inyong patuloy na paggamit ng website pagkatapos maipost ang mga pagbabago ay bumubuo ng pagtanggap sa mga binagong tuntunin.",
+    "accessibility_title": "Pahayag sa Aksesibilidad",
+    "a11y_commitment_title": "Ang Aming Pangako",
+    "a11y_commitment_p1": "Ang SSDI Providers ay nakatuon sa pagtitiyak ng digital na aksesibilidad para sa mga taong may kapansanan. Sinisikap naming matugunan o malampasan ang mga pamantayan ng Web Content Accessibility Guidelines (WCAG) 2.1 Level AA at patuloy na nagtatrabaho upang mapabuti ang aksesibilidad at kakayahang magamit ng aming website para sa lahat ng gumagamit.",
+    "a11y_features_title": "Mga Tampok ng Aksesibilidad",
+    "a11y_feature_1": "Estruktura ng semantic HTML na may angkop na mga heading at landmark",
+    "a11y_feature_2": "Mga ARIA label at role para sa mga interactive na elemento",
+    "a11y_feature_3": "Link na lumaktaw-sa-nilalaman para sa nabigasyon",
+    "a11y_feature_4": "Mga menu at form na maaaring i-navigate gamit ang keyboard",
+    "a11y_feature_5": "Sapat na ratio ng contrast ng kulay",
+    "a11y_feature_6": "Suporta sa maraming wika (English, Spanish, Farsi, Tagalog)",
+    "a11y_feature_7": "Suporta sa layout na kanan-pakaliwa (RTL) para sa Farsi",
+    "a11y_feature_8": "Responsive na disenyo para sa lahat ng laki ng screen",
+    "a11y_feedback_title": "Mga Puna",
+    "a11y_feedback_p1": "Kung makatagpo kayo ng anumang hadlang sa aksesibilidad o may mga mungkahi para sa pagpapabuti, mangyaring makipag-ugnayan sa amin. Sineseryoso namin ang mga puna tungkol sa aksesibilidad at gagawa kami upang agad na matugunan ang anumang isyu.",
+    "contact_title": "Mga Tanong Tungkol sa mga Patakarang Ito?",
+    "contact_text": "Kung mayroon kayong mga tanong tungkol sa aming mga legal na disclaimer, patakaran sa pagkapribado, o mga tuntunin ng serbisyo, mangyaring makipag-ugnayan sa amin:",
+    "contact_email": "<strong>Email:</strong> <a href=\"mailto:info@ssdiproviders.com\">info@ssdiproviders.com</a>",
+    "contact_phone": "<strong>Telepono:</strong> <a href=\"tel:8182645355\">(818) 264-5355</a>",
+    "contact_footer_note": "<em>Ang mga patakarang ito ay huling na-update noong Marso 2026. Inirerekomenda naming kumonsulta sa isang lisensyadong abogado sa California para sa legal na payong partikular sa inyong sitwasyon.</em>"
   }
 }
