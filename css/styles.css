@@ -1780,6 +1780,24 @@ select {
   color: var(--teal-light);
 }
 
+.footer__credit {
+  text-align: center;
+  padding-top: var(--space-md);
+  margin-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.footer__credit a {
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+}
+
+.footer__credit a:hover {
+  color: var(--teal-light);
+}
+
 /* --- Page Hero (Inner Pages) --- */
 .page-hero {
   padding: var(--space-3xl) 0;
