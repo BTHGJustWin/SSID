@@ -31,15 +31,22 @@
     "email": "Email Address",
     "issue": "What happened?",
     "issue_options": {
-      "hours_reduced": "IHSS Hours Reduced",
-      "terminated": "IHSS Terminated",
-      "denied": "IHSS Application Denied",
-      "protective_supervision": "Protective Supervision Denied",
-      "fair_hearing": "Need Fair Hearing Help",
-      "other": "Other IHSS Issue"
+      "select": "-- Pumili ng isyu --",
+      "hours_reduced": "Nabawasan ang Oras ng IHSS",
+      "terminated": "Tinanggal ang Oras ng IHSS",
+      "denied": "Tinanggihan ang Aplikasyon sa IHSS",
+      "protective_supervision": "Tinanggihan ang Protective Supervision",
+      "fair_hearing": "Kailangan ng Tulong sa Fair Hearing",
+      "auth_rep": "Kailangan ng Authorized Representative",
+      "new_application": "Bagong Aplikasyon sa IHSS",
+      "reassessment": "Isyu sa Reassessment ng IHSS",
+      "provider_issue": "Isyu sa Provider/Caregiver",
+      "doctor_form": "Tulong sa SOC 821 / Form ng Doktor",
+      "other": "Iba pa"
     },
-    "submit": "Get Free Consultation",
-    "success": "Thank you! We'll contact you within 24 hours."
+    "other_reason": "Mangyaring ilarawan ang iyong isyu",
+    "submit": "Kumuha ng Libreng Konsultasyon",
+    "success": "Salamat! Makikipag-ugnayan kami sa iyo sa loob ng 24 na oras."
   },
   "floating_cta": {
     "text": "Get Help Now"

@@ -420,6 +420,22 @@
     var form = document.getElementById('quick-contact-form');
     if (!form) return;
 
+    // Show/hide "Other" text input when "Other" is selected
+    var issueSelect = form.querySelector('#qc-issue');
+    var otherGroup = form.querySelector('.qc-other-group');
+    if (issueSelect && otherGroup) {
+      issueSelect.addEventListener('change', function () {
+        if (issueSelect.value === 'Other') {
+          otherGroup.style.display = '';
+          otherGroup.querySelector('input').setAttribute('required', '');
+        } else {
+          otherGroup.style.display = 'none';
+          otherGroup.querySelector('input').removeAttribute('required');
+          otherGroup.querySelector('input').value = '';
+        }
+      });
+    }
+
     form.addEventListener('submit', function (e) {
       e.preventDefault();
 

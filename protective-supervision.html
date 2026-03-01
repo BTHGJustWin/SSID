@@ -236,13 +236,23 @@
           <div class="form__group">
             <label for="qc-issue" class="form__label" data-i18n="quick_contact.issue">What happened?</label>
             <select id="qc-issue" name="issue" class="form__select">
+              <option value="" disabled selected data-i18n="quick_contact.issue_options.select">-- Select an issue --</option>
               <option value="IHSS Hours Reduced" data-i18n="quick_contact.issue_options.hours_reduced">IHSS Hours Reduced</option>
-              <option value="IHSS Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Terminated</option>
-              <option value="IHSS Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
-              <option value="Protective Supervision" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
-              <option value="Fair Hearing" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
-              <option value="Other" data-i18n="quick_contact.issue_options.other">Other IHSS Issue</option>
+              <option value="IHSS Hours Terminated" data-i18n="quick_contact.issue_options.terminated">IHSS Hours Terminated</option>
+              <option value="IHSS Application Denied" data-i18n="quick_contact.issue_options.denied">IHSS Application Denied</option>
+              <option value="Protective Supervision Denied" data-i18n="quick_contact.issue_options.protective_supervision">Protective Supervision Denied</option>
+              <option value="Need Fair Hearing Help" data-i18n="quick_contact.issue_options.fair_hearing">Need Fair Hearing Help</option>
+              <option value="Authorized Representative Needed" data-i18n="quick_contact.issue_options.auth_rep">Authorized Representative Needed</option>
+              <option value="New IHSS Application" data-i18n="quick_contact.issue_options.new_application">New IHSS Application</option>
+              <option value="IHSS Reassessment Issue" data-i18n="quick_contact.issue_options.reassessment">IHSS Reassessment Issue</option>
+              <option value="Provider/Caregiver Issue" data-i18n="quick_contact.issue_options.provider_issue">Provider/Caregiver Issue</option>
+              <option value="SOC 821 / Doctor Form Help" data-i18n="quick_contact.issue_options.doctor_form">SOC 821 / Doctor Form Help</option>
+              <option value="Other" data-i18n="quick_contact.issue_options.other">Other</option>
             </select>
+          </div>
+          <div class="form__group qc-other-group" style="display:none;">
+            <label for="qc-other-reason" class="form__label" data-i18n="quick_contact.other_reason">Please describe your issue</label>
+            <input type="text" id="qc-other-reason" name="other_reason" class="form__input" placeholder="Describe your issue...">
           </div>
           <button type="submit" class="btn btn--gold btn--lg" data-i18n="quick_contact.submit">Get Free Consultation</button>
           <div class="quick-contact__success" data-i18n="quick_contact.success">Thank you! We'll contact you within 24 hours.</div>

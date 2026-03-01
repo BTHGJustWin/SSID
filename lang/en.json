@@ -31,13 +31,20 @@
     "email": "Email Address",
     "issue": "What happened?",
     "issue_options": {
+      "select": "-- Select an issue --",
       "hours_reduced": "IHSS Hours Reduced",
-      "terminated": "IHSS Terminated",
+      "terminated": "IHSS Hours Terminated",
       "denied": "IHSS Application Denied",
       "protective_supervision": "Protective Supervision Denied",
       "fair_hearing": "Need Fair Hearing Help",
-      "other": "Other IHSS Issue"
+      "auth_rep": "Authorized Representative Needed",
+      "new_application": "New IHSS Application",
+      "reassessment": "IHSS Reassessment Issue",
+      "provider_issue": "Provider/Caregiver Issue",
+      "doctor_form": "SOC 821 / Doctor Form Help",
+      "other": "Other"
     },
+    "other_reason": "Please describe your issue",
     "submit": "Get Free Consultation",
     "success": "Thank you! We'll contact you within 24 hours."
   },

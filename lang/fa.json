@@ -31,15 +31,22 @@
     "email": "Email Address",
     "issue": "What happened?",
     "issue_options": {
-      "hours_reduced": "IHSS Hours Reduced",
-      "terminated": "IHSS Terminated",
-      "denied": "IHSS Application Denied",
-      "protective_supervision": "Protective Supervision Denied",
-      "fair_hearing": "Need Fair Hearing Help",
-      "other": "Other IHSS Issue"
+      "select": "-- یک مشکل را انتخاب کنید --",
+      "hours_reduced": "کاهش ساعات IHSS",
+      "terminated": "قطع ساعات IHSS",
+      "denied": "رد درخواست IHSS",
+      "protective_supervision": "رد نظارت حفاظتی",
+      "fair_hearing": "نیاز به کمک برای جلسه دادرسی",
+      "auth_rep": "نیاز به نماینده مجاز",
+      "new_application": "درخواست جدید IHSS",
+      "reassessment": "مشکل ارزیابی مجدد IHSS",
+      "provider_issue": "مشکل با ارائه‌دهنده/مراقب",
+      "doctor_form": "کمک با SOC 821 / فرم پزشک",
+      "other": "سایر"
     },
-    "submit": "Get Free Consultation",
-    "success": "Thank you! We'll contact you within 24 hours."
+    "other_reason": "لطفاً مشکل خود را شرح دهید",
+    "submit": "دریافت مشاوره رایگان",
+    "success": "متشکریم! ظرف ۲۴ ساعت با شما تماس خواهیم گرفت."
   },
   "floating_cta": {
     "text": "Get Help Now"

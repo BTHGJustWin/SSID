@@ -31,15 +31,22 @@
     "email": "Email Address",
     "issue": "What happened?",
     "issue_options": {
-      "hours_reduced": "IHSS Hours Reduced",
-      "terminated": "IHSS Terminated",
-      "denied": "IHSS Application Denied",
-      "protective_supervision": "Protective Supervision Denied",
-      "fair_hearing": "Need Fair Hearing Help",
-      "other": "Other IHSS Issue"
+      "select": "-- Seleccione un problema --",
+      "hours_reduced": "Horas de IHSS Reducidas",
+      "terminated": "Horas de IHSS Terminadas",
+      "denied": "Solicitud de IHSS Denegada",
+      "protective_supervision": "Supervisión Protectora Denegada",
+      "fair_hearing": "Necesito Ayuda con Audiencia",
+      "auth_rep": "Necesito Representante Autorizado",
+      "new_application": "Nueva Solicitud de IHSS",
+      "reassessment": "Problema con Reevaluación de IHSS",
+      "provider_issue": "Problema con Proveedor/Cuidador",
+      "doctor_form": "Ayuda con SOC 821 / Formulario Médico",
+      "other": "Otro"
     },
-    "submit": "Get Free Consultation",
-    "success": "Thank you! We'll contact you within 24 hours."
+    "other_reason": "Por favor describa su problema",
+    "submit": "Obtener Consulta Gratuita",
+    "success": "¡Gracias! Nos comunicaremos con usted dentro de 24 horas."
   },
   "floating_cta": {
     "text": "Get Help Now"
